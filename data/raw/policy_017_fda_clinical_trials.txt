@@ -1,0 +1,163 @@
+FDA CLINICAL TRIAL REGULATIONS COMPLIANCE POLICY
+
+Regulation: 21 CFR Parts 50, 56, 312, 812
+Document Version: 2.0
+Effective Date: January 1, 2025
+
+SECTION 1: APPLICABILITY
+
+1.1 This policy applies to all clinical investigations of investigational drugs and devices regulated by FDA.
+
+1.2 All investigators, research staff, and sponsors must comply with applicable FDA regulations.
+
+1.3 Violations may result in clinical hold, warning letters, consent decree, debarment, and criminal prosecution.
+
+SECTION 2: INSTITUTIONAL REVIEW BOARD APPROVAL
+
+2.1 No clinical investigation may begin without IRB approval.
+
+2.2 Continuing review must be obtained at intervals appropriate to risk, but not less than annually.
+
+2.3 Conducting research without current IRB approval is a serious violation that will result in immediate investigation suspension and potential criminal charges.
+
+2.4 All protocol amendments must receive IRB approval before implementation unless necessary to eliminate immediate hazard.
+
+SECTION 3: INFORMED CONSENT REQUIREMENTS
+
+3.1 Informed consent must be obtained from all subjects before performing study procedures.
+
+3.2 Consent process must be documented in writing using IRB-approved consent forms.
+
+3.3 Consent forms must include all required elements per 21 CFR 50.25.
+
+3.4 Subjects must be given opportunity to ask questions and adequate time to consider participation.
+
+3.5 No exculpatory language may be included in consent forms.
+
+3.6 Consent may be withdrawn at any time without penalty.
+
+3.7 Enrolling subjects without proper informed consent is a critical violation that may result in study termination and criminal prosecution.
+
+SECTION 4: INVESTIGATIONAL NEW DRUG (IND) REQUIREMENTS
+
+4.1 Investigational drugs may only be used under FDA-approved IND.
+
+4.2 Investigators must follow the protocol without deviations unless necessary for subject safety.
+
+4.3 Significant protocol deviations must be reported to IRB and sponsor.
+
+4.4 Investigational drug must be stored securely under appropriate conditions.
+
+4.5 Drug accountability records must be maintained documenting all dispensing.
+
+4.6 Unused drug must be returned to sponsor or destroyed per sponsor instructions with documentation.
+
+SECTION 5: INVESTIGATIONAL DEVICE EXEMPTION (IDE) REQUIREMENTS
+
+5.1 Significant risk devices require FDA-approved IDE before investigation begins.
+
+5.2 Nonsignificant risk devices require IRB approval but not FDA approval.
+
+5.3 Devices must be labeled "CAUTION - Investigational Device. Limited by Federal Law to Investigational Use."
+
+5.4 Device accountability must be maintained.
+
+5.5 Devices must not be sold or commercialized during investigation.
+
+SECTION 6: ADVERSE EVENT REPORTING
+
+6.1 All adverse events must be documented in source documents and case report forms.
+
+6.2 Serious adverse events must be reported to sponsor immediately (within 24 hours).
+
+6.3 Unanticipated problems involving risk to subjects must be reported to IRB within 5 business days.
+
+6.4 Death of subject must be reported to IRB, sponsor, and FDA (for IND studies) immediately.
+
+6.5 Failure to report serious adverse events is a critical violation and may result in study termination.
+
+SECTION 7: DATA INTEGRITY
+
+7.1 Source documents must be contemporaneous, accurate, complete, and legible.
+
+7.2 All data must be attributable, legible, contemporaneous, original, and accurate (ALCOA principle).
+
+7.3 Corrections must be made by single line through original entry, initialed, dated, with reason documented.
+
+7.4 Data may not be backdated or falsified under any circumstances.
+
+7.5 Falsification of data is research misconduct and a criminal offense that will result in termination, debarment, and criminal prosecution.
+
+SECTION 8: MONITORING AND AUDITS
+
+8.1 Sponsor monitors may visit site to review study conduct and verify data.
+
+8.2 FDA may inspect site without prior notice.
+
+8.3 All study records must be made available for monitoring and inspection.
+
+8.4 Regulatory inspection findings must be responded to promptly with corrective actions.
+
+8.5 Failure to cooperate with inspections may result in regulatory action.
+
+SECTION 9: RECORD RETENTION
+
+9.1 Records must be retained for 2 years after NDA/PMA approval or 2 years after investigation discontinuation.
+
+9.2 Records must be readily available for inspection.
+
+9.3 Essential documents include protocol, consent forms, IRB approvals, correspondence, source documents, and CRFs.
+
+9.4 Destruction of records before end of retention period is violation.
+
+SECTION 10: FINANCIAL DISCLOSURE
+
+10.1 Investigators must disclose financial interests in sponsor to IRB and sponsor.
+
+10.2 Significant financial interests include compensation over $25,000 per year, proprietary interest, or significant equity interest.
+
+10.3 Failure to disclose financial interests is violation that may invalidate study results.
+
+SECTION 11: INVESTIGATOR OBLIGATIONS
+
+11.1 Investigator is responsible for conduct of study and protection of human subjects.
+
+11.2 Investigator must personally conduct or supervise investigation.
+
+11.3 Investigator may not delegate responsibilities to unqualified persons.
+
+11.4 All sub-investigators and research staff must be qualified and trained.
+
+11.5 Inadequate supervision may result in regulatory action against investigator.
+
+SECTION 12: SUBJECT SAFETY
+
+12.1 Subject safety is paramount and takes precedence over protocol compliance.
+
+12.2 Procedures must be taken to minimize risks to subjects.
+
+12.3 Risk to benefit ratio must be favorable and must be continually evaluated.
+
+12.4 Study must be stopped if risks outweigh benefits.
+
+SECTION 13: COMPLIANCE WITH PROTOCOL
+
+13.1 Investigations must be conducted according to signed protocol.
+
+13.2 Protocol deviations must be minimized.
+
+13.3 Eligibility criteria must be strictly followed.
+
+13.4 Frequent protocol violations may result in study suspension.
+
+SECTION 14: PENALTIES FOR VIOLATIONS
+
+14.1 Minor violations: Corrective action required, additional training.
+
+14.2 Moderate violations: Clinical hold, restricted enrollment, increased monitoring.
+
+14.3 Serious violations: Study termination, disqualification of clinical investigator, warning letter.
+
+14.4 Critical violations: Debarment from FDA-regulated research, criminal prosecution, civil penalties.
+
+14.5 FDA may issue Form FDA 483 observations, warning letters, untitled letters, consent decrees, injunctions, or criminal referrals depending on severity.

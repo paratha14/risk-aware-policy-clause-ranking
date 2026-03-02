@@ -1,0 +1,161 @@
+INFECTION PREVENTION AND CONTROL POLICY
+
+Policy ID: IPC-2024-001
+Revision: 7.0
+Date Effective: January 1, 2025
+
+1. PURPOSE AND SCOPE
+
+1.1 This policy establishes procedures to prevent transmission of infectious agents in the healthcare setting.
+
+1.2 All healthcare workers, including physicians, nurses, therapists, technicians, students, volunteers, and contractors, must comply with this policy.
+
+1.3 Non-compliance with infection control procedures may result in patient harm and staff disciplinary action.
+
+2. STANDARD PRECAUTIONS
+
+2.1 Standard precautions apply to all patients regardless of known infection status.
+
+2.2 Hand hygiene must be performed before and after every patient contact using soap and water or alcohol-based hand rub.
+
+2.3 Failure to perform hand hygiene is a violation and may result in written warning.
+
+2.4 Gloves must be worn for contact with blood, body fluids, mucous membranes, non-intact skin, and contaminated items.
+
+2.5 Gowns must be worn to protect skin and clothing during procedures likely to generate splash.
+
+2.6 Masks and eye protection must be worn during procedures likely to generate spray.
+
+3. TRANSMISSION-BASED PRECAUTIONS
+
+3.1 Contact Precautions: Required for infections spread by direct or indirect contact (e.g., C. difficile, MRSA, VRE). Patients must be placed in private room or cohorted. Dedicated equipment required.
+
+3.2 Droplet Precautions: Required for infections spread by respiratory droplets (e.g., influenza, pertussis). Surgical mask required within 6 feet of patient.
+
+3.3 Airborne Precautions: Required for infections spread by airborne particles (e.g., tuberculosis, measles, varicella). Patient must be in airborne infection isolation room. N95 respirator required. Fit testing must be current.
+
+3.4 Entering isolation room without required PPE is a serious violation that may result in suspension.
+
+4. HAND HYGIENE
+
+4.1 Hand hygiene is the single most important measure to prevent transmission.
+
+4.2 Alcohol-based hand rub is preferred unless hands are visibly soiled.
+
+4.3 Soap and water required after caring for patients with C. difficile or norovirus.
+
+4.4 Hand hygiene compliance is monitored. Compliance rate below 80% triggers intervention.
+
+5. PERSONAL PROTECTIVE EQUIPMENT
+
+5.1 PPE must be selected based on anticipated exposure.
+
+5.2 PPE must be donned before entering patient room and doffed before exiting.
+
+5.3 Gloves must be changed between patients and between dirty and clean tasks on same patient.
+
+5.4 Contaminated PPE must not be worn outside patient room.
+
+6. RESPIRATORY HYGIENE/COUGH ETIQUETTE
+
+6.1 Cover nose and mouth with tissue when coughing or sneezing.
+
+6.2 Dispose of tissues in waste receptacles immediately.
+
+6.3 Perform hand hygiene after contact with respiratory secretions.
+
+6.4 Symptomatic staff must wear surgical mask or stay home.
+
+7. SAFE INJECTION PRACTICES
+
+7.1 Needles and syringes are single-use items and must never be reused for another patient.
+
+7.2 Medication vials must be accessed with new needle and syringe each time.
+
+7.3 Reusing needles or syringes on multiple patients is a criminal offense and will result in immediate termination, license revocation, and criminal prosecution.
+
+7.4 Single-dose vials must not be used for multiple patients.
+
+8. SHARPS SAFETY
+
+8.1 Needles must not be recapped using two-hand technique.
+
+8.2 Sharps must be disposed in sharps containers immediately after use.
+
+8.3 Sharps containers must not be overfilled. Replace when 3/4 full.
+
+8.4 Needlestick injuries must be reported immediately to Employee Health.
+
+9. ENVIRONMENTAL CLEANING
+
+9.1 Patient care areas must be cleaned daily and when soiled.
+
+9.2 High-touch surfaces must be cleaned more frequently.
+
+9.3 Discharge cleaning must be performed between patients using EPA-registered disinfectant.
+
+9.4 Equipment must be cleaned and disinfected between patients.
+
+10. LINEN HANDLING
+
+10.1 Contaminated linen must be handled carefully to avoid airborne contamination.
+
+10.2 Contaminated linen must not be sorted in patient care areas.
+
+10.3 Contaminated linen must be placed in appropriate bags at point of use.
+
+11. WASTE MANAGEMENT
+
+11.1 Regulated medical waste must be segregated from general waste.
+
+11.2 Sharps, cultures, pathology specimens, blood products, and saturated items are regulated medical waste.
+
+11.3 Waste must be placed in appropriate containers following color-coding system.
+
+12. OCCUPATIONAL HEALTH REQUIREMENTS
+
+12.1 Healthcare workers must have documented immunity to measles, mumps, rubella, varicella, and hepatitis B.
+
+12.2 Annual tuberculosis screening is required.
+
+12.3 Annual influenza vaccination is required unless medical contraindication documented.
+
+12.4 Staff who decline influenza vaccination must wear mask during influenza season when in patient care areas.
+
+12.5 Staff with infectious conditions (e.g., active tuberculosis, chickenpox, measles, influenza) must be excluded from work until no longer infectious.
+
+13. OUTBREAK MANAGEMENT
+
+13.1 Clusters of infections must be reported to Infection Prevention immediately.
+
+13.2 Outbreak investigations will be conducted to identify source and control transmission.
+
+13.3 Additional control measures may be implemented during outbreaks.
+
+14. VISITOR RESTRICTIONS
+
+14.1 Visitors with symptoms of infection should be discouraged from visiting.
+
+14.2 Visitors may be required to wear PPE when visiting patients on precautions.
+
+14.3 Visitor restrictions may be implemented during outbreaks.
+
+15. CONSTRUCTION AND RENOVATION
+
+15.1 Infection Control Risk Assessment must be completed before construction.
+
+15.2 Barriers and negative pressure required for demolition in occupied areas.
+
+15.3 Construction workers must follow facility infection control requirements.
+
+16. PENALTIES FOR VIOLATIONS
+
+16.1 First violation: Verbal counseling and education.
+
+16.2 Second violation: Written warning.
+
+16.3 Third violation: Mandatory skills competency verification and possible suspension.
+
+16.4 Serious violations endangering patients: Immediate suspension pending investigation.
+
+16.5 Criminal violations (e.g., needle reuse): Termination and report to licensing board and law enforcement.

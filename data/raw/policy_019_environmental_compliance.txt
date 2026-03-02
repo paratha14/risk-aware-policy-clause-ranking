@@ -1,0 +1,157 @@
+ENVIRONMENTAL COMPLIANCE POLICY
+
+Document ID: ENV-COMP-2024
+Classification: Controlled
+Effective Date: January 1, 2025
+
+SECTION 1: POLICY STATEMENT
+
+1.1 The Company is committed to environmental protection and compliance with all applicable environmental laws.
+
+1.2 All employees must comply with environmental requirements relevant to their work.
+
+1.3 Environmental violations may result in significant fines, criminal prosecution, and reputational damage.
+
+SECTION 2: APPLICABLE REGULATIONS
+
+2.1 This policy addresses compliance with Clean Air Act, Clean Water Act, Resource Conservation and Recovery Act, Comprehensive Environmental Response Compensation and Liability Act, Toxic Substances Control Act, and state/local environmental laws.
+
+2.2 Facility-specific environmental permits must be posted and compliance maintained.
+
+2.3 Permit violations must be reported to regulatory agencies per permit terms and may result in permit revocation.
+
+SECTION 3: AIR EMISSIONS
+
+3.1 Air emissions from processes must be controlled per permit requirements.
+
+3.2 Emissions monitoring equipment must be maintained and calibrated per schedule.
+
+3.3 Excess emissions or monitoring malfunctions must be reported to air quality agency within 24 hours.
+
+3.4 Opacity readings exceeding permit limits must be corrected immediately.
+
+3.5 Tampering with emissions controls is a criminal violation.
+
+SECTION 4: WASTEWATER DISCHARGES
+
+4.1 Wastewater discharged to sewer or surface water must meet permit limits.
+
+4.2 Wastewater samples must be collected and analyzed per permit schedule.
+
+4.3 Sample results exceeding permit limits must be reported to water authority within 24 hours.
+
+4.4 Bypass of treatment systems is prohibited except in emergencies and must be reported immediately.
+
+4.5 Discharge monitoring reports must be submitted monthly by the 28th.
+
+SECTION 5: HAZARDOUS WASTE MANAGEMENT
+
+5.1 Hazardous wastes must be accumulated in appropriate containers properly labeled with hazardous waste labels.
+
+5.2 Satellite accumulation areas must not exceed 55 gallons per waste stream.
+
+5.3 Containers must be inspected weekly for leaks and damage.
+
+5.4 Hazardous waste may only be shipped to EPA-permitted disposal facilities.
+
+5.5 Waste manifests must be completed accurately and signed.
+
+5.6 Failure to receive signed manifest copy within 35 days triggers exception report to EPA.
+
+5.7 Illegal disposal of hazardous waste may result in fines up to $50,000 per day and imprisonment up to 5 years.
+
+SECTION 6: SPILL PREVENTION AND RESPONSE
+
+6.1 Spills of hazardous substances exceeding reportable quantities must be reported to National Response Center immediately.
+
+6.2 Oil spills to navigable waters must be reported immediately regardless of quantity.
+
+6.3 Spill response equipment must be available and personnel trained.
+
+6.4 Spill Prevention Control and Countermeasure Plans must be followed.
+
+6.5 Secondary containment is required for oil storage exceeding 1,320 gallons.
+
+6.6 Failure to report spills may result in penalties up to $50,000 per day.
+
+SECTION 7: UNDERGROUND STORAGE TANKS
+
+7.1 USTs must be registered with state agency.
+
+7.2 Leak detection must be performed monthly.
+
+7.3 Corrosion protection systems must be tested per schedule.
+
+7.4 Tank tightness testing required for older tanks.
+
+7.5 Suspected releases must be reported to state within 24 hours.
+
+7.6 Confirmed releases trigger corrective action requirements.
+
+SECTION 8: CHEMICAL REPORTING
+
+8.1 Tier II Chemical Inventory Reports due March 1st annually.
+
+8.2 Toxic Release Inventory Reports due July 1st annually for listed chemicals above thresholds.
+
+8.3 Reports must be accurate and complete. Knowingly false reports are criminal violations.
+
+8.4 Environmental Compliance Manager responsible for ensuring timely submission.
+
+SECTION 9: STORMWATER MANAGEMENT
+
+9.1 Industrial facilities require Stormwater Pollution Prevention Plans.
+
+9.2 Stormwater BMPs must be implemented and maintained.
+
+9.3 Quarterly facility inspections required.
+
+9.4 Discharge monitoring required per permit.
+
+9.5 Contaminated stormwater must not be discharged to storm drains.
+
+SECTION 10: ASBESTOS AND LEAD PAINT
+
+10.1 Asbestos-containing materials must not be disturbed without proper notification and licensed contractor.
+
+10.2 Demolition or renovation of facilities built before 1980 requires asbestos survey.
+
+10.3 Asbestos notifications must be submitted 10 business days before work begins.
+
+10.4 Lead paint from pre-1978 buildings requires special handling and disposal.
+
+SECTION 11: TRAINING REQUIREMENTS
+
+11.1 Hazardous waste handlers must complete annual training.
+
+11.2 Spill responders must complete 24-hour HAZWOPER training.
+
+11.3 Training records must be maintained for 3 years.
+
+SECTION 12: RECORD RETENTION
+
+12.1 Environmental permits and applications: Permanent.
+
+12.2 Monitoring data and reports: Minimum 5 years.
+
+12.3 Hazardous waste manifests: 3 years.
+
+12.4 Training records: 3 years from termination.
+
+SECTION 13: ENVIRONMENTAL AUDITS
+
+13.1 Facilities will be audited annually for compliance.
+
+13.2 Audit findings must be corrected within specified timeframes.
+
+13.3 Failure to correct audit findings may result in regulatory violation.
+
+SECTION 14: CONSEQUENCES
+
+14.1 Employee violations: Disciplinary action up to termination.
+
+14.2 Regulatory violations: Civil penalties up to $50,000 per day.
+
+14.3 Criminal violations: Fines up to $250,000 for individuals and imprisonment up to 15 years.
+
+14.4 Knowing endangerment violations: Fines up to $1,000,000 and imprisonment up to 15 years.

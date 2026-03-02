@@ -1,0 +1,151 @@
+GENERAL DATA PROTECTION REGULATION (GDPR) COMPLIANCE POLICY
+
+Document Reference: GDPR-POL-2025
+Version: 4.0
+Effective: January 1, 2025
+
+ARTICLE 1: SCOPE
+
+1.1 This policy applies to all processing of personal data of individuals in the European Union.
+
+1.2 GDPR applies regardless of whether the processing takes place in the EU.
+
+1.3 All employees handling EU personal data must comply with this policy.
+
+ARTICLE 2: LAWFUL BASIS FOR PROCESSING
+
+2.1 Personal data may only be processed under one of six lawful bases: consent, contract, legal obligation, vital interests, public task, or legitimate interests.
+
+2.2 Consent must be freely given, specific, informed, and unambiguous.
+
+2.3 Consent must be as easy to withdraw as to give.
+
+2.4 Pre-ticked boxes or silence do not constitute valid consent.
+
+2.5 Processing without lawful basis is a serious violation subject to fines up to €20 million or 4% of annual global revenue, whichever is higher.
+
+ARTICLE 3: DATA SUBJECT RIGHTS
+
+3.1 Right of Access: Data subjects may request copy of their personal data. Requests must be fulfilled within one month.
+
+3.2 Right to Rectification: Data subjects may request correction of inaccurate data. Corrections must be made without undue delay.
+
+3.3 Right to Erasure ("Right to be Forgotten"): Data subjects may request deletion of their data. Requests must be evaluated and honored unless exception applies.
+
+3.4 Right to Restriction: Data subjects may request processing be limited in certain circumstances.
+
+3.5 Right to Data Portability: Data subjects may request their data in machine-readable format.
+
+3.6 Right to Object: Data subjects may object to processing, particularly for direct marketing.
+
+3.7 Automated Decision Making: Data subjects have right not to be subject to solely automated decisions with legal effects.
+
+3.8 Failure to honor data subject rights may result in supervisory authority enforcement action and significant fines.
+
+ARTICLE 4: DATA PROTECTION PRINCIPLES
+
+4.1 Lawfulness, Fairness, and Transparency: Processing must be legal, fair, and transparent to data subjects.
+
+4.2 Purpose Limitation: Data collected for specific purposes must not be used for incompatible purposes.
+
+4.3 Data Minimization: Only collect data that is necessary for the stated purpose.
+
+4.4 Accuracy: Data must be accurate and kept up to date.
+
+4.5 Storage Limitation: Data must not be kept longer than necessary.
+
+4.6 Integrity and Confidentiality: Data must be processed securely.
+
+4.7 Accountability: Controller must demonstrate compliance.
+
+ARTICLE 5: SPECIAL CATEGORIES OF PERSONAL DATA
+
+5.1 Processing of special categories (racial/ethnic origin, political opinions, religious beliefs, trade union membership, genetic data, biometric data, health data, sex life, or sexual orientation) is prohibited unless specific condition is met.
+
+5.2 Explicit consent is required for processing special category data in most cases.
+
+5.3 Enhanced safeguards are required when processing special category data.
+
+5.4 Unauthorized processing of special category data may result in maximum penalties.
+
+ARTICLE 6: CHILDREN'S DATA
+
+6.1 Processing children's data (under age 16 or lower if member state permits) based on consent requires parental consent.
+
+6.2 Reasonable efforts must be made to verify parental consent.
+
+6.3 Children's data requires enhanced protection.
+
+ARTICLE 7: DATA BREACH NOTIFICATION
+
+7.1 Personal data breaches must be reported to relevant supervisory authority within 72 hours unless breach is unlikely to result in risk to individuals.
+
+7.2 Data subjects must be notified without undue delay if breach is likely to result in high risk to their rights and freedoms.
+
+7.3 Failure to report breaches within 72 hours may result in additional penalties.
+
+7.4 Breach records must be maintained documenting facts, effects, and remedial action taken.
+
+ARTICLE 8: DATA PROTECTION IMPACT ASSESSMENTS
+
+8.1 DPIAs are required for processing likely to result in high risk, particularly when using new technologies.
+
+8.2 DPIAs must be completed before commencing processing.
+
+8.3 DPIAs must identify risks and mitigation measures.
+
+8.4 Supervisory authority must be consulted if DPIA indicates high risk that cannot be mitigated.
+
+ARTICLE 9: DATA PROTECTION OFFICER
+
+9.1 A Data Protection Officer (DPO) must be appointed for certain categories of controllers and processors.
+
+9.2 DPO must be independent and report to highest management level.
+
+9.3 DPO contact information must be published and communicated to supervisory authority.
+
+9.4 DPO must be consulted on all data protection matters.
+
+ARTICLE 10: INTERNATIONAL DATA TRANSFERS
+
+10.1 Personal data may only be transferred to third countries with adequate protection level.
+
+10.2 Adequacy decisions, Standard Contractual Clauses, Binding Corporate Rules, or other approved mechanisms must be used.
+
+10.3 Transfers without appropriate safeguards are prohibited and subject to severe penalties.
+
+10.4 Additional safeguards may be required depending on third country laws.
+
+ARTICLE 11: PROCESSOR OBLIGATIONS
+
+11.1 Processors may only process personal data on documented instructions from controller.
+
+11.2 Processors must maintain record of processing activities.
+
+11.3 Processors must implement appropriate security measures.
+
+11.4 Processors must notify controller of data breaches without undue delay.
+
+11.5 Processors must assist controller in fulfilling data subject rights requests.
+
+ARTICLE 12: RECORDS OF PROCESSING ACTIVITIES
+
+12.1 Organizations with 250+ employees must maintain records of all processing activities.
+
+12.2 Smaller organizations must maintain records if processing is regular, likely to result in risk, or involves special categories.
+
+12.3 Records must include purposes, categories of data, recipients, transfers, retention periods, and security measures.
+
+ARTICLE 13: PENALTIES FOR NON-COMPLIANCE
+
+13.1 Tier 1 Violations (administrative requirements): Up to €10 million or 2% of annual global revenue.
+
+13.2 Tier 2 Violations (data protection principles, data subject rights): Up to €20 million or 4% of annual global revenue.
+
+13.3 Penalties are cumulative and may be imposed for each violation.
+
+13.4 Supervisory authorities may also impose processing bans, warnings, and orders to comply.
+
+ARTICLE 14: EMPLOYEE OBLIGATIONS
+
+Employees who violate this policy may face disciplinary action up to and including termination, in addition to potential personal liability for certain violations.

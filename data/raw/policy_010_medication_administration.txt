@@ -1,0 +1,133 @@
+MEDICATION ADMINISTRATION AND MANAGEMENT POLICY
+
+Policy Number: MED-ADM-2024
+Revision: 8
+Date: February 1, 2025
+
+1. PURPOSE
+
+This policy establishes procedures for safe medication administration and management to prevent medication errors and ensure patient safety.
+
+2. AUTHORIZED PERSONNEL
+
+2.1 Only licensed nurses, physicians, and authorized personnel may administer medications.
+
+2.2 Unlicensed personnel may not administer medications except as specifically permitted by state law and facility policy.
+
+2.3 Administering medications without proper authorization is a criminal offense and will result in immediate termination and report to licensing board.
+
+3. FIVE RIGHTS OF MEDICATION ADMINISTRATION
+
+3.1 Right Patient: Verify patient identity using two identifiers before administering any medication.
+
+3.2 Right Medication: Verify the medication against the order.
+
+3.3 Right Dose: Verify the dose is correct and within safe range.
+
+3.4 Right Route: Verify the route of administration.
+
+3.5 Right Time: Administer medications within 30 minutes before or after scheduled time.
+
+3.6 Failure to verify any of the five rights may result in patient harm and disciplinary action including license revocation.
+
+4. MEDICATION ORDERS
+
+4.1 Verbal orders are permitted only in emergency situations.
+
+4.2 Verbal orders must be documented immediately and co-signed by ordering physician within 24 hours.
+
+4.3 Unsigned verbal orders older than 24 hours must not be administered without new order.
+
+4.4 Do not accept verbal orders for high-alert medications except in life-threatening emergencies.
+
+5. CONTROLLED SUBSTANCES
+
+5.1 Controlled substances must be stored in double-locked secure areas.
+
+5.2 Count of controlled substances must be verified at each shift change.
+
+5.3 Discrepancies in controlled substance counts must be reported immediately to pharmacy and security.
+
+5.4 Diversion of controlled substances is a criminal offense resulting in termination, license revocation, and criminal prosecution.
+
+6. HIGH-ALERT MEDICATIONS
+
+6.1 High-alert medications (insulin, heparin, warfarin, chemotherapy agents) require independent double-check before administration.
+
+6.2 Bypassing double-check requirements is a serious violation that may result in patient death and staff termination.
+
+6.3 High-alert medication errors must be reported immediately to pharmacy and physician.
+
+7. MEDICATION ERRORS
+
+7.1 Any deviation from the order, even if no harm occurred, must be reported immediately.
+
+7.2 Near misses must also be reported to prevent future errors.
+
+7.3 Failure to report medication errors is a serious violation and may result in patient harm and staff sanctions.
+
+7.4 Staff who report errors in good faith will not be subject to punitive action (Just Culture).
+
+8. MEDICATION STORAGE
+
+8.1 Medications must be stored according to manufacturer instructions (temperature, light exposure).
+
+8.2 Expired medications must be removed from stock immediately and must not be administered.
+
+8.3 Administering expired medication is a violation that may cause patient harm.
+
+8.4 Look-alike, sound-alike medications must be stored separately with warnings.
+
+9. PATIENT EDUCATION
+
+9.1 Patients must be educated about medications including purpose, side effects, and precautions.
+
+9.2 Patients have the right to refuse medications.
+
+9.3 Medication refusals must be documented and physician notified.
+
+10. DOCUMENTATION
+
+10.1 Medications must be documented immediately after administration, not before.
+
+10.2 Pre-charting medications is strictly prohibited and may result in termination.
+
+10.3 Documentation must include date, time, dose, route, site, and patient response.
+
+10.4 Falsifying medication administration records is grounds for immediate termination and license revocation.
+
+11. ADVERSE REACTIONS
+
+11.1 Adverse drug reactions must be reported to physician immediately.
+
+11.2 Serious adverse reactions must be reported to FDA MedWatch.
+
+11.3 Patients experiencing allergic reactions require immediate intervention and must not receive the medication again without physician order.
+
+12. IV MEDICATION ADMINISTRATION
+
+12.1 IV medications must be prepared in sterile environment following aseptic technique.
+
+12.2 IV push medications require specific training and competency verification.
+
+12.3 Incompatible medications must not be mixed or administered through same IV line.
+
+12.4 IV site must be assessed before each medication administration.
+
+13. PEDIATRIC CONSIDERATIONS
+
+13.1 Pediatric doses must be calculated based on weight in kilograms and verified by second nurse.
+
+13.2 Adult doses must never be administered to pediatric patients without weight-based calculation.
+
+13.3 Parents/guardians must be present during medication administration when possible.
+
+14. PENALTIES FOR VIOLATIONS
+
+14.1 Minor errors without patient harm: Counseling and retraining.
+
+14.2 Moderate errors: Written warning and competency verification.
+
+14.3 Serious errors causing patient harm: Suspension pending investigation.
+
+14.4 Gross negligence or willful misconduct: Immediate termination and report to state board of nursing.
