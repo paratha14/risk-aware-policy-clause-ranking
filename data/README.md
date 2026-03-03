@@ -93,7 +93,7 @@ Documents contain clauses spanning all four risk levels:
 ```python
 import os
 
-docs_path = 'policy_dataset/raw/'
+docs_path = 'data/raw/'
 for filename in os.listdir(docs_path):
     if filename.endswith('.txt'):
         with open(os.path.join(docs_path, filename), 'r', encoding='utf-8') as f:
@@ -105,6 +105,6 @@ for filename in os.listdir(docs_path):
 ```python
 import pandas as pd
 
-metadata = pd.read_csv('policy_dataset/metadata/dataset_metadata.csv')
+metadata = pd.read_csv('data/dataset_metadata.csv')
 print(metadata.head())
 ```
