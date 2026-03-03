@@ -1,0 +1,80 @@
+Source Inspiration by Category:
+1. University Policies (4 docs)
+
+Inspired by: Syracuse University, MIT, Stanford academic policies
+Real frameworks: Standard academic misconduct procedures, federal research guidelines
+References:
+
+Syracuse: https://class.syracuse.edu/academic-integrity/
+NIH/ORI: https://ori.hhs.gov/
+
+
+
+2. Terms of Service (4 docs)
+
+Inspired by: Discord, Twitter/X, eBay, Amazon, Salesforce ToS
+Real frameworks: Section 230, COPPA, buyer protection standards
+References:
+
+Discord: https://discord.com/terms
+eBay: https://www.ebay.com/help/policies/
+
+
+
+3. Corporate Compliance (4 docs)
+
+Inspired by: EU GDPR, OSHA, SEC regulations, NLRB guidance
+Real frameworks:
+
+GDPR: Regulation (EU) 2016/679 - Articles 5-9, 12-23, 33, 83
+OSHA: 29 CFR 1910 (workplace safety standards)
+SEC: Securities Exchange Act Section 16, Rule 10b-5
+
+
+Actual penalties: €20M or 4% revenue (GDPR), $5M/$20 years (SEC)
+References:
+
+GDPR: https://gdpr.eu/
+OSHA: https://www.osha.gov/
+SEC: https://www.sec.gov/
+NLRB: https://www.nlrb.gov/
+
+
+
+4. Healthcare Protocols (4 docs)
+
+Inspired by: HIPAA regulations, CDC guidelines, ISMP standards, Joint Commission
+Real frameworks:
+
+HIPAA: 45 CFR Parts 160, 164 (Privacy & Security Rules)
+CDC: Standard Precautions, Hand Hygiene Guidelines
+ISMP: "Five Rights" of medication administration
+
+
+Actual penalties: $100-$50,000 per violation (HIPAA tiers)
+References:
+
+HIPAA: https://www.hhs.gov/hipaa/
+CDC: https://www.cdc.gov/infectioncontrol/
+ISMP: https://www.ismp.org/
+
+
+
+5. Government Regulations (4 docs)
+
+Inspired by: FDA, EPA, Export Control, Title IX regulations
+Real frameworks:
+
+FDA: 21 CFR Parts 50, 56, 312, 812 (Clinical Trials)
+Export Control: EAR (15 CFR 730-774), ITAR (22 CFR 120-130)
+EPA: Clean Air Act, Clean Water Act, RCRA (40 CFR)
+Title IX: 20 U.S.C. §1681, 34 CFR Part 106
+
+
+Actual penalties: $50,000/day (EPA), $1M/20 years (Export Control)
+References:
+
+FDA: https://www.fda.gov/
+Export Control: https://www.bis.doc.gov/
+EPA: https://www.epa.gov/
+Title IX: https://www.ed.gov/
