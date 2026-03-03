@@ -1,0 +1,21 @@
+doc_id,filename,source_type,source_name,date_collected,description,estimated_clauses
+policy_001,policy_001_university_academic_integrity.txt,university,University Academic Integrity Policy,2025-03-02,Comprehensive academic integrity policy covering violations and penalties,35
+policy_002,policy_002_graduate_research_ethics.txt,university,Graduate Research Ethics Policy,2025-03-02,Research conduct and ethics requirements for graduate students,45
+policy_003,policy_003_course_attendance.txt,university,Course Attendance Policy,2025-03-02,Attendance requirements and penalties for absences,25
+policy_004,policy_004_grade_appeal.txt,university,Grade Appeal Policy,2025-03-02,Procedures for appealing course grades,30
+policy_005,policy_005_social_media_tos.txt,terms_of_service,Social Media Platform Terms,2025-03-02,Terms of service for social media platform,40
+policy_006,policy_006_ecommerce_tos.txt,terms_of_service,E-Commerce Marketplace Terms,2025-03-02,Terms for online marketplace buying and selling,38
+policy_007,policy_007_data_protection_compliance.txt,corporate,Data Protection Compliance Policy,2025-03-02,GDPR and privacy law compliance requirements,42
+policy_008,policy_008_workplace_safety.txt,corporate,Workplace Safety Policy,2025-03-02,Health and safety requirements for workplace,48
+policy_009,policy_009_hipaa_compliance.txt,healthcare,HIPAA Compliance Policy,2025-03-02,Healthcare privacy and security requirements,50
+policy_010,policy_010_medication_administration.txt,healthcare,Medication Administration Policy,2025-03-02,Procedures for safe medication administration,45
+policy_011,policy_011_export_control.txt,government,Export Control Compliance,2025-03-02,U.S. export control laws and regulations,42
+policy_012,policy_012_gdpr_compliance.txt,government,GDPR Compliance Policy,2025-03-02,European data protection regulation compliance,55
+policy_013,policy_013_student_code_of_conduct.txt,university,Student Code of Conduct,2025-03-02,Student behavior standards and disciplinary procedures,28
+policy_014,policy_014_saas_subscription_terms.txt,terms_of_service,SaaS Subscription Terms,2025-03-02,Software as a service subscription agreement,35
+policy_015,policy_015_insider_trading.txt,corporate,Insider Trading Prevention Policy,2025-03-02,Securities trading compliance and restrictions,47
+policy_016,policy_016_infection_control.txt,healthcare,Infection Control Policy,2025-03-02,Infection prevention procedures for healthcare,52
+policy_017,policy_017_fda_clinical_trials.txt,government,FDA Clinical Trial Regulations,2025-03-02,FDA requirements for clinical investigations,48
+policy_018,policy_018_social_media_workplace.txt,corporate,Employee Social Media Policy,2025-03-02,Guidelines for employee social media use,35
+policy_019,policy_019_environmental_compliance.txt,government,Environmental Compliance Policy,2025-03-02,Environmental protection law compliance,44
+policy_020,policy_020_title_ix_policy.txt,government,Title IX Policy,2025-03-02,Sexual harassment and discrimination prevention,50
