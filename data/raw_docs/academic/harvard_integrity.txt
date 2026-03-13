@@ -1,0 +1,838 @@
+window.dataLayer = window.dataLayer || [];
+
+dataLayer.push({
+
+'event': 'pageview',
+
+'ContentType': 'Landing Page',
+
+'ContentCategory': 'Academic Spotlights',
+
+'PrimaryAudience': 'Prospective, Current'
+
+});
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-NZJNZZB');
+
+{
+
+"@context": "https://schema.org",
+
+"@graph": [
+
+{
+
+"@type": "CollegeOrUniversity",
+
+"name": "Harvard College"
+
+}
+
+]
+}
+
+Academics | Harvard College
+
+Skip to main content
+
+Harvard College
+
+Primary Navigation
+
+About
+
+About Overview
+
+Mission, Vision,
+
+History
+
+Mission, Vision,
+
+History Submenu
+
+History of Financial Aid
+
+Dean Deming
+
+Dean Deming Submenu
+
+Messages to Students
+
+Dean&#039;s Speeches
+
+Dean&#039;s Office Staff
+
+Campus
+
+Campus Submenu
+
+Campus Spotlights
+
+Harvard Terms
+
+Acronyms
+
+Información en Español
+
+College Offices
+
+College Offices Submenu
+
+Alumni Resources
+
+College News
+
+Admissions
+
+Admissions Overview
+
+Admissions Overview Submenu
+
+Admissions Statistics
+
+Why Harvard
+
+Why Harvard Submenu
+
+Affordability
+
+Academic Environment
+
+Residential Life
+
+Innovation
+
+Arts
+
+Humanities
+
+Student Activities
+
+Community and Access
+
+Explore Harvard
+
+Explore Harvard Submenu
+
+On-Campus Visits
+
+Meet Us Online
+
+Virtual Tour
+
+Connect With Students
+
+Recruitment Ambassadors
+
+Undergraduate Viewbook
+
+Apply
+
+Apply Submenu
+
+First-Year Applicants
+
+Considering a Gap Year
+
+Application Requirements
+
+Transfer Applicants
+
+U.S. Military Veterans
+
+Visiting Undergraduate Students
+
+International Applicants
+
+QuestBridge Application
+
+High School Counselors
+
+High School Counselors Submenu
+
+Parents
+
+Families
+
+Financial Aid
+
+Financial Aid Overview
+
+Net Price Calculator
+
+Net Price Calculator Submenu
+
+Calculadora de precios netos
+
+How Aid Works
+
+How Aid Works Submenu
+
+Types of Aid
+
+Bills
+
+Payments
+
+Apply For Financial Aid
+
+Apply For Financial Aid Submenu
+
+Prospective Students
+
+Current Students
+
+Financial Aid Forms
+
+Additional Funding
+
+Procedures
+
+Additional Funding
+
+Procedures Submenu
+
+Managing Your Aid
+
+Study Abroad
+
+Summer School
+
+Federal Disclosures
+
+Academics
+
+Academics Overview
+
+Liberal Arts
+
+Sciences
+
+Liberal Arts
+
+Sciences Submenu
+
+Concentrations
+
+Dual Programs of Study for Music
+
+Study Abroad
+
+Faculty
+
+Research
+
+Advising
+
+Student Life
+
+Student Life Overview
+
+Student Life Overview Submenu
+
+Events
+
+Residential Life
+
+Residential Life Submenu
+
+Navigating Campus
+
+Cambridge
+
+Boston
+
+Student Activities
+
+Student Activities Submenu
+
+Leadership
+
+Service
+
+Traditions
+
+Athletics
+
+Health
+
+Wellbeing
+
+Student Stories
+
+Student Stories Submenu
+
+Meet Our Students
+
+Alumni Profiles
+
+Menu and Search
+
+News
+
+Guides
+
+Guides
+
+Search
+
+Search
+
+Close Menu, Guides, and Resources
+
+Menu, Guides, and Resources
+
+Menu
+
+About
+
+Toggle About Submenu
+
+About Overview
+
+Mission, Vision,
+
+History
+
+Dean Deming
+
+Campus
+
+College Offices
+
+College News
+
+Admissions
+
+Toggle Admissions Submenu
+
+Admissions Overview
+
+Why Harvard
+
+Explore Harvard
+
+Apply
+
+High School Counselors
+
+Financial Aid
+
+Toggle Financial Aid Submenu
+
+Financial Aid Overview
+
+Net Price Calculator
+
+How Aid Works
+
+Apply For Financial Aid
+
+Additional Funding
+
+Procedures
+
+Federal Disclosures
+
+Academics
+
+Toggle Academics Submenu
+
+Academics Overview
+
+Liberal Arts
+
+Sciences
+
+Faculty
+
+Research
+
+Advising
+
+Student Life
+
+Toggle Student Life Submenu
+
+Student Life Overview
+
+Residential Life
+
+Student Activities
+
+Athletics
+
+Health
+
+Wellbeing
+
+Student Stories
+
+Guides
+
+Application Tips
+
+Navigating Campus
+
+Preparing for College
+
+How to Complete the FAFSA
+
+What to Expect After You Apply
+
+View All  Guides
+
+Resources
+
+FAQs
+
+Parents
+
+Families
+
+Alumni
+
+School Counselors
+
+Información en Español
+
+Undergraduate Viewbook
+
+View All  Resources
+
+Helpful Links
+
+Frequently Asked Questions
+
+Applicant Portal
+
+Admitted Students
+
+Contact Us
+
+My.Harvard
+
+University Resources
+
+Academic Calendar
+
+Campus Map
+
+Dean of Students Office
+
+Directory
+
+Office of Undergraduate Education
+
+Office of Student Services
+
+Important Addresses
+
+Harvard College
+
+University Hall  Cambridge, MA 02138
+
+Harvard College Admissions Office and Griffin Financial Aid Office
+
+86 Brattle Street
+
+Cambridge, MA 02138
+
+Social Links
+
+TikTok
+
+Instagram
+
+Youtube
+
+Copyright © 2026 The President
+
+Fellows of Harvard College
+
+Harvard College
+
+If you are located in the European Union, Iceland, Liechtenstein or Norway (the “European Economic Area”), please  click here  for additional information about ways that certain Harvard University Schools, Centers, units and controlled entities, including this one, may collect, use, and share information about you.
+
+Guides
+
+Application Tips
+
+Navigating Campus
+
+Preparing for College
+
+How to Complete the FAFSA
+
+What to Expect After You Apply
+
+View All  Guides
+
+Resources
+
+FAQs
+
+Parents
+
+Families
+
+Alumni
+
+School Counselors
+
+Información en Español
+
+Undergraduate Viewbook
+
+View All  Resources
+
+Close
+
+Search and Useful Links
+
+Search the site
+
+Search
+
+*
+
+Search
+
+Search Suggestions
+
+Top Searched
+
+Tuition
+
+Majors
+
+Courses
+
+Scholarships
+
+Sports
+
+International Students
+
+Transfer
+
+Common Questions
+
+What is the difference between Harvard College and Harvard University?
+
+What is a  liberal arts
+
+sciences  education?
+
+Paying the admissions application fee is a hardship for my family. Can I get a waiver?
+
+Can I self-report my test scores?
+
+Helpful Links
+
+FAQs
+
+Applicant Portal
+
+Events
+
+Contact Us
+
+my.harvard
+
+Video description:
+
+Female student wearing backup walking up Widener steps, pans to student walking into Widener, view of Loker Reading room. Students seen studying at tables
+
+Academics
+
+Breadcrumb
+
+Home
+
+-
+
+Academics
+
+On This Page:
+
+Overview
+
+Liberal Arts
+
+Sciences
+
+Intellectual Vitality
+
+Faculty
+
+Research
+
+Advising
+
+Overview
+
+Give in to Your Curiosity
+
+As a liberal arts and sciences college nestled within a world-class research university, Harvard gives you both the freedom to shape your own course of study and the resources to see it through. So, what are you waiting for? Stake a claim and learn from those who challenge it. Ask a complex question and grow from the process of answering it. Master the subjects you love, but never forget to explore the unfamiliar terrain that lies just beyond your comfort zone.
+
+Liberal Arts
+
+Sciences
+
+Liberal Arts
+
+Sciences
+
+Harvard College&#039;s academic opportunities expose you to the world’s richness and complexity. You&#039;ll engage in scholarship that explores the human experience from diverse points of view, and dive deeply into a particular field of study. You&#039;ll gain a broad foundation of critical thinking skills that prepare you to confidently tackle any challenge.
+
+Quick Links
+
+Liberal Arts
+
+Sciences
+
+Concentrations
+
+Harvard College Curriculum
+
+Electives
+
+Dual Degree Music Programs
+
+Study Abroad
+
+How do I choose a major at Harvard?
+
+Author:
+
+Juliana
+
+Class of
+
+Alumni
+
+Intellectual Vitality
+
+Fostering a Community of Learning  Through intellectual vitality, the Harvard College community seeks to establish a culture in which all members speak, listen, and ask questions of each other – and ourselves – with curiosity and respect. This is critical to achieve the mission of Harvard College and what we as a community believe in.
+
+Learn more about Intellectual Vitality
+
+Office of Undergraduate Education
+
+The Office of Undergraduate Education is responsible for curriculum planning and requirements, as well as a number of student-focused programs that include advising, first-year seminars, career services, and more.
+
+Office of Undergraduate Education
+
+Faculty
+
+Faculty
+
+Harvard faculty are invested in helping you celebrate your passions. You&#039;ll build close and enduring relationships with professors who challenge you to see with new eyes and serve as models of engaged, conscientious leadership.
+
+Quick Links
+
+Faculty
+
+Faculty-Student Engagement
+
+First-Year Seminar Program
+
+Faculty Engagement by the Numbers
+
+Statistics
+
+110
+
+110
+
+Faculty teaching first-year seminars
+
+260
+
+260
+
+Pre-concentration advisors
+
+7:1
+
+7:1
+
+Student-to-faculty ratio
+
+10
+
+10
+
+Median course size
+
+Research
+
+Research
+
+Research is the key that unlocks new knowledge. At Harvard, we put that power into your hands from the moment you arrive. You can take part in hands-on research projects ranging from leading a study to performing lab work with a faculty mentor.
+
+Learn more about research opportunities
+
+" autoplay muted loop playsinline aria-hidden="true">
+
+" autoplay muted loop playsinline aria-hidden="true">
+
+Academic Integrity
+
+Academic integrity is the foundation of the academic experience at Harvard College. Students at Harvard learn how to acknowledge when their work is indebted to others’, and about the value of producing original scholarship.
+
+Learn more about academic integrity
+
+Advising
+
+Advising
+
+Your advisers help you plan your degree, discover special academic opportunities, and prepare for your career after graduation. They&#039;ll guide you as you create a course of study that challenges and excites you, and give you the advice and support you need to branch out and take academic risks.
+
+Quick Links
+
+Advising
+
+First-Year Advising
+
+Upperclass Student Advising
+
+Postgraduate Planning
+
+Academic Resource Center
+
+The Academic Resource Center (ARC) at Harvard University supports Harvard students in developing reading and study strategies, time management skills, and metacognitive approaches to learning. Students have access to academic coaching, peer tutoring, workshops, accountability hours, and additional skills-based resources.
+
+Learn more about the Academic Resource Center
+
+Learn More About Harvard
+
+Join our email list to download our brochure and stay in touch.
+
+Sign Up
+
+Related Topics
+
+Campus
+
+From our libraries to our museums, our support services to our common spaces, our campus is teeming with resources to guide your experience.
+
+Research
+
+As a college within a research university, Harvard undergraduates have access to unparalleled research opportunities. Learn about research at Harvard.
+
+Leadership & Service
+
+Members of our community uphold a commitment to making the world a better place for all. Learn how to make an impact through leadership and service.
+
+Site Footer
+
+Helpful Links
+
+Frequently Asked Questions
+
+Applicant Portal
+
+Admitted Students
+
+Contact Us
+
+My.Harvard
+
+University Resources
+
+Academic Calendar
+
+Campus Map
+
+Dean of Students Office
+
+Directory
+
+Office of Undergraduate Education
+
+Office of Student Services
+
+Important Addresses
+
+Harvard College
+
+University Hall  Cambridge, MA 02138
+
+Harvard College Admissions Office and Griffin Financial Aid Office
+
+86 Brattle Street
+
+Cambridge, MA 02138
+
+Social Links
+
+TikTok
+
+Instagram
+
+Youtube
+
+Footer legal links
+
+Privacy
+
+Copyright Disclosure
+
+Accessibility
+
+Digital Accessibility
+
+Copyright © 2026 The President
+
+Fellows of Harvard College
+
+Harvard College
+
+If you are located in the European Union, Iceland, Liechtenstein or Norway (the “European Economic Area”), please read the  Additional EEA Privacy Disclosures  about ways that certain Harvard University Schools, Centers, units and controlled entities, including this one, may collect, use, and share information about you.
+
+Harvard does not discriminate against applicants or students on the basis of race, color, national origin, ancestry or any other protected classification.
+
+Toggle
+
+Academics
+
+Submenu
+
+Academics Overview
+
+Liberal Arts
+
+Sciences
+
+Liberal Arts
+
+Sciences Submenu
+
+Concentrations
+
+Dual Programs of Study for Music
+
+Study Abroad
+
+Faculty
+
+Research
+
+Advising
+
+Skip to site header
+
+Skip to main content
+
+{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/4","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"improved_multi_select":{"selectors":["select[multiple]"],"filtertype":"partial","placeholder_text":null,"orderable":false,"js_regex":null,"groupresetfilter":false,"remove_required_attr":null,"buttontext_add":"\u003E","buttontext_addall":"\u00bb","buttontext_del":"\u003C","buttontext_delall":"\u00ab","buttontext_moveup":"Move up","buttontext_movedown":"Move down"},"ajaxTrustedUrl":{"\/search":true},"user":{"uid":0,"permissionsHash":"f075fea9bf2e6ebd3d575ea676b597778e86ee97a1243c48e7fe9a93e86709de"}}

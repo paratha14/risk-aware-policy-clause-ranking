@@ -1,0 +1,1012 @@
+Early Career Researcher Institute | Administration and support services | Imperial College London
+
+function OptanonWrapper() { }
+
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://www.imperial.ac.uk/"},{"@type": "ListItem","position": 2,"name": "Administration and support services","item": "https://www.imperial.ac.uk/admin-services/"},{"@type": "ListItem","position": 3,"name": "Early Career Researcher Institute","item": "https://www.imperial.ac.uk/admin-services/early-career-researcher-institute/"}]}
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], 
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-NDH95W87');
+
+Skip to main content
+
+View accessibility support page
+
+Search
+
+Search
+
+Menu
+
+Study
+
+Research
+
+Faculties
+
+News
+
+Events
+
+About
+
+Get involved
+
+Giving
+
+Shop Imperial
+
+Search
+
+Search
+
+Website navigation
+
+Close
+
+Key links
+
+This section
+
+Skip to section navigation
+
+Global site navigation
+
+Study
+
+Course search
+
+Apply
+
+Fees and funding
+
+Student life
+
+Visit
+
+Help centre
+
+Request info
+
+International students
+
+Executive education
+
+Summer schools
+
+Research
+
+Faculties
+
+Faculty of Engineering
+
+Faculty of Medicine
+
+Faculty of Natural Sciences
+
+Imperial Business School
+
+Administrative and support services
+
+News
+
+News
+
+Imperial Stories
+
+Imperial Magazine
+
+Events
+
+What's on
+
+Great Exhibition Road Festival
+
+Imperial Lates
+
+Graduation
+
+About
+
+President
+
+Provost and Deputy President
+
+Council
+
+Imperial Strategy
+
+Imperial Global
+
+Sustainable Imperial
+
+School of Convergence Science
+
+Governance
+
+Campuses
+
+Our academics
+
+Jobs at Imperial
+
+Get involved
+
+Giving
+
+Schools outreach
+
+Imperial Global Summer School
+
+Societal engagement
+
+Volunteering and outreach
+
+Women at Imperial
+
+Giving
+
+Shop Imperial
+
+User links navigation
+
+For staff
+
+Current students
+
+Imperial for business
+
+For schools
+
+Alumni
+
+Administration and support services
+
+Early Career Researcher Institute
+
+navigation
+
+About Us
+
+Strategy
+
+Attract
+
+Develop
+
+Empower
+
+Advocate
+
+Governance
+
+ECRI Management Group
+
+External Advisory Board
+
+Early Career Researcher Development Group
+
+Identification, Innovation and Monitoring Group (IIM)
+
+People, Culture and Operations Group
+
+Stakeholder Group
+
+ECRI Admin
+
+Specialist/Technical Advisory Groups
+
+Quality Assurance Framework
+
+Concordat to Support the Career Development of Researchers
+
+Concordat Implementation and Planning Group
+
+Policies and procedures
+
+Privacy Notice
+
+ECRI projects
+
+Annual reports
+
+Awards we've received
+
+Noticeboard
+
+Meet the team
+
+Who we support
+
+Master's students
+
+Research Degree Students
+
+Doctoral proposition
+
+Attendance requirement
+
+Turnitin Guidance for Students
+
+Working as a Graduate Teaching Assistant (GTA)
+
+Modality of final thesis research degree vivas
+
+Covid 19 - Stipend and Registration Extensions
+
+Guidance for Department-led Support
+
+Postdocs
+
+What is a Postdoc
+
+Your 10 development days
+
+Why undertake the 10 days personal and professional development?
+
+What do you want to develop, and when?
+
+10 days development planners
+
+Examples of experiences to gain and skills to develop
+
+How and where to find development opportunities
+
+Develop a broad range of skills
+
+Self
+
+Others
+
+Research and Innovation
+
+Society and beyond R I
+
+Plan and engage in a variety of stimulating development activities
+
+Formal development activities
+
+Informal development activities
+
+FAQs
+
+Guidance for PIs
+
+Research Fellows
+
+Induction checklist
+
+Leadership coaching for independent research fellows
+
+Leadership Development and Peer Mentoring programme
+
+Resilient Leadership in Action
+
+Research Degree Supervisors
+
+Cornerstone
+
+Line Managers of Research Staff
+
+Principal Investigators
+
+The Academic's Success Guide
+
+Navigating induction and probation
+
+General advice on your probation and induction
+
+Establishing your research
+
+Establishing your teaching and learning practice
+
+Managing yourself and your career
+
+Being strategic in your career (and research)
+
+Reviewing your career progress
+
+Successes and achievements
+
+Values and satisfaction
+
+Skills and strengths
+
+Stock-takes to review progress
+
+Career progression and aspirations
+
+Time management and prioritisation
+
+Managing flexible working and caring responsibilities
+
+Resilience and wellbeing
+
+Coping with rejection and critical feedback
+
+Managing your inner critic
+
+Seeking support for your wellbeing
+
+Networks, collaborations and visibility
+
+The importance of networking
+
+Reviewing your networks and visibility
+
+Reviewing your networks
+
+Building visibility and reputation
+
+Managing your collaboration teams
+
+Connecting with peers locally
+
+Leading your research group
+
+Recruitment and induction of your new research group
+
+Building and developing a team
+
+Team development and leadership
+
+Developing a vision
+
+Building trust
+
+Expectation setting
+
+Creating a thriving and inclusive environment
+
+Managing your team s performance
+
+Agree goals
+
+Delegate to allow achievement
+
+Give feedback on performance
+
+Support to enhance performance
+
+Using a coaching approach
+
+Providing recognition
+
+Developing autonomy
+
+Motivating others
+
+Running effective meetings
+
+Supporting the skills and career development of your team
+
+Understanding and managing communication and work style differences
+
+Managing research projects
+
+Project definition
+
+Alignment to research funders
+
+Project planning
+
+Project execution and close
+
+Motivating research staff
+
+Digital tools to support project execution
+
+Research Technical Professionals and Software Engineers
+
+Learning and development
+
+See all courses
+
+Courses by programme
+
+Career Development and Planning
+
+Funding
+
+GTAs and Teaching
+
+Research Communication
+
+Research Computing and Data Science
+
+Course dependencies and learning paths
+
+Software and Data at Imperial
+
+RCDS Teaching Materials
+
+RCDS Events
+
+Meet the Team
+
+Research Impact and Knowledge Exchange&#8203;
+
+Research Integrity, Ethics and Sustainability
+
+Research Management
+
+Transitions and Wider Opportunities
+
+Working Smart and Wellbeing&#8203;
+
+Working with People&#8203;
+
+Writing Sessions
+
+ECRI Writing Room
+
+Imperial Academic Writing Sessions
+
+ECRI Friday Writing Sessions
+
+ECRI Consultancy
+
+Cohort Delivery
+
+Internal Consultancy
+
+The ECRI Academy (External Consultancy)
+
+Working as a GTA
+
+Engaging and Working as a GTA
+
+GTA Activities, Remuneration and Training
+
+Key theories of learning
+
+Central Register for Trained GTAs
+
+Inclusive Teaching and Learning
+
+How to Find GTA Work
+
+Assessment and Feedback
+
+Wellbeing - Listening
+
+Signposting
+
+GTA Programme in Blackboard
+
+Cornerstone
+
+Expectations, Roles
+
+Responsibilities
+
+Main and Co-supervisors
+
+Assistant Supervisors
+
+Effective Partnerships
+
+Student Recruitment
+
+Wellbeing
+
+Wellbeing for Students
+
+Wellbeing for Supervisors
+
+PhD Journey
+
+Milestones
+
+Duty of Care, Inclusivity
+
+Disability
+
+Training and Development
+
+Focus on Best Practice in Supervision Workshop
+
+Fostering Self-Efficacy in PGRs: Coaching and Mentoring Approaches to PhD Supervision
+
+Peer Mentoring Circles for Research Supervisors
+
+Giving Feedback on PGR Writing
+
+Supporting the Health and Wellbeing of PGRs
+
+Enhancing Collaboration and Aligning Expectations Within Team Supervision
+
+Essential Documents
+
+Support for Your Students
+
+Support for Supervisors
+
+RSVP Project
+
+ECRI Programme Partners
+
+Overview
+
+Development Opportunities
+
+Eligibility
+
+How to Apply
+
+Bursary Payments
+
+Expectations
+
+Responsibilities
+
+President s PhD Scholars
+
+International Global Fellows Programme
+
+LERU Doctoral Summer School
+
+MARS Membership
+
+Policies and guidance
+
+Cancellation policy
+
+Inkpath Guidance
+
+Summary of College's digital recording guidance
+
+Generative AI tools
+
+Research Ethics
+
+Careers and transitions
+
+Book a mock interview
+
+Become a mock interview panellist
+
+Access one-to-one support
+
+Academic career paths
+
+Fellowship opportunities
+
+Fellowship FAQs
+
+Finding funding opportunities
+
+Lectureship FAQs
+
+Academic perspectives
+
+Careers Beyond Academia
+
+Translating your research skills
+
+Reflection and research
+
+Reflection
+
+Researching what's out there
+
+Where have other postdocs gone
+
+Make connections
+
+use and build your network
+
+Do your research
+
+there is a lot of information out there
+
+Understanding the world outside research in academia
+
+Applying for a position (CVs, applications, interviews, negotiating)
+
+CVs and applications
+
+Interviews
+
+Negotiating a job offer
+
+10 development days for postdocs and fellows
+
+Individual support and wellbeing
+
+Access one-to-one support
+
+Book a mock interview
+
+Supervision Support
+
+Research Degree Mediation
+
+Coaching
+
+Postgraduate Coaching
+
+What is coaching?
+
+Student feedback
+
+Overview for coachees
+
+Meet the coaches
+
+Leadership coaching for research fellows
+
+Mentoring
+
+Activate Student Mentoring Programme
+
+Academic mentoring
+
+Enhance Mentoring
+
+Wellbeing resources
+
+Success Guides
+
+Networks, events and funds
+
+Welcome and Induction
+
+Staff and Student Networks
+
+Postdoc and Fellows Reps Network
+
+Postdoc and Fellows Reps
+
+Postdoc and Fellows Reps Awards
+
+Become a research staff rep
+
+Postdoc and Fellows Champions
+
+PG Rep Programme
+
+Networks for staff supporting research students
+
+Parents and Carers student support
+
+Black Doctoral Network
+
+Black Postdoctoral Network
+
+Imperial EDI staff and student networks
+
+Imperial Women s PhD Network
+
+Staff networks
+
+ECRI Contacts Database
+
+Events
+
+Awards and Celebration
+
+Previous awardees
+
+Imperial Research Seminars and Guest Lectures
+
+Doctoral Student's Welcome Events
+
+ECRI Winter Celebration
+
+Early Career Researcher Showcase
+
+Early Career Researcher Showcase 2025
+
+Postdoc Appreciation Week (PAW)
+
+PAW (Postdoc Appreciation Week) Committee
+
+Cassyni Research Seminars
+
+ECRI Funds
+
+Early Career Researcher Community Fund
+
+Seeds for Success Fund
+
+Wings for Ideas Fund
+
+Dame Julia Higgins Postdoc Collaborative Research Fund
+
+Postgraduate Research Experience Survey (PRES)
+
+Resources
+
+Success Guides
+
+Tip sheets
+
+Networking resources
+
+What is networking and why do it?
+
+Identifying and reviewing your network
+
+Finding the time to network
+
+Finding a way to network that works for you
+
+Building cultural awareness
+
+Becoming more visible and findable
+
+Communication: reaching out to have the first conversation
+
+Perspectives from Former Research Staff
+
+Wellbeing resources
+
+The challenging nature of research
+
+Developing emotional intelligence (EQ)
+
+Building competence
+
+Coping skills
+
+Networks
+
+Publications
+
+Imperial newsletters and communities
+
+Useful Resources  and Links
+
+Support at Imperial
+
+Funding
+
+Job searching and career development websites
+
+Blogs, communities and networks
+
+ECRI Podcasts
+
+Information for Departments
+
+Initiatives and Projects
+
+Early Career Researcher Institute
+
+Our mission is to attract, develop, empower, and advocate for the next generation of outstanding STEMB talent through learning and development opportunities, events, support, and resources for early career researchers.
+
+Key links
+
+Our Strategy
+
+Governance and Quality Assurance
+
+Meet the Team
+
+Top links
+
+Who we support
+
+Research Degree Students
+
+Postdocs
+
+Research Fellows
+
+Research Degree Supervisors
+
+Line Managers of Research Staff
+
+Principal Investigators (PIs)
+
+Research Technical Professionals and Software Engineers
+
+We also support  Master's students
+
+who are thinking about moving into research.
+
+How we help
+
+Learning and Development
+
+Explore our full A-Z of courses
+
+See our courses by programme
+
+Courses by date
+
+Careers and Transitions
+
+ECRI Consultancy
+
+Individual Support and Wellbeing
+
+Networks, Events and Funds
+
+Online Resources
+
+Initiatives
+
+Projects
+
+Explore our courses
+
+Find out about our learning and development offer by programme
+
+The ECRI Academy (Consultancy)
+
+Through the ECRI Academy we work with internal and external departments/ organisations to deliver ECRI courses and/ or programmes to your learners, and much more.
+
+Find out more, here.
+
+ECRI Blog
+
+Our ECRI Blog keeps you updated with events that have been led by Imperial's early career researcher community as well as ECRI activities.
+
+Access the blog here.
+
+ECRI Funding
+
+Click here to explore ECRI funding opportunities for ECRs.
+
+ECRI noticeboard
+
+More from ECRI noticeboard
+
+College Events, Doctoral Students
+
+Doctoral Student Spring Welcome – 26 March 2026
+
+13 March 2026
+
+By Jenna Collinson
+
+Join us for ECRI’s Doctoral Student Spring Welcome  Thursday 26 March, 2-4pm, South Kensington Campus  The Early Career Researcher Institute…
+
+College News
+
+Updates, Doctoral Students, Research Staff
+
+Applications open: Imperial As One Media Academy 2026 (deadline: 24 March)
+
+13 March 2026
+
+By Early Career Researcher Institute
+
+Applications are now open for the 2026 Imperial As One Media Academy. This is an award-winning communications training programme for Black and…
+
+Career Opportunities, Internships
+
+Volunteering, Doctoral Students, Research Staff
+
+Apply now: STEP UP Digital Research Technical Career and Bridging Placements
+
+12 March 2026
+
+By Early Career Researcher Institute
+
+STEP‑UP invites applications for 1–3 month funded placements that develop specialist skills in research software, data, and computing infrastructure.…
+
+College News
+
+Updates, Doctoral Students, Research Staff
+
+WHEN Equality Initiative for Black Women at Imperial (sign up by 31 March)
+
+12 March 2026
+
+By Early Career Researcher Institute
+
+Black Women at Imperial is a new partnership with WHEN Equality for a new initiative to strengthen the career progression of Black women across…
+
+Contact and Links
+
+Early Career Researcher Institute
+
+Contact us
+
+Email the team
+
+Meet the team
+
+Find us on social media
+
+YouTube
+
+Instagram
+
+BlueSky
+
+Useful Links
+
+Popular links
+
+Blackboard
+
+Contact the Service Desk
+
+Jobs
+
+Library services
+
+Outlook email online
+
+Faculties
+
+Engineering
+
+Medicine
+
+Natural Sciences
+
+Imperial Business School
+
+Directories
+
+Admin and support services
+
+Networks and Centres
+
+Research groups
+
+Search all staff
+
+Partners
+
+Imperial College Academic Health Science Centre
+
+Imperial College Health Partners
+
+Imperial College Healthcare NHS Trust
+
+Imperial Consultants
+
+College Information
+
+Imperial College London
+
+Address
+
+Imperial College London
+
+South Kensington Campus
+
+London
+
+SW7 2AZ ,  UK
+
+tel: +44 (0)20 7589 5111
+
+Facebook
+
+X, formerly known as Twitter
+
+YouTube
+
+LinkedIn
+
+Instagram
+
+TikTok
+
+TikTok
+
+Site Information
+
+Sitemap
+
+Accessibility
+
+Modern slavery statement
+
+Privacy notice
+
+Use of cookies
+
+Report incorrect content
+
+Log in
+
+2026 Imperial College London
+
+search page mobile facet dropdown W.I.P. -->

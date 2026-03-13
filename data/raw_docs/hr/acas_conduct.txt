@@ -1,0 +1,486 @@
+(function() {
+
+console.log('[ACAS Debug] Inline script executed at ' + new Date().toISOString());
+
+window.acasDefineGlyphiconFunctions = function() {
+
+console.log('[ACAS Debug] Defining glyphicon functions from inline script');
+
+// Ensure Drupal and Drupal.Ajax exist
+
+window.Drupal = window.Drupal || {};
+
+window.Drupal.Ajax = window.Drupal.Ajax || function () {};
+
+window.Drupal.Ajax.prototype = window.Drupal.Ajax.prototype || {};
+
+// Define glyphiconStart if it doesn't exist
+
+window.Drupal.Ajax.prototype.glyphiconStart = function (element) {
+
+console.log('[ACAS Debug] glyphiconStart called from inline script');
+
+try {
+
+if (element
+
+window.jQuery) {
+
+window.jQuery(element).addClass('is-autocompleting');
+
+window.jQuery(element).siblings('.glyphicon').addClass('glyphicon-spin');
+
+console.log('[ACAS Debug] Added autocomplete throbber classes');
+
+}
+
+} catch (e) {
+
+console.warn('[ACAS Debug] Error in glyphiconStart:', e);
+
+}
+
+return this;
+
+};
+
+// Define glyphiconStop if it doesn't exist
+
+window.Drupal.Ajax.prototype.glyphiconStop = function (element) {
+
+console.log('[ACAS Debug] glyphiconStop called from inline script');
+
+try {
+
+if (element
+
+window.jQuery) {
+
+window.jQuery(element).removeClass('is-autocompleting');
+
+window.jQuery(element).siblings('.glyphicon').removeClass('glyphicon-spin');
+
+console.log('[ACAS Debug] Removed autocomplete throbber classes');
+
+}
+
+} catch (e) {
+
+console.warn('[ACAS Debug] Error in glyphiconStop:', e);
+
+}
+
+return this;
+
+};
+
+console.log('[ACAS Debug] Successfully defined glyphicon functions from inline script');
+
+};
+
+// Execute immediately
+
+window.acasDefineGlyphiconFunctions();
+
+// Set up a periodic check to ensure the functions exist
+
+var checkInterval = setInterval(function() {
+
+if (window.Drupal
+
+window.Drupal.Ajax
+
+window.Drupal.Ajax.prototype) {
+
+if (typeof window.Drupal.Ajax.prototype.glyphiconStart !== 'function' ||
+
+typeof window.Drupal.Ajax.prototype.glyphiconStop !== 'function') {
+
+console.log('[ACAS Debug] Redefining missing glyphicon functions in inline script');
+
+window.acasDefineGlyphiconFunctions();
+
+}
+
+}
+
+}, 50); // Check every 50ms
+
+// Stop checking after 5 seconds
+
+setTimeout(function() {
+
+clearInterval(checkInterval);
+
+console.log('[ACAS Debug] Stopped periodic glyphicon function checks in inline script');
+
+}, 5000);
+
+// Also patch jQuery UI autocomplete if it's already loaded
+
+function patchjQueryUIAutocomplete() {
+
+if (window.jQuery
+
+window.jQuery.ui
+
+window.jQuery.ui.autocomplete) {
+
+console.log('[ACAS Debug] jQuery UI autocomplete found in inline script, patching methods');
+
+// Store the original methods
+
+var originalSearch = window.jQuery.ui.autocomplete.prototype._search;
+
+var originalResponse = window.jQuery.ui.autocomplete.prototype._response;
+
+// Override the _search method with a simple implementation
+
+window.jQuery.ui.autocomplete.prototype._search = function(value) {
+
+console.log('[ACAS Debug] Patched _search method called from inline script');
+
+// Make sure the functions exist
+
+window.acasDefineGlyphiconFunctions();
+
+// Call glyphiconStart directly
+
+try {
+
+var element = this.element[0];
+
+if (element) {
+
+window.Drupal.Ajax.prototype.glyphiconStart(element);
+
+}
+
+} catch (e) {
+
+console.warn('[ACAS Debug] Error calling glyphiconStart from inline script:', e);
+
+}
+
+// Call original method and return its result
+
+return originalSearch.apply(this, arguments);
+
+};
+
+// Override the _response method with a simple implementation
+
+window.jQuery.ui.autocomplete.prototype._response = function(items) {
+
+console.log('[ACAS Debug] Patched _response method called from inline script');
+
+// Make sure the functions exist
+
+window.acasDefineGlyphiconFunctions();
+
+// Call glyphiconStop directly
+
+try {
+
+var element = this.element[0];
+
+if (element) {
+
+window.Drupal.Ajax.prototype.glyphiconStop(element);
+
+}
+
+} catch (e) {
+
+console.warn('[ACAS Debug] Error calling glyphiconStop from inline script:', e);
+
+}
+
+// Call original method and return its result
+
+return originalResponse.apply(this, arguments);
+
+};
+
+console.log('[ACAS Debug] Successfully patched jQuery UI autocomplete methods from inline script');
+
+return true;
+
+}
+
+return false;
+
+}
+
+// Try to patch immediately
+
+var patchSuccess = patchjQueryUIAutocomplete();
+
+// If not successful, set up a periodic check
+
+if (!patchSuccess) {
+
+var patchInterval = setInterval(function() {
+
+if (patchjQueryUIAutocomplete()) {
+
+clearInterval(patchInterval);
+
+console.log('[ACAS Debug] Successfully patched jQuery UI autocomplete after waiting');
+
+}
+
+}, 50); // Check every 50ms
+
+// Stop checking after 10 seconds
+
+setTimeout(function() {
+
+clearInterval(patchInterval);
+
+console.log('[ACAS Debug] Stopped checking for jQuery UI autocomplete');
+
+}, 10000);
+
+}
+})();
+
+window._vwo_code ||
+
+(function () {
+
+var w=window,
+
+d=document;
+
+if (d.URL.indexOf('__vwo_disable__') > -1 || w._vwo_code) {
+
+return;
+
+}
+
+var account_id=1164556,
+
+version=2.2,
+
+settings_tolerance=2000,
+
+hide_element='body',
+
+background_color='white',
+
+hide_element_style = 'opacity:0 !important;filter:alpha(opacity=0) !important;background:' + background_color + ' !important;transition:none !important;',
+
+/* DO NOT EDIT BELOW THIS LINE */
+
+f=!1,v=d.querySelector('#vwoCode'),cc={};try{var e=JSON.parse(localStorage.getItem('_vwo_'+account_id+'_config'));cc=e&&'object'==typeof e?e:{}}catch(e){}function r(t){try{return decodeURIComponent(t)}catch(e){return t}}var s=function(){var e={combination:[],combinationChoose:[],split:[],exclude:[],uuid:null,consent:null,optOut:null},t=d.cookie||'';if(!t)return e;for(var n,i,o=/(?:^|;s*)(?:(_vis_opt_exp_(d+)_combi=([^;]*))|(_vis_opt_exp_(d+)_combi_choose=([^;]*))|(_vis_opt_exp_(d+)_split=([^:;]*))|(_vis_opt_exp_(d+)_exclude=[^;]*)|(_vis_opt_out=([^;]*))|(_vwo_global_opt_out=[^;]*)|(_vwo_uuid=([^;]*))|(_vwo_consent=([^;]*)))/g;null!==(n=o.exec(t));)try{n[1]?e.combination.push({id:n[2],value:r(n[3])}):n[4]?e.combinationChoose.push({id:n[5],value:r(n[6])}):n[7]?e.split.push({id:n[8],value:r(n[9])}):n[10]?e.exclude.push({id:n[11]}):n[12]?e.optOut=r(n[13]):n[14]?e.optOut=!0:n[15]?e.uuid=r(n[16]):n[17]&&(i=r(n[18]),e.consent=i&&3
+
+Discipline and grievance | Acas
+
+@import url("https://fast.fonts.net/t/1.css?apiType=css&projectid=c1147d89-914f-4272-8a71-8f8a560ca674");
+
+Skip to main content
+
+&#9776;
+
+Search website
+
+Main navigation
+
+Advice
+
+Pay and hours
+
+Holiday and leave
+
+Equality and wellbeing
+
+Starting and ending employment
+
+Consultation and change
+
+Conflict and resolution
+
+Dispute resolution
+
+Training
+
+Research and commentary
+
+About us
+
+Breadcrumbs
+
+Home
+
+Advice
+
+Conflict and resolution
+
+Discipline and grievance
+
+Workers and employers can often  raise and deal with problems at work  early and informally. When that's not possible, they can use formal disciplinary and grievance procedures.
+
+Employers must follow the Acas Code of Practice. It says how they should follow fair procedures.
+
+Advice
+
+Formal grievance procedure
+
+What steps workers and employers should take. Raising and responding to a grievance.
+
+Disciplinary procedure
+
+What steps an employer should take. Following a fair procedure. Investigations and hearings.
+
+Investigations at work
+
+When employers should do an 'investigation'. Preparing and carrying out an investigation. Witnesses.
+
+Suspension during a work investigation
+
+How employers should be careful about asking workers to stop work. Mental health. Pay and leave.
+
+Appealing a disciplinary or grievance
+
+What you can do if you think your disciplinary or grievance outcome is not right.
+
+Templates
+
+Example disciplinary procedure
+
+Creating a disciplinary procedure.
+
+Example grievance procedure
+
+Creating a grievance procedure.
+
+Grievance letter
+
+Raising a formal grievance.
+
+Grievance appeal letter
+
+Raising an appeal against a grievance outcome.
+
+Disciplinary hearing letters
+
+Giving notice of disciplinary hearings. Warnings and dismissals.
+
+Disciplinary outcome letters
+
+Giving the outcome of a disciplinary. Warnings, dismissals and 'no action'.
+
+Disciplinary record
+
+Keeping a record of disciplinary action.
+
+Disciplinary appeal letter
+
+Appealing against the outcome of a disciplinary.
+
+Disciplinary appeal letters for employers
+
+Arranging appeal meetings or giving a worker the result of an appeal.
+
+Investigation letters
+
+Telling a worker they're subject to an investigation. Meeting invites.
+
+Investigation plan and report
+
+Planning and reporting on an investigation.
+
+Suspension during an investigation at work letter
+
+Telling a worker why they have been suspended and what happens next.
+
+Acas Code of Practice
+
+Acas Code of Practice on disciplinary and grievance procedures
+
+The minimum standards an employer should follow for any disciplinary or grievance case.
+
+Please tell us why the information did not help
+
+Select the statement you most agree with:
+
+I do not understand the information
+
+I cannot find the information I'm looking for
+
+I cannot work out what to do next
+
+Other
+
+Tell us more about your answer
+
+To help us improve our advice, we&#39;d like your feedback in the box below.
+
+We cannot reply
+
+so do not include any personal details, for example your email address or phone number. If you have questions about your individual circumstances, you can  contact the Acas helpline .
+
+Send
+
+Leave this field blank
+
+Tell us more about your answer
+
+If you like, you can tell us more about what was useful on this page.
+
+We cannot reply
+
+so do not include any personal details, for example your email address or phone number. If you have any questions about your individual circumstances, you can  contact the Acas helpline .
+
+Submit
+
+Leave this field blank
+
+Did you get the information you need from this page?
+
+Yes
+
+No
+
+&#x2715; Close
+
+image/svg+xml
+
+Free updates from Acas
+
+Join 180,000 subscribers and get the latest news for employers.
+
+Sign up for emails
+
+Secondary footer
+
+Blog
+
+Contact us
+
+Jobs
+
+News
+
+Podcast
+
+Footer menu
+
+Accessibility
+
+Cookies
+
+Copyright
+
+Privacy
+
+Modern slavery statement
+
+Sitemap
+
+Terms and conditions
+
+window.dataLayer = window.dataLayer || []; window.dataLayer.push({"drupalLanguage":"en","drupalCountry":"GB","siteName":"Acas","entityCreated":"1743764337","entityLangcode":"en","entityStatus":"1","entityUid":"4462","entityUuid":"2e6440e8-e987-4658-be1e-66fa5c34a833","entityVid":"79435","entityName":"mbarnard","entityType":"node","entityBundle":"flexible_landing_page","entityId":"1892","entityTitle":"Discipline and grievance","userUid":0});
+
+{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/1892","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx1UUFywyAM_BCFQx-kEUbBagB5kBzHvy-ZadPGSS4C7e6gXYETashFIpYPtb1wyw4HBgV3WQ3iyiVRhxNfScMr0EURU-u4hPsNlk7Ajc3FLpsOaSKjycJj6xIajjeph0gzXli6ukyNOpaAbbd52IGtyzD1C1-YNgW6LqKU4CS9gq6xjlFZJBcCwxzyKMfe4xdeH8HqFuyYh-FZQ-rrgsX_IX5tyxoL60zpnxBy5xQOvb9H_3QqE2OBSokRxkLPGp4hbzNVcrqrUQ0RldxG8RYn_Jx-kjpCsr1gVH0TOBGliNP5Jb-TvhdQGcOb-fENyEW94uV5ylFkksfq3soqqWJ-z8tiLE2f-Fv5BrEC_bQ","theme":"acas","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/search":true},"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"google\nnonGooglePixels\nnonGoogleScripts\nnonGoogleIframes","blocklist_classes":"customScripts\ncustomPixels","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-TL6RL7R"]},"dataLayer":{"defaultLang":"en","languages":{"en":{"id":"en","name":"English","direction":"ltr","weight":0}}},"scrollama":{"offset":null,"debug":false,"order":false,"once":false},"vwo":{"id":1164556,"timeout_setting":2000,"testnull":null},"bootstrap":{"forms_has_error_value_toggle":1},"user":{"uid":0,"permissionsHash":"803e44b70093d728c6f0beb78afe2198450ec69cc88894ac487e6951e4c84085"}}

@@ -1,0 +1,491 @@
+Plagiarism | University of Oxford
+
+.shared-event-styling .content-meta{margin-top:2.4em;}.shared-event-styling .node-event-past{opacity:0.5;filter:alpha(opacity=50);}.shared-event-styling .view-mode-oxweb_full_content .field-label-inline,.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single{*zoom:1;}.shared-event-styling .view-mode-oxweb_full_content .field-label-inline:before,.shared-event-styling .view-mode-oxweb_full_content .field-label-inline:after,.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single:before,.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single:after{display:table;content:"";line-height:0;}.shared-event-styling .view-mode-oxweb_full_content .field-label-inline:after,.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single:after{clear:both;}.shared-event-styling .view-mode-oxweb_full_content .field-label-inline .label,.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .label{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline;float:left;width:33.333333333333%;padding:0 0;*width:30.208333333333%;*padding:0 -0.03125px;min-width:27%;}@media only screen and (max-width:870px){.shared-event-styling .view-mode-oxweb_full_content .field-label-inline .label,.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .label{width:100%;float:none;display:block;}}.shared-event-styling .view-mode-oxweb_full_content .field-label-inline .field-item-single,.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .field-item-single{float:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline;width:66.666666666667%;padding:0 0;*width:63.541666666667%;*padding:0 -0.03125px;}@media only screen and (max-width:870px){.shared-event-styling .view-mode-oxweb_full_content .field-label-inline .field-item-single,.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .field-item-single{width:100%;float:none;display:block;}}.shared-event-styling .view-mode-oxweb_full_content .field-name-field-event-venue-details span.field-item-single{float:none;margin-left:33.3%;display:block;}.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .field-item-single{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline;float:left;width:66.666666666667%;padding:0 0;*width:63.541666666667%;*padding:0 -0.03125px;}@media only screen and (max-width:870px){.shared-event-styling .view-mode-oxweb_full_content .field-name-event-speakers-custom .field-item-single .field-item-single{width:100%;float:none;display:block;}}.shared-event-styling .view-mode-oxweb_full_content .field-type-date{font-family:"PT Serif",Georgia,'Times New Roman',serif;}.shared-event-styling .view-mode-oxweb_full_content .group-event-meta{border-top:1px solid #e0ded9;border-bottom:1px solid #e0ded9;font-size:1.125em;line-height:1.5em;margin:0 18% 2em 0;padding:2em 0;}.shared-event-styling .view-mode-oxweb_full_content .group-event-meta .field-name-field-event-venue-details p:only-child{margin-bottom:0;}.shared-event-styling .view-mode-oxweb_full_content .leaflet-container{margin-bottom:2.5em;max-width:90%;}.hidden-accessible{position:absolute;left:-99999999px;top:auto;width:1px;height:1px;overflow:hidden;}.hidden-default{display:none;}.flex-container{display:-ms-flex;display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;}.flex-item{display:flex;box-sizing:border-box;}.flex-content{display:flex;flex-direction:column;}.page-header{position:relative;}.page-header .row{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline;float:left;width:100%;padding:0 2.118933698%;*width:96.875%;*padding:0 2.087683698%;min-height:160px;}@media only screen and (max-width:870px){.page-header .row{width:100%;float:none;display:block;}}.page-header .site-header-top{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-left:111px;padding-right:167px;padding-left:2.118933698%;min-height:49px;}.page-header .site-header-bottom{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-left:0;display:block;margin-left:111px;padding-left:2.118933698%;position:relative;min-height:41px;margin-top:1em;}.oxweb-primary-menu-block{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline;float:left;width:58.333333333333%;padding:0 0;*width:55.208333333333%;*padding:0 -0.03125px;display:block;}@media only screen and (max-width:870px){.oxweb-primary-menu-block{width:100%;float:none;display:block;}}.oxweb-secondary-menu-block{width:100%;}#toolbar{z-index:99999;}header.page-header{text-align:center;width:100%;margin:0 auto;z-index:9999;}header.page-header .row{background:#002147;font-family:"PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;float:none;display:block;padding-top:1.5625em;padding-bottom:1em;-webkit-transition:padding 0.35s;-moz-transition:padding 0.35s;-o-transition:padding 0.35s;transition:padding 0.35s;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}.logo{float:left;width:111px;margin-right:-100%;position:relative;z-index:2;}.logo a.square{width:110px;height:110px;display:block;background:url('/sites/default/themes/custom/oxweb/images/oxweb-logo.gif') no-repeat center center;overflow:hidden;text-indent:-9999%;}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){.logo a.square{background:url('/sites/default/themes/custom/oxweb/images/oxweb-logo-square.svg') no-repeat center center;background-size:100% 100%;image-rendering:-moz-crisp-edges;image-rendering:-o-crisp-edges;image-rendering:-webkit-optimize-contrast;image-rendering:optimize-contrast;-ms-interpolation-mode:bicubic;image-rendering:optimizeQuality;}}.menu-wrapper{width:100%;float:left;}.site-header-bottom .oxweb-secondary-menu-block ul li.expanded ul li a{background:transparent;white-space:normal;}.oxweb-primary-menu-block,.oxweb-secondary-menu-block{text-align:left;text-transform:uppercase;font-family:"PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;color:#fff;}.oxweb-primary-menu-block a,.oxweb-secondary-menu-block a{color:rgba(255,255,255,0.7);}.oxweb-primary-menu-block a.active,.oxweb-primary-menu-block a:active,.oxweb-primary-menu-block a:visited,.oxweb-primary-menu-block a:hover,.oxweb-primary-menu-block a.active-trail,.oxweb-secondary-menu-block a.active,.oxweb-secondary-menu-block a:active,.oxweb-secondary-menu-block a:visited,.oxweb-secondary-menu-block a:hover,.oxweb-secondary-menu-block a.active-trail{color:#fff;text-decoration:none;}.oxweb-primary-menu-block ul,.oxweb-secondary-menu-block ul{float:left;padding:0;margin:0;}.oxweb-primary-menu-block ul li,.oxweb-primary-menu-block ul li.expanded,.oxweb-secondary-menu-block ul li,.oxweb-secondary-menu-block ul li.expanded{display:inline-block;padding:0;list-style-image:none;list-style-type:none;}.oxweb-primary-menu-block ul li a,.oxweb-primary-menu-block ul li.expanded a,.oxweb-secondary-menu-block ul li a,.oxweb-secondary-menu-block ul li.expanded a{padding:10px 25px 15px 10px;}.oxweb-primary-menu-block ul li.expanded,.oxweb-secondary-menu-block ul li.expanded{position:relative;}.oxweb-primary-menu-block ul li.expanded a,.oxweb-secondary-menu-block ul li.expanded a{background:url('/sites/default/themes/custom/oxweb/images/menu_arrow.png') 94% 1.2em no-repeat;background-position:right 10px top 1.3em;padding-right:25px;}.oxweb-primary-menu-block ul li.expanded ul a,.oxweb-secondary-menu-block ul li.expanded ul a{background-image:none;padding-right:0;}.oxweb-primary-menu-block{font-size:0.78em;}.oxweb-secondary-menu-block{display:table-row;}.oxweb-secondary-menu-block h2.title,.oxweb-secondary-menu-block ul li,.oxweb-secondary-menu-block ul li.expanded{display:table-cell;vertical-align:top;padding:0;border-right:1px solid rgba(255,255,255,0.07);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}.oxweb-secondary-menu-block h2.title ul li,.oxweb-secondary-menu-block ul li ul li,.oxweb-secondary-menu-block ul li.expanded ul li{float:none;max-width:none;min-width:215px;}.oxweb-secondary-menu-block ul li,.oxweb-secondary-menu-block ul li.expanded{line-height:1.05em;max-width:200px;}.oxweb-secondary-menu-block ul li a,.oxweb-secondary-menu-block ul li.expanded a{padding:10px;padding-top:8px;line-height:1.2em;display:inline-block;}.oxweb-secondary-menu-block ul li.expanded a{padding-right:30px;}.oxweb-secondary-menu-block ul li.expanded ul a{height:auto;}.oxweb-secondary-menu-block h2.title{font-size:1.5em;line-height:1.05em;font-weight:normal;margin:0;padding:8px 36px 20px 7px;background:url('/sites/default/themes/custom/oxweb/images/menu-chevron.png') no-repeat 97.5% top;border-right:0;vertical-align:top;}.site-header-top ul li.expanded a{position:relative;z-index:7;background-position:right 9px top 1.6em;}.site-header-top ul li.expanded:hover a{background-position:right 9px top -1.95em;}.site-header-bottom ul li.expanded a{position:relative;background-position:right 15px top 0.90em;}.site-header-bottom ul li.expanded:hover a{background-position:right 15px top -101px;z-index:5;}.oxweb-secondary-menu-block-noh2 ul ul{margin-left:0;}body.sticky-header-collapsed .logo{display:none;}body.sticky-header-collapsed .page-header{position:fixed;}body.sticky-header-collapsed .page-header .row{padding-top:0.75em;padding-bottom:0.75em;-webkit-transition:padding 0.35s;-moz-transition:padding 0.35s;-o-transition:padding 0.35s;transition:padding 0.35s;min-height:72px;padding-right:0;}body.sticky-header-collapsed .block-oxweb-search input[type=submit]{top:15px;right:21px;}body.sticky-header-collapsed .site-header-top{display:none;}body.sticky-header-collapsed .site-header-bottom{width:100%;float:left;margin-top:0;margin-left:0;padding-left:0;}body.sticky-header-collapsed .site-header-bottom .oxweb-secondary-menu-block ul{margin-right:65px;}body.sticky-header-collapsed .site-header-bottom .oxweb-secondary-menu-block ul li,body.sticky-header-collapsed .site-header-bottom .oxweb-secondary-menu-block ul li.expanded{vertical-align:top;}body.sticky-header-collapsed .site-header-bottom .oxweb-secondary-menu-block ul li.last ul{right:-65px;}body.sticky-header-collapsed .page-header-row .oxweb-secondary-menu-block.homepage-oxweb-secondary-menu{position:absolute;bottom:4px;width:58%;}body.sticky-header-collapsed .page-header-row .homepage-role-base-menu{margin-right:85px;}.page-header-row .oxweb-secondary-menu-block.homepage-oxweb-secondary-menu{position:absolute;bottom:35px;width:56%;}.page-header-row .oxweb-secondary-menu-block.homepage-oxweb-secondary-menu ul li.expanded:hover a{background-position:right 15px top -1.3em;}.page-header-row .oxweb-secondary-menu-block.homepage-oxweb-secondary-menu ul li.expanded:hover a:hover{background-position:right 15px top 0.90em;}.page-header-row .oxweb-secondary-menu-block.homepage-oxweb-secondary-menu ul li a{opacity:1;filter:alpha(opacity=100);font-size:1.313em;white-space:nowrap;}.page-header-row .homepage-role-base-menu{font-size:0.813em;text-transform:none;float:right;width:52.5%;}.page-header-row .homepage-role-base-menu ul{float:right;}.page-header-row .homepage-role-base-menu ul li a{font-size:1.125em;padding-left:0;padding-right:0;margin-right:1.5em;}.page-header-row .homepage-role-base-menu ul li.last a{margin-right:0.4375em;}.page-header-row .homepage-role-base-menu ul li.expanded a{background:none;}h1,h2,h3,h4,h5,h6{font-family:"PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;margin:0 0 0.5em 0;line-height:1.2em;color:#2C2C2C;}h1{font-size:3.125em;font-weight:700;font-family:"PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;margin:0 0 0.5em 0;line-height:1.05em;}.main-content h1{margin-right:18%;}body.page-full-width .main-content h1{margin-right:2.118933698%;}h2{font-size:1.625em;font-weight:700;}h3{font-size:1.313em;font-weight:400;}h4{font-size:16px;}h5{font-size:16px;}h6{font-size:16px;}.main-content h2,.main-content h3,.main-content h4,.main-content h5,.main-content h6{margin:1.6em 0 0.5em 0;}.block-menu h2,.block-nice-menus h2{margin:0;padding:0;height:1px;height:0px;overflow:hidden;text-indent:-9999%;}
+
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"oxweb","theme_token":"wJ_8UlOXDE89pKUZ6IUwMmoCK7nHk9zWcuw52pN1G6o","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/cache_consistent\/css\/cache_consistent.css":1,"sites\/all\/modules\/colorbox_node\/colorbox_node.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/domain\/domain_nav\/domain_nav.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/webform\/css\/webform.css":1,"https:\/\/fonts.googleapis.com\/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic\u0026subset=latin,latin-ext":1,"sites\/all\/themes\/mothership\/mothership\/css\/reset.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/reset-html5.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/mothership-default.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/mothership.css":1,"sites\/default\/themes\/custom\/oxweb\/css\/yui\/reset-min.css":1,"sites\/default\/themes\/custom\/oxweb\/css\/yui\/base-min.css":1,"sites\/default\/themes\/custom\/oxweb\/css\/yui\/fonts-min.css":1,"sites\/default\/themes\/custom\/oxweb\/css\/site.less":1,"sites\/default\/themes\/custom\/oxweb\/css\/search.less":1,"sites\/default\/themes\/custom\/oxweb\/css\/menu.less":1,"sites\/default\/themes\/custom\/oxweb\/css\/maintenance.css":1,"sites\/default\/themes\/custom\/oxweb\/field_collection.theme.css":1,"sites\/default\/themes\/custom\/oxweb\/css\/alternative\/print.less":1,"sites\/default\/themes\/custom\/oxweb\/css\/ie\/ie.less":1,"sites\/default\/themes\/custom\/oxweb\/css\/ie\/ie8.less":1,"sites\/default\/themes\/custom\/oxweb\/css\/types\/page.less":1,"sites\/default\/themes\/custom\/oxweb\/css\/alternative\/mobile.less":1},"js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/form-single-submit.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/media_colorbox\/media_colorbox.js":1,"misc\/textarea.js":1,"misc\/progress.js":1,"sites\/all\/modules\/webform\/js\/webform.js":1,"sites\/all\/modules\/field_group\/field_group.js":1,"sites\/all\/modules\/colorbox_node\/colorbox_node.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/vendor\/carouFredSel-6.2.1.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery.touchSwipe.min.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery-migrate-1.2.1.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/site.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/oxweb-show-description.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/vendor\/html5.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/vendor\/harvey.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/media-queries.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/vendor\/jquery.fitvids.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/vendor\/stupidtable.min.js":1,"sites\/default\/themes\/custom\/oxweb\/js\/oxweb-menu.js":1}},"colorbox":{"transition":"elastic","speed":"350","opacity":"0.85","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"returnFocus":true,"maxWidth":"100%","maxHeight":"100%","initialWidth":"300","initialHeight":"250","fixed":true,"scrolling":true,"mobiledetect":true,"mobiledevicewidth":"500px","file_public_path":"\/sites\/files\/oxford","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"googleCSE":{"cx":"012531758793783812323:qgyldcso7qs","resultsWidth":600,"domain":"www.google.com","showWaterMark":1},"urlIsAjaxTrusted":{"\/students\/academic\/guidance\/skills\/plagiarism":true,"\/system\/ajax":true},"field_group":{"div":"oxweb_full_content"},"webform":{"conditionals":{"webform-client-form-32032":{"ruleGroups":{"rgid_0":{"andor":null,"actions":{"aid_0":{"target":"webform-component--reason","invert":0,"action":"show","argument":""}},"rules":{"rid_0":{"source_type":"component","source":"webform-component--was-this-page-useful","value":"2","callback":"conditionalOperatorStringEqual"}}}},"sourceMap":{"webform-component--was-this-page-useful":{"rgid_0":"rgid_0"}},"values":[]}}},"ajax":{"edit-submit":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-32032","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Submit"}}},"colorbox_node":{"width":"600px","height":"600px"}});
+
+Skip to main content
+
+Home
+
+Home
+
+Admissions
+
+Undergraduate
+
+Graduate
+
+Lifelong learning
+
+Research
+
+Engage with us
+
+Support for researchers
+
+Using research to engage
+
+Recognition
+
+News
+
+Events
+
+Events
+
+Pulse
+
+Features
+
+Oxford profiles
+
+Filming in Oxford
+
+Find An Expert
+
+About
+
+Organisation
+
+Vice-Chancellor
+
+Facts and figures
+
+Oxford people
+
+Oxford Access
+
+International Oxford
+
+Building Our Future
+
+Jobs
+
+Search
+
+Oxford students
+
+New students
+
+Supporting your transition to Oxford
+
+Your University contract
+
+Before you arrive
+
+Your first few weeks
+
+International students
+
+Recognised students
+
+Visiting students
+
+Mature students
+
+Academic matters
+
+Student Handbook
+
+Study guidance
+
+Examinations and assessments
+
+Student conduct
+
+Complaints and academic appeals
+
+University regulations
+
+Higher Doctorates
+
+Academic dress
+
+Exam Regulations
+
+Fees
+
+funding
+
+Fees, funding and scholarship search
+
+Course fees
+
+International opportunities
+
+Undergraduate funding
+
+Other graduate funding sources
+
+US and Canadian tax credits
+
+Financial assistance and support
+
+Prizes and awards
+
+Living costs
+
+Visa
+
+immigration
+
+Before you arrive
+
+During your studies
+
+After your studies
+
+Oxford life
+
+Students and the Vice-Chancellor
+
+Inclusive student life
+
+Your student record
+
+Student surveys
+
+Clubs and societies
+
+Sport at Oxford
+
+Work, skills and experience
+
+Community and safety
+
+IT and technology
+
+Accommodation
+
+Travel
+
+Business cards
+
+Welfare and wellbeing
+
+Wellbeing at Oxford
+
+Health
+
+Disability
+
+Peer Support
+
+Counselling and mental health
+
+Further student support
+
+Sexual Harassment and Violence Support Service
+
+Graduation
+
+leaving Oxford
+
+Joining the alumni community
+
+Preparing to leave
+
+Degree ceremonies
+
+Degree certificates and letters
+
+Academic transcripts
+
+Verifying qualifications
+
+Continuing your studies
+
+eDocuments
+
+Oxford city skyline
+
+Share This
+
+Tweet
+
+Share on Facebook
+
+Share on LinkedIn
+
+Share on Reddit
+
+Home
+
+Oxford students
+
+Academic matters
+
+Study guidance
+
+Study skills and training
+
+Plagiarism
+
+Plagiarism
+
+Information about what plagiarism is, and how you can avoid it.
+
+The University defines plagiarism as follows:  “Presenting work or ideas from another source as your own, with or without consent of the original author, by incorporating it into your work without full acknowledgement. All published and unpublished material, whether in manuscript, printed or electronic form, is covered under this definition, as is the use of material generated wholly or in part through use of artificial intelligence (save when use of AI for assessment has received prior authorisation e.g. as a reasonable adjustment for a student’s disability). Plagiarism can also include re-using your own work without citation. Under the regulations for examinations, intentional or reckless plagiarism is a disciplinary offence.”  The necessity to acknowledge others’ work or ideas applies not only to text, but also to other media, such as computer code, illustrations, graphs etc. It applies equally to published text and data drawn from books and journals, and to unpublished text and data, whether from lectures, theses or other students’ essays. You must also attribute text, data, or other resources downloaded from websites.  Please note that artificial intelligence (AI) can only be used within assessments where specific prior authorisation has been given, or when technology that uses AI has been agreed as reasonable adjustment for a student’s disability (such as voice recognition software for transcriptions, or spelling and grammar checkers).  You should acknowledge your use of AI as part of the assessment submission and use a formal declaration in the format prescribed by the assessment setter.
+
+The best way of avoiding plagiarism is to learn and employ the principles of good academic practice from the beginning of your university career. Avoiding plagiarism is not simply a matter of making sure your references are all correct, or changing enough words so the examiner will not notice your paraphrase; it is about deploying your academic skills to make your work as good as it can be.  Students will benefit from taking an  online course  which has been developed to provide a useful overview of the issues surrounding plagiarism and practical ways to avoid it.
+
+Forms of plagiarism
+
+Verbatim (word for word) quotation without clear acknowledgement  Quotations must always be identified as such by the use of either quotation marks or indentation, and with full referencing of the sources cited. It must always be apparent to the reader which parts are your own independent work and where you have drawn on ideas and language from another source.
+
+Cutting and pasting from the Internet without clear acknowledgement  Information derived from the Internet must be adequately referenced and included in the bibliography. It is important to evaluate carefully all material found on the Internet, as it is less likely to have been through the same process of scholarly peer review as published sources.
+
+Paraphrasing  Paraphrasing the work of others by altering a few words and changing their order, or by closely following the structure of their argument, is plagiarism if you do not give due acknowledgement to the author whose work you are using.  A passing reference to the original author in your own text may not be enough; you must ensure that you do not create the misleading impression that the paraphrased wording or the sequence of ideas are entirely your own. It is better to write a brief summary of the author’s overall argument in your own words, indicating that you are doing so, than to paraphrase particular sections of his or her writing. This will ensure you have a genuine grasp of the argument and will avoid the difficulty of paraphrasing without plagiarising. You must also properly attribute all material you derive from lectures.
+
+Collusion  This can involve unauthorised collaboration between students, failure to attribute assistance received, or failure to follow precisely regulations on group work projects. It is your responsibility to ensure that you are entirely clear about the extent of collaboration permitted, and which parts of the work must be your own.
+
+Inaccurate citation  It is important to cite correctly, according to the conventions of your discipline. As well as listing your sources (i.e. in a bibliography), you must indicate, using a footnote or an in-text reference, where a quoted passage comes from. Additionally, you should not include anything in your references or bibliography that you have not actually consulted. If you cannot gain access to a primary source you must make it clear in your citation that your knowledge of the work has been derived from a secondary text (for example, Bradshaw, D. Title of Book, discussed in Wilson, E., Title of Book (London, 2004), p. 189).
+
+Failure to acknowledge assistance  You must clearly acknowledge all assistance which has contributed to the production of your work, such as advice from fellow students, laboratory technicians, and other external sources. This need not apply to the assistance provided by your tutor or supervisor, or to ordinary proofreading, but it is necessary to acknowledge other guidance which leads to substantive changes of content or approach.
+
+Use of material written by professional agencies or other persons  You should neither make use of professional agencies in the production of your work nor submit material which has been written for you even with the consent of the person who has written it. It is vital to your intellectual training and development that you should undertake the research process unaided. Under Statute XI on University Discipline, all members of the University are prohibited from providing material that could be submitted in an examination by students at this University or elsewhere.
+
+Auto-plagiarism  You must not submit work for assessment that you have already submitted (partially or in full), either for your current course or for another qualification of this, or any other, university, unless this is specifically provided for in the special regulations for your course. Where earlier work by you is citable, i.e. it has already been published, you must reference it clearly.  Identical pieces of work submitted concurrently will also be considered to be auto-plagiarism.
+
+Why does plagiarism matter?
+
+Plagiarism is a breach of academic integrity. It is a principle of intellectual honesty that all members of the academic community should acknowledge their debt to the originators of the ideas, words, and data which form the basis for their own work. Passing off another’s work as your own is not only poor scholarship, but also means that you have failed to complete the learning process. Plagiarism is unethical and can have serious consequences for your future career; it also undermines the standards of your institution and of the degrees it issues.
+
+Why should you avoid plagiarism?
+
+There are many reasons to avoid plagiarism. You have come to university to learn to know and speak your own mind, not merely to reproduce the opinions of others - at least not without attribution. At first it may seem very difficult to develop your own views, and you will probably find yourself paraphrasing the writings of others as you attempt to understand and assimilate their arguments. However it is important that you learn to develop your own voice. You are not necessarily expected to become an original thinker, but you are expected to be an independent one - by learning to assess critically the work of others, weigh up differing arguments and draw your own conclusions. Students who plagiarise undermine the ethos of academic scholarship while avoiding an essential part of the learning process.  You should avoid plagiarism because you aspire to produce work of the highest quality. Once you have grasped the principles of source use and citation, you should find it relatively straightforward to steer clear of plagiarism. Moreover, you will reap the additional benefits of improvements to both the lucidity and quality of your writing. It is important to appreciate that mastery of the techniques of academic writing is not merely a practical skill, but one that lends both credibility and authority to your work, and demonstrates your commitment to the principle of intellectual honesty in scholarship.
+
+What happens if you are thought to have plagiarised?
+
+The University regards plagiarism in examinations as a serious matter. Cases will be investigated and penalties may range from deduction of marks to expulsion from the University, depending on the seriousness of the occurrence. Even if plagiarism is inadvertent, it can result in a penalty. The forms of plagiarism listed above are all potentially disciplinary offences in the context of formal assessment requirements.  The regulations regarding conduct in examinations apply equally to the ‘submission and assessment of a thesis, dissertation, essay, or other coursework not undertaken in formal examination conditions but which counts towards or constitutes the work for a degree or other academic award’. Additionally, this includes the transfer and confirmation of status exercises undertaken by graduate students. Cases of suspected plagiarism in assessed work are investigated under the disciplinary regulations concerning conduct in examinations. Intentional plagiarism in this context means that you understood that you were breaching the regulations and did so intending to gain advantage in the examination. Reckless, in this context, means that you understood or could be expected to have understood (even if you did not specifically consider it) that your work might breach the regulations, but you took no action to avoid doing so. Intentional or reckless plagiarism may incur severe penalties, including failure of your degree or expulsion from the university.  If plagiarism is suspected in a piece of work submitted for assessment in an examination, the matter will be referred to the Proctors. They will thoroughly investigate the claim and call the student concerned for interview. If at this point there is no evidence of a breach of the regulations, no further disciplinary action will be taken although there may still be an academic penalty. However, if it is concluded that a breach of the regulations may have occurred, the Proctors will refer the case to the Student Disciplinary Panel.  If you are suspected of plagiarism your College Secretary/Academic Administrator and subject tutor will support you through the process and arrange for a member of Congregation to accompany you to all hearings. They will be able to advise you what to expect during the investigation and how best to make your case. The  Oxford SU Student Advice Service  can also provide useful information and support.
+
+Does this mean that I shouldn’t use the work of other authors?
+
+On the contrary, it is vital that you situate your writing within the intellectual debates of your discipline. Academic essays almost always involve the use and discussion of material written by others, and, with due acknowledgement and proper referencing, this is clearly distinguishable from plagiarism. The knowledge in your discipline has developed cumulatively as a result of years of research, innovation and debate. You need to give credit to the authors of the ideas and observations you cite. Not only does this accord recognition to their work, it also helps you to strengthen your argument by making clear the basis on which you make it. Moreover, good citation practice gives your reader the opportunity to follow up your references, or check the validity of your interpretation.
+
+Does every statement in my essay have to be backed up with references?
+
+You may feel that including the citation for every point you make will interrupt the flow of your essay and make it look very unoriginal. At least initially, this may sometimes be inevitable. However, by employing good citation practice from the start, you will learn to avoid errors such as close paraphrasing or inadequately referenced quotation. It is important to understand the reasons behind the need for transparency of source use.  All academic texts, even student essays, are multi-voiced, which means they are filled with references to other texts. Rather than attempting to synthesise these voices into one narrative account, you should make it clear whose interpretation or argument you are employing at any one time - whose ‘voice’ is speaking.  If you are substantially indebted to a particular argument in the formulation of your own, you should make this clear both in footnotes and in the body of your text according to the agreed conventions of the discipline, before going on to describe how your own views develop or diverge from this influence.  On the other hand, it is not necessary to give references for facts that are common knowledge in your discipline. If you are unsure as to whether something is considered to be common knowledge or not, it is safer to cite it anyway and seek clarification. You do need to document facts that are not generally known and ideas that are interpretations of facts.
+
+Does this only matter in exams?
+
+Although plagiarism in weekly essays does not constitute a University disciplinary offence, it may well lead to College disciplinary measures. Persistent academic under-performance can even result in your being sent down from the University. Although tutorial essays traditionally do not require the full scholarly apparatus of footnotes and referencing, it is still necessary to acknowledge your sources and demonstrate the development of your argument, usually by an in-text reference. Many tutors will ask that you do employ a formal citation style early on, and you will find that this is good preparation for later project and dissertation work. In any case, your work will benefit considerably if you adopt good scholarly habits from the start, together with the techniques of critical thinking and writing described above.  As junior members of the academic community, students need to learn how to read academic literature and how to write in a style appropriate to their discipline. This does not mean that you must become masters of jargon and obfuscation; however the process is akin to learning a new language. It is necessary not only to learn new terminology, but the practical study skills and other techniques which will help you to learn effectively.  Developing these skills throughout your time at university will not only help you to produce better coursework, dissertations, projects and exam papers, but will lay the intellectual foundations for your future career. Even if you have no intention of becoming an academic, being able to analyse evidence, exercise critical judgement, and write clearly and persuasively are skills that will serve you for life, and which any employer will value.  Borrowing essays from other students to adapt and submit as your own is plagiarism, and will develop none of these necessary skills, holding back your academic development. Students who lend essays for this purpose are doing their peers no favours.
+
+Unintentional plagiarism
+
+Not all cases of plagiarism arise from a deliberate intention to cheat. Sometimes students may omit to take down citation details when taking notes, or they may be genuinely ignorant of referencing conventions. However, these excuses offer no sure protection against a charge of plagiarism. Even in cases where the plagiarism is found to have been neither intentional nor reckless, there may still be an academic penalty for poor practice.  It is your responsibility to find out the prevailing referencing conventions in your discipline, to take adequate notes, and to avoid close paraphrasing. If you are offered induction sessions on plagiarism and study skills, you should attend. Together with the advice contained in your subject handbook, these will help you learn how to avoid common errors. If you are undertaking a project or dissertation you should ensure that you have information on plagiarism and collusion. If ever in doubt about referencing, paraphrasing or plagiarism, you have only to ask your tutor.
+
+Examples of plagiarism
+
+There are some helpful examples of plagiarism-by-paraphrase and you will also find extensive advice on the  referencing  and  library skills  pages.  The following examples demonstrate some of the common pitfalls to avoid. These examples use the referencing system prescribed by the History Faculty but should be of use to students of all disciplines.  Source text  From a class perspective this put them [highwaymen] in an ambivalent position. In aspiring to that proud, if temporary, status of ‘Gentleman of the Road’, they did not question the inegalitarian hierarchy of their society. Yet their boldness of act and deed, in putting them outside the law as rebellious fugitives, revivified the ‘animal spirits’ of capitalism and became an essential part of the oppositional culture of working-class London, a serious obstacle to the formation of a tractable, obedient labour force. Therefore, it was not enough to hang them – the values they espoused or represented had to be challenged.  (Linebaugh, P., The London Hanged: Crime and Civil Society in the Eighteenth Century (London, 1991), p. 213. [You should give the reference in full the first time you use it in a footnote; thereafter it is acceptable to use an abbreviated version, e.g. Linebaugh, The London Hanged, p. 213.]  Plagiarised
+
+Although they did not question the inegalitarian hierarchy of their society, highwaymen became an essential part of the oppositional culture of working-class London, posing a serious threat to the formation of a biddable labour force. (This is a patchwork of phrases copied verbatim from the source, with just a few words changed here and there. There is no reference to the original author and no indication that these words are not the writer’s own.)  Although they did not question the inegalitarian hierarchy of their society, highwaymen exercised a powerful attraction for the working classes. Some historians believe that this hindered the development of a submissive workforce. (This is a mixture of verbatim copying and acceptable paraphrase. Although only one phrase has been copied from the source, this would still count as plagiarism. The idea expressed in the first sentence has not been attributed at all, and the reference to ‘some historians’ in the second is insufficient. The writer should use clear referencing to acknowledge all ideas taken from other people’s work.)  Although they did not question the inegalitarian hierarchy of their society, highwaymen ‘became an essential part of the oppositional culture of working-class London [and] a serious obstacle to the formation of a tractable, obedient labour force’.1 (This contains a mixture of attributed and unattributed quotation, which suggests to the reader that the first line is original to this writer. All quoted material must be enclosed in quotation marks and adequately referenced.)  Highwaymen’s bold deeds ‘revivified the “animal spirits” of capitalism’ and made them an essential part of the oppositional culture of working-class London.1 Peter Linebaugh argues that they posed a major obstacle to the formation of an obedient labour force. (Although the most striking phrase has been placed within quotation marks and correctly referenced, and the original author is referred to in the text, there has been a great deal of unacknowledged borrowing. This should have been put into the writer’s own words instead.)  By aspiring to the title of ‘Gentleman of the Road’, highwaymen did not challenge the unfair taxonomy of their society. Yet their daring exploits made them into outlaws and inspired the antagonistic culture of labouring London, forming a grave impediment to the development of a submissive workforce. Ultimately, hanging them was insufficient – the ideals they personified had to be discredited.1 (This may seem acceptable on a superficial level, but by imitating exactly the structure of the original passage and using synonyms for almost every word, the writer has paraphrased too closely. The reference to the original author does not make it clear how extensive the borrowing has been. Instead, the writer should try to express the argument in his or her own words, rather than relying on a ‘translation’ of the original.)
+
+Non-plagiarised
+
+Peter Linebaugh argues that although highwaymen posed no overt challenge to social orthodoxy – they aspired to be known as ‘Gentlemen of the Road’ – they were often seen as anti-hero role models by the unruly working classes. He concludes that they were executed not only for their criminal acts, but in order to stamp out the threat of insubordinacy.1 (This paraphrase of the passage is acceptable as the wording and structure demonstrate the reader’s interpretation of the passage and do not follow the original too closely. The source of the ideas under discussion has been properly attributed in both textual and footnote references.)  Peter Linebaugh argues that highwaymen represented a powerful challenge to the mores of capitalist society and inspired the rebelliousness of London’s working class.1 (This is a brief summary of the argument with appropriate attribution.)
+
+1 Linebaugh, P., The London Hanged: Crime and Civil Society in the Eighteenth Century (London, 1991), p. 213.
+
+Was this page useful? *
+
+Yes
+
+No
+
+Please tell us what you want to see on this page, the more specific you can be the more likely it is that we can add it.
+
+Systems
+
+Services
+
+Access Student Self Service
+
+Student Self Service
+
+Self Service guide
+
+Registration guide
+
+MyOxford
+
+Email
+
+Inspera
+
+Canvas
+
+Libraries search
+
+Exam Paper Archive
+
+TMS
+
+GSS - see Student Self Service
+
+The Careers Service
+
+Oxford University Sport
+
+Online store
+
+Gardens, Libraries and Museums
+
+Researchers Skills Toolkit
+
+Access Guide
+
+Lecture Lists
+
+Oxford Talks
+
+See also
+
+Referencing
+
+Reading, note-taking and library skills
+
+Undergraduate handbooks
+
+Graduate handbooks
+
+Student conduct
+
+Related websites
+
+Online plagiarism course
+
+Policy on the use of third party proof-readers
+
+Related documents
+
+docx
+
+Declaration of Authorship form
+
+667.9 KB
+
+Latest student news
+
+CAN'T FIND WHAT YOU'RE LOOKING FOR?  Try our extensive database of FAQs or submit your own question...
+
+Ask a question
+
+Share This
+
+Tweet
+
+Share on Facebook
+
+Share on LinkedIn
+
+Share on Reddit
+
+Connect with us
+
+Podcasts
+
+YouTube
+
+Twitter
+
+Facebook
+
+TikTok
+
+LinkedIn
+
+Weibo
+
+Instagram
+
+Medium
+
+The Conversation
+
+Information About
+
+Oxford University
+
+Strategic plan
+
+Oxford's research
+
+Course fees and funding
+
+Libraries
+
+Museums and collections
+
+Open days
+
+Oxford glossary
+
+Freedom of speech statement
+
+Statement on Modern Slavery
+
+Data privacy / GDPR
+
+Sport at Oxford
+
+Conferences at Oxford
+
+牛津大学
+
+Information For
+
+Prospective undergraduates
+
+Prospective graduate students
+
+International students  -->  Prospective Lifelong Learning students
+
+Prospective online/distance learning students
+
+Current Oxford students
+
+Current Oxford staff
+
+Oxford residents/Community
+
+Visitors/Tourists
+
+Media
+
+Alumni
+
+Teachers
+
+Parliamentarians
+
+Businesses/Partnerships
+
+Quick Links
+
+Any questions?
+
+Jobs and vacancies
+
+Term dates
+
+Map
+
+Nexus365 email
+
+Giving to Oxford
+
+©  University of Oxford 2026
+
+Contact us
+
+About this site
+
+Legal
+
+Privacy policy
+
+Cookie settings
+
+Accessibility Statement

@@ -1,0 +1,26 @@
+REMOTE WORKING SECURITY POLICY
+
+1. Approved Equipment
+Employees must only use company-approved devices for remote work. Use of personal
+devices to access company systems without IT approval is prohibited and constitutes
+a data security violation subject to disciplinary action.
+
+2. Network Security
+Employees must connect to company systems via the approved VPN at all times.
+Accessing company data on unsecured public Wi-Fi networks is prohibited. Violations
+that result in data breaches may result in dismissal and financial liability.
+
+3. Physical Security
+Employees must ensure that screens are not visible to unauthorised persons.
+Printed documents containing company data must be securely destroyed and must
+not be left accessible to household members.
+
+4. Incident Reporting
+Any suspected security incident including lost devices, phishing attempts, or
+unauthorised access must be reported to IT Security within 1 hour of discovery.
+Failure to report incidents promptly is a disciplinary offence.
+
+5. Home Environment
+The company reserves the right to conduct virtual security assessments of home
+working environments. Employees must comply with reasonable security requirements
+or risk losing remote working privileges.

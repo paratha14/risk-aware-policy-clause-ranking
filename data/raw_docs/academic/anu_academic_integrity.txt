@@ -1,0 +1,854 @@
+Referencing and Academic Integrity | Australian National University
+
+/* Big pullquote old styling */
+/* Import 'brand-colours' if needed */
+
+.big-pullquote {
+
+background: url("https://webstyle.anu.edu.au/images/icons/quote-in.png") no-repeat top left;
+
+width: 50%;
+
+text-align: center;
+
+color: black;
+
+font-size: 1.7em;
+
+line-height: 1.2em;
+}
+
+.big-pullquote p {
+
+background: url("https://webstyle.anu.edu.au/images/icons/quote-out.png") no-repeat bottom right;
+
+margin: 0;
+
+padding: 5px 30px;
+
+font-weight: 300;
+
+font-size: inherit;
+
+line-height: inherit;
+}
+
+.left {
+
+margin-right: 20px;
+}
+
+.right {
+
+margin-left: 20px;
+}
+
+.fullwidth {
+
+width: 100%;
+}
+
+/* Contact Form */
+.form-item, .form-actions {
+
+margin-top: 1em;
+
+margin-bottom: 1em;
+}
+label {
+
+margin: 0;
+
+padding: 0;
+
+border: 0;
+
+outline: 0;
+
+font-size: 100%;
+
+vertical-align: baseline;
+
+background: transparent;
+}
+
+label {
+
+display: block;
+
+font-weight: bold;
+}
+
+/* Dateblock Line */
+.dateblock-line, .timeblock-line {
+
+border-right: #000 1px solid;
+}
+
+.dateblock .day {
+
+font-size: 24px;
+}
+
+.dateblock .month {
+
+font-size: 12px;
+}
+
+.dateblock .year {
+
+font-size: 12px;
+}
+
+/* events page */
+
+/* Default styles for the eventscustom class */
+
+.eventscustom {
+
+position: absolute; /* Default position is absolute */
+
+/* Add other default styles here if needed */
+
+}
+
+/* Media query for responsive styles */
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+/* Overriding styles for eventscustom class within the media query */
+
+.eventscustom {
+
+position: static; /* Override position to static */
+
+width: 95%;
+
+margin-top: 50px;
+
+}
+
+}
+
+/* fa-ul overflow none */
+.fa-ul {
+
+overflow: inherit;
+
+margin-left: 2em;
+}
+
+/* fse - iframe resize */
+@media (min-width: 1200px) {
+
+#future-student-enquiry {
+
+height: 1200px;
+
+}
+}
+
+@media (min-width: 900px) {
+
+#future-student-enquiry {
+
+height: 1300px;
+
+}
+}
+
+@media (min-width: 480px) {
+
+#future-student-enquiry {
+
+height: 1400px;
+
+}
+}
+
+/* Gateway Header & Mega Menu */
+/*.anu-wf-mega-menu .nav-links a {*/
+/*	text-transform: uppercase;*/
+/*}*/
+
+header .anu-wf-header-logo {
+
+border-right: 0 !important;
+}
+
+header .anu-wf-header-title,
+header .anu-wf-header-subtitle {
+
+display: none;
+}
+
+/* Horizontal listing megamenu */
+.horizontal-list {
+display: inline-flex;
+padding: 10px 0;
+}
+
+.horizontal-list .list-item {
+display: inline-flex;
+align-items: center;
+margin-right: 30px;
+}
+
+.horizontal-list .list-item-title {
+
+display: flex;
+
+margin-right: 15px;
+
+height: 24px;
+
+line-height: 30px;
+
+font-weight: 500;
+}
+
+.horizontal-list .list-item img {
+
+display: inline-block;
+
+vertical-align: bottom;
+
+margin-right: 5px;
+}
+
+.horizontal-list .list-item i, .horizontal-list .list-item img {
+margin-right: 5px;
+}
+
+/* Set text color to black */
+.horizontal-list .list-item a {
+color: black;
+/* Prevent text wrapping */
+white-space: nowrap;
+}
+
+/* Remove underline from links */
+.horizontal-list .list-item a {
+text-decoration: none;
+}
+
+/* Live helper chat */
+._anu_chat_gadget {
+
+z-index: 9999;
+
+display: block;
+
+text-decoration: none;
+
+bottom: -20px;
+
+right: 0px;
+
+text-transform: uppercase;
+
+color: #BE830E;
+
+letter-spacing: 1px;
+
+font-size: 16px;
+
+}
+
+a._anu_chat_gadget:hover {
+
+color: #000;
+
+text-decoration: none;
+}
+
+.fixedbutton-box {
+
+position: fixed;
+
+bottom: 200px;
+
+right: 0px;
+
+width: 115px;
+
+z-index: 9999;
+}
+
+.fixedbutton {
+
+color: #fff;
+
+padding: 12px;
+
+background: #000;
+
+margin-top: 4px;
+
+border-radius: 5px;
+
+border: 1px solid #BE830E;
+}
+
+.fixedbutton-box img {
+
+max-width:35px;
+
+max-height:35px;
+
+display:block;
+
+margin: auto;
+
+padding-bottom:5px;
+}
+
+.fixedbutton:hover {
+
+background: #F5EDDE;
+}
+
+/* Old Styling Still Needed */
+a.btn-action {
+
+color: #000 !important;
+
+background: #fff;
+
+border-color: #be830e;
+
+border-width: 3px;
+
+border-style: solid;
+
+border-radius: 5px;
+
+text-decoration: none !important;
+
+display: inline-block;
+
+text-align: center;
+
+padding: 0.6em 2em;
+
+font-size: 1.3em;
+
+line-height: 1.1em;
+
+word-wrap: break-word;
+
+margin-bottom: 20px;
+}
+
+a.btn-action-black {
+
+color: #000;
+
+background-color: #fff;
+
+border-color: #000;
+
+border-width: 3px;
+
+border-style: solid;
+
+border-radius: 5px;
+
+text-decoration: none !important;
+
+display: inline-block;
+
+text-align: center;
+
+padding: 0.6em 2em;
+
+font-size: 1.3em;
+
+line-height: 1.1em;
+
+word-wrap: break-word;
+
+margin-bottom: 20px;
+}
+
+a.btn-action:hover {
+
+color: #be830e !important;
+
+background: #000;
+
+border-color: #000;
+}
+
+a.btn-action-black:hover {
+
+color: #fff !important;
+
+background: #000;
+
+border-color: #000;
+}
+
+.rteindent1 {
+
+margin-left: 40px;
+}
+
+.box-solid {
+
+padding: 10px;
+
+margin-bottom: 10px;
+
+border-width: 1px;
+
+border-style: solid;
+
+border-width: 3px !important;
+
+border-color: #be830e;
+
+background: #fff;
+}
+
+.padbottom {
+
+padding-bottom: 10px !important;
+
+margin-bottom: 0 !important;
+}
+
+.divline-boldheading-gold {
+
+border-bottom: 3px solid #be830e;
+
+margin-top: 20px;
+
+margin-bottom: 20px;
+
+padding: 5px 0 5px 0;
+
+padding-bottom: 5px;
+
+clear: both;
+}
+
+.marginright {
+
+margin-right: 20px;
+}
+
+.box.bg-uni25 {
+
+background-color: #f5edde;
+
+color: #000 !important;
+
+padding: 10px;
+
+margin-bottom: 10px;
+}
+
+/* Pager */
+.pager__items {
+
+display: block;
+
+margin: 0 auto;
+
+text-align: center;
+}
+
+.pager__item {
+
+display: inline-block;
+}
+
+.pager__item a {
+
+margin-right: 5px;
+}
+
+.pager__item a:hover {
+
+text-decoration: underline;
+}
+
+/* University Calendar */
+.university_cal {
+
+text-align: center;
+}
+
+.university_cal_prev_year {
+
+float: left;
+}
+
+.university_cal_next_year {
+
+float: right;
+}
+
+/* Yearbook */
+.views-label{
+
+display:inline-block;
+
+font-weight:bold;
+
+margin-bottom:12px;
+}
+
+.field-content{
+
+display:inline-block;
+
+padding-left:7px;
+
+margin-bottom:12px;
+}
+
+.views-field-field-hometown, .views-field-field-yearbook-state{
+
+display:inline-block;
+}
+
+.views-field-field-hometown .field-content::after{
+
+content: ',';
+
+}
+
+p{
+
+padding:0px;
+}
+
+/* Hero slider */
+.anu-wf-rotator-rotator img {
+
+width: 100%;
+}
+
+Skip to main content
+
+Newsroom
+
+Events
+
+Safety
+
+Maps
+
+Services
+
+Library
+
+Jobs
+
+Directories
+
+Main navigation
+
+About
+
+Academic Colleges
+
+University Executive
+
+Campuses
+
+facilities
+
+Strategic planning
+
+Global engagement
+
+Awards
+
+achievements
+
+ANU University Strategy Community Engagement
+
+Governance
+
+Our history
+
+Strategic initiatives
+
+Our external engagement
+
+Renew ANU
+
+Study
+
+Research
+
+Giving
+
+How to give
+
+Donor information
+
+Impact stories
+
+Report to Donors
+
+Support ANU
+
+Support students
+
+Kambri Scholars
+
+Alumni
+
+Benefits
+
+services
+
+Events
+
+News
+
+Awards
+
+Our alumni
+
+Get involved
+
+Current Students
+
+Student life
+
+Accommodation
+
+Scholarships
+
+Program admin
+
+Academic skills
+
+Accessibility
+
+Health, safety
+
+wellbeing
+
+Careers
+
+opportunities
+
+Graduation
+
+Learning platforms
+
+Contacts
+
+Information for
+
+First Nations
+
+About
+
+About ANU
+
+ANU is a world-leading university in Australia’s capital. Excellence is embedded in our approach to research and education.
+
+Academic Colleges
+
+University Executive
+
+Campuses
+
+facilities
+
+Strategic planning
+
+Global engagement
+
+Awards
+
+achievements
+
+ANU University Strategy Community Engagement
+
+Governance
+
+Our history
+
+Strategic initiatives
+
+Our external engagement
+
+Renew ANU
+
+Study
+
+Research
+
+Giving
+
+Giving
+
+Your donation will make a real difference to our community of researchers and students.
+
+How to give
+
+Donor information
+
+Impact stories
+
+Report to Donors
+
+Support ANU
+
+Support students
+
+Kambri Scholars
+
+Give now
+
+OUR PRIORITIES:
+
+First Nations Portfolio
+
+Leading in our region
+
+Transforming our world
+
+Alumni
+
+Alumni
+
+ANU graduates become lifelong members of our community. See what&#039;s on offer.
+
+Benefits
+
+services
+
+Events
+
+News
+
+Awards
+
+Our alumni
+
+Get involved
+
+Current Students
+
+Current students
+
+ANU has a huge variety of support services, programs and activities to enhance your student experience.
+
+Student life
+
+Accommodation
+
+Scholarships
+
+Program admin
+
+Academic skills
+
+Accessibility
+
+Health, safety
+
+wellbeing
+
+Careers
+
+opportunities
+
+Graduation
+
+Learning platforms
+
+Contacts
+
+Information for
+
+Information for
+
+New students
+
+Students with a disability
+
+Current International students
+
+Indigenous students
+
+Email
+
+Wattle
+
+Canvas
+
+ANUHub
+
+Timetable
+
+Programs
+
+courses
+
+Library
+
+ANUOK
+
+Figtree
+
+First Nations
+
+Breadcrumb
+
+Home
+
+Current students
+
+Academic Skills
+
+Referencing and Academic Integrity
+
+Referencing and Academic Integrity
+
+Academic integrity is a core part of our culture as a community of scholars. At its heart, academic integrity is about behaving ethically. This means that all members of the community commit to honest and responsible scholarly practice and to upholding these values with respect and fairness.
+
+Book appointment
+
+Why academic integrity matters
+
+As scholars, we develop our ideas by critically engaging with the work of…
+
+Academic integrity best practice
+
+It is imperative that you understand the academic integrity rules that…
+
+Using sources
+
+Using the work of others in your assignments is a required practice in the…
+
+Referencing
+
+The purpose of referencing is to show where the information you use comes from…
+
+Turnitin
+
+Turnitin is an online text matching tool accessed through Canvas designed to…
+
+Contact
+
+Academic Skills
+
++61 2 6125 2972
+
+Send email
+
+Academic skills
+
+window.dataLayer = window.dataLayer || []; window.dataLayer.push({"drupalLanguage":"en","drupalCountry":"AU","siteName":"Australian National University","entityCreated":"1675124375","entityLangcode":"en","entityStatus":"1","entityUid":"0","entityUuid":"1d8b93a6-1b67-4028-b180-df85a2e98176","entityVid":"170535","entityName":"Anonymous","entityType":"node","entityBundle":"panel","entityId":"739","entityTitle":"Referencing and Academic Integrity","entityTaxonomy":{"workbench_access_group":{"1405":"Scholarly Information Services"}},"userUid":0});
+
+{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/739","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"clientside_validation_jquery":{"validate_all_ajax_forms":2,"force_validate_on_blur":false,"force_html5_validation":false,"messages":{"required":"This field is required.","remote":"Please fix this field.","email":"Please enter a valid email address.","url":"Please enter a valid URL.","date":"Please enter a valid date.","dateISO":"Please enter a valid date (ISO).","number":"Please enter a valid number.","digits":"Please enter only digits.","equalTo":"Please enter the same value again.","maxlength":"Please enter no more than {0} characters.","minlength":"Please enter at least {0} characters.","rangelength":"Please enter a value between {0} and {1} characters long.","range":"Please enter a value between {0} and {1}.","max":"Please enter a value less than or equal to {0}.","min":"Please enter a value greater than or equal to {0}.","step":"Please enter a multiple of {0}."}},"dataLayer":{"defaultLang":"en","languages":{"en":{"id":"en","name":"English","direction":"ltr","weight":0}}},"pois":[],"user":{"uid":0,"permissionsHash":"eaf0baa9d02f691502ec7f3906593e0c1416fc9246cdaa37fd8902808291a99c"}}

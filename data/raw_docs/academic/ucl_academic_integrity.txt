@@ -1,0 +1,344 @@
+window.privacyConfig = {
+
+"privacyPolicySection": {
+
+"url": "https://www.ucl.ac.uk/legal-services/cookies",
+
+"linkText": "UCL privacy policy",
+
+"title": "Privacy Policy",
+
+"description": "Learn more about how we handle your data and protect your privacy.",
+
+"enabled": true
+
+},
+
+"whitelist": [
+
+"https://app.geckoform.com",
+
+"https://cxppusa1formui01cdnsa01-endpoint.azureedge.net",
+
+"https://assets-eur.mkt.dynamics.com",
+
+"https://apply5.lumessetalentlink.com",
+
+"https://api.reeled.online",
+
+"https://public-eur.mkt.dynamics.com"
+
+],
+
+"reclassify": {},
+
+"settingsButton": {
+
+"position": {
+
+"side": "right"
+
+},
+
+"urlConditions": [],
+
+"visibility": {
+
+"hidden": false
+
+}
+
+},
+
+"options": {
+
+"debug": false
+
+}
+};
+
+Academic Integrity | Study at UCL
+
+{"path":{"baseUrl":"\/study\/","pathPrefix":"","currentPath":"node\/1141","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJx1kYFuxCAIhl-o1kdaUCl1p2IUb-vbz3irvbtsiQH_D1BEV1qGoN1wq4AxPlGEBIRlIWYK-CFAmrp51yt8wvcrjItPzhNrA_amhPvKF6qoLBT3BLxVlpNgkgkLgrOlRVNPZFsBQTdqJ3S4QQuzbAPb1aEipjYZs_RX_CoKbCC8KpXg7gnEc_o3sD5mc8b33t516EO9pQToPpHam1G5D3Jy3OSPG59bjlgr0CjGwietbH3vaSRmKEAF8l7PT7vI2lJuJvi6o1vqUQXjmPoiR2Yqfjv03C13j19VD7tGdi3gD-adyPo","theme":"indigo","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-T26ZW8"]},"multiselect":{"widths":250},"user":{"uid":0,"permissionsHash":"018f9e8ebc8e83670d1c99326d293bf8ad5236fab6493a851c640c0c9360c747"}}
+
+Skip to main content
+
+Navigate back to homepage
+
+Search Term
+
+(optional)
+
+Submit search
+
+Main navigation
+
+Home
+
+Study
+
+Study
+
+Study
+
+Study at UCL
+
+Prospective students
+
+Current students
+
+Accommodation
+
+Careers
+
+Doctoral School
+
+Immigration and visas
+
+Student finances
+
+Support and wellbeing
+
+Close sub menu modal
+
+Research
+
+Research
+
+Research
+
+Research at UCL
+
+Engage with us
+
+Explore our Research
+
+Initiatives and networks
+
+Research news
+
+Close sub menu modal
+
+Engage
+
+Engage
+
+Engage
+
+Engage with UCL
+
+Alumni
+
+Business partnerships and collaboration
+
+Global engagement
+
+News and Media relations
+
+Public Policy
+
+Schools and priority groups
+
+Give to UCL
+
+Close sub menu modal
+
+About
+
+About
+
+About
+
+About UCL
+
+Who we are
+
+Faculties
+
+Governance
+
+President and Provost
+
+Strategy
+
+UCL&#039;s Bicentenary
+
+Close sub menu modal
+
+Active parent page:
+
+Study
+
+Prospective students
+
+Active parent page:
+
+Current students
+
+Accommodation
+
+Careers
+
+Doctoral School
+
+Immigration and visas
+
+Student Finances
+
+Support and Wellbeing
+
+Open or close faculty menu
+
+Academic Integrity
+
+What is Academic Integrity, why is it important, and what happens if you breach it?
+
+Breadcrumb trail
+
+Study at UCL
+
+Exams and assessments
+
+Faculty menu
+
+Current page:
+
+Academic Integrity
+
+About Academic Integrity
+
+About Academic Misconduct
+
+Academic Misconduct Panel
+
+Frequently Asked Questions
+
+Understanding Academic Integrity
+
+Useful Resources
+
+Breadcrumb trail
+
+Study at UCL
+
+Current students
+
+Exams and assessments
+
+Academic Integrity
+
+Academic Integrity means being honest in your academic work, and making sure that you formally recognise and reference the existing knowledge and ideas on which your work is based.  If you do not acknowledge the work or ideas of others, you could be penalised for Academic Misconduct, which is defined as any action or attempted action that may result in you obtaining an unfair academic advantage.  New guidance on the use of AI in assessment  A student briefing on how you might engage with  Artificial Intelligence (AI)  in your assessments, effectively and ethically.
+
+About Academic Integrity
+
+About Academic Integrity
+
+Find out what Academic Integrity is and why it is important.
+
+Understanding Academic Integrity
+
+Understanding Academic Integrity
+
+UCL&#039;s online and self-paced course to help you understand Academic Integrity.
+
+Useful Resources
+
+Useful Resources
+
+Useful resources and courses related to Academic Integrity.
+
+About Academic Misconduct
+
+About Academic Misconduct
+
+Find out what Academic Misconduct is and what happens if you are accused of it.
+
+Academic Misconduct Panel
+
+Academic Misconduct Panel
+
+Important information for students attending Academic Misconduct Panels.
+
+Frequently Asked Questions
+
+Frequently Asked Questions
+
+FAQs relating to Academic Integrity and Academic Misconduct
+
+UCL footer
+
+Visit
+
+Bloomsbury Theatre and Studio
+
+Library, Museums and Collections
+
+UCL Maps
+
+UCL Shop
+
+Contact UCL
+
+Students
+
+Accommodation
+
+Current Students
+
+Moodle
+
+Students&#039; Union
+
+Staff
+
+Inside UCL
+
+Staff Intranet
+
+Work at UCL
+
+Human Resources
+
+University College London, Gower Street, London, WC1E 6BT
+
+Tel: +44 (0) 20 7679 2000
+
+UCL social media menu
+
+Link to Instagram
+
+Link to LinkedIn
+
+Link to Youtube
+
+Link to TikTok
+
+Link to Facebook
+
+Link to Bluesky
+
+Link to Threads
+
+Link to Soundcloud
+
+Here, it can happen.
+
+Back to top
+
+Essential
+
+Disclaimer
+
+Freedom of Information
+
+Accessibility
+
+Cookies
+
+Privacy
+
+Slavery statement
+
+Log in
+
+© 2026 UCL

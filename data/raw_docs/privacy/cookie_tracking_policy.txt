@@ -1,0 +1,21 @@
+COOKIE AND TRACKING POLICY
+
+1. Consent Requirement
+Analytics and marketing cookies require explicit user consent before activation.
+Deploying non-essential cookies without consent violates ePrivacy regulations
+and may result in regulatory fines and reputational damage.
+
+2. Third-Party Sharing
+Data collected via cookies shall not be shared with third parties without
+user consent. Unauthorized sharing constitutes a breach of applicable data
+protection laws and may result in enforcement action.
+
+3. Retention Limits
+Cookies must not be retained beyond their stated purpose or declared lifespan.
+Exceeding declared retention periods constitutes a policy violation subject to
+regulatory audit.
+
+4. Children's Protection
+Tracking cookies must not be deployed on pages directed at children under 13.
+Any violation of children's data protection requirements will result in
+mandatory reporting and enhanced regulatory scrutiny.

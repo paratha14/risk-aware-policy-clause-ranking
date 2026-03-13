@@ -1,0 +1,188 @@
+Academic integrity - The University of Sydney
+
+.m-local-desktop-nav {
+
+visibility: hidden;
+
+}
+
+.m-global-mobile-nav {
+
+visibility: visible;
+
+}
+
+@media (min-width: 992px) {
+
+.m-local-desktop-nav {
+
+visibility:visible;
+
+}
+
+.m-global-mobile-nav {
+
+visibility:hidden;
+
+}
+
+}
+
+Current students
+
+Current students
+
+/
+
+Your studies
+
+/
+
+Academic integrity
+
+Academic integrity
+
+As a student of the University, you are responsible for taking part in your education in an honest and authentic manner.
+
+Academic integrity
+
+Academic integrity breaches
+
+Detection and investigation of academic integrity breaches
+
+Artificial intelligence
+
+Academic integrity
+
+*/-->
+
+Academic integrity is a core value of the University of Sydney, in both education and research. By joining the University community, you have agreed to uphold this value and to proactively contribute to the University’s culture of academic integrity.
+
+Acting with academic integrity means doing the right thing even when things seem difficult and taking a shortcut to academic success seems easier. There is no such thing as achieving genuine academic success without first putting in hard work and effort.
+
+Behaving with academic integrity also means that you must acknowledge where other people, technologies or tools have contributed to your work in some way. This could include acknowledging words, ideas, images, computer code, or artistic or musical creations. It can also mean acknowledging any assistance provided by other people in relation to your work, including any feedback, proof-reading or editing.
+
+Acting with academic honesty also means you do not try to benefit academically by misleading others or being unfair to others, including gaining any kind of unfair advantage over others.
+
+When you act with academic honesty and integrity at university, having applied the proper effort, you can be proud that you have truly earned your qualification. You can be proud that you have developed your mind and skills to the tertiary level and be confident in your ability to succeed in your career.
+
+Relevant policies for academic integrity
+
+We expect you to be familiar with the policies and codes covering academic honesty and conduct at the University.
+
+Academic Integrity Policy  (updated 2023)
+
+Academic Integrity Procedures  (updated 2023)
+
+The Student Charter
+
+University of Sydney (Student Discipline) Rule
+
+Research Code of Conduct  (for honours and research units of study)
+
+Student responsibilities
+
+Transitional arrangements
+
+The former policy and associated procedures, which were superseded in February 2023, are the Academic Honesty in Coursework Policy 2015 and the Academic Honesty Procedures 2016. These will apply for any breaches related to submissions prior to 20 February 2023, and as such you will be provided access to copies of them when relevant.
+
+Studying with integrity: the Academic Honesty Education Module (AHEM)
+
+The Academic Honesty Education Module (AHEM) is mandatory for all commencing coursework students. It takes about an hour to complete.
+
+You need to complete it by the census date of your first semester. Your academic record can be suppressed if it isn't completed.
+
+It will set you up with knowledge and support services so you can study with academic integrity.
+
+If you have any problems accessing or completing the module, contact the Office of Educational Integrity (OEI) at  educational.integrity@sydney.edu.au .
+
+Completing the AHEM means you won't have to retake it for up to five years, even if you change courses.
+
+New students
+
+The module is mandatory for all new coursework students.
+
+You will be automatically enrolled when you begin your course, and you should see it in your Canvas dashboard.
+
+Continuing students
+
+Your unit of study outline will state if you need to complete the AHEM as a continuing student.
+
+You can complete or revisit the module voluntarily at any time during your studies
+
+The AHEM is regularly reviewed with new information, especially about new technologies such as AI.
+
+Access AHEM on Canvas
+
+Workshops, services and resources
+
+At university there is a different style of learning – with less focus on memorising knowledge delivered by teachers and more focus on locating and interpreting knowledge, and developing critical thinking skills.
+
+While this can be an adjustment at first, university is designed this way intentionally. If you are ever struggling, remember that there are a wide range of workshops and online resources to assist you with your studies.
+
+The  Learning Hub (Academic Language and Learning)  offers workshops, online resources and individual consultations on study and writing skills. For example, the  Using evidence and Avoiding Plagiarism modules  helps you practice strategies to avoid plagiarism and identify the differences between quoting, paraphrasing and summarising.
+
+The  Learning Hub (Mathematics)  offers bridging courses, drop-in services and online resources.
+
+The University’s  Student wellbeing  services offer a range of confidential and free health and wellbeing support, including  self-help resources  on time management, exam preparation among other things.
+
+For information about referencing and online guides to different citation styles,  visit the Library's referencing page .
+
+Academic integrity and working with other students
+
+When you are being assessed for a group assignment, you need to contribute your own original work to the group and properly acknowledge any outside sources, tools or technologies used in the preparation of your work. If you don’t, you put everyone in the group at risk of being accused of an academic integrity breach.
+
+Acting with academic honesty in group work also means that you commit fully to participating in group discussions and meeting agreed deadlines. It is unfair to leave your group members feeling like they need to complete work you were supposed to complete. It is even more unfair (and dishonest) to accept marks for group work if you have let others do your work for you.
+
+Access AHEM
+
+Related links
+
+Academic integrity breaches and plagiarism
+
+Sexual misconduct
+
+Student IT
+
+Key dates
+
+Research integrity and ethics
+
+Office of Educational Integrity
+
+Email
+
+educational.integrity@sydney.edu.au
+
+.column {
+
+margin-top:-50px;
+}
+
+Academic integrity breaches
+
+Last updated: 05 March 2026
+
+Website feedback
+
+Tell us if you’ve spotted a typo or something else wrong with this page. If you have an enquiry or need help with something else such as your enrolment, course etc you can contact the Student Centre.
+
+Tell us if you’ve spotted a typo or something else wrong with this page. For any other enquiries please contact the Student Centre.
+
+Send feedback
+
+Cancel
+
+Thankyou message: Your feedback has been sent.
+
+Failure message: Sorry there was a problem sending your feedback. Please try again
+
+var addthis_config = {
+
+"ui_click": true,
+
+"ui_508_compliant": false,
+
+"services_exclude": "print"
+
+};
