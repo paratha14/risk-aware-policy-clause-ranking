@@ -1,0 +1,331 @@
+{
+  "dataset_name": "Multi-Domain Policy Clause Corpus (MDPCC)",
+  "version": "1.1",
+  "description": "A multi-domain corpus of policy and regulatory documents collected for the Risk-Aware Policy Clause Importance Ranking project. Documents span legal contracts, privacy policies, academic regulations, and HR/corporate policies.",
+  "created_by": "NLP & Clause Processing Lead (Member 1)",
+  "project": "Risk-Aware Policy Clause Importance Ranking",
+
+  "corpus_stats": {
+    "legal": 102,
+    "privacy": 44,
+    "academic": 30,
+    "hr": 27,
+    "total": 203,
+    "note": "Legal trimmed to 102 from 510 available CUAD contracts for domain balance"
+  },
+
+  "domains": {
+
+    "legal": {
+      "description": "Commercial legal contracts sourced from the CUAD dataset (SEC EDGAR filings)",
+      "sources": [
+        {
+          "id": "CUAD",
+          "full_name": "Contract Understanding Atticus Dataset (CUAD) v1",
+          "authors": "Hendrycks, D., Burns, C., Chen, A., & Ball, S.",
+          "year": 2021,
+          "institution": "The Atticus Project, Inc.",
+          "paper_title": "CUAD: An Expert-Annotated NLP Dataset for Legal Contract Review",
+          "arxiv": "https://arxiv.org/abs/2103.06268",
+          "huggingface": "https://huggingface.co/datasets/theatticusproject/cuad",
+          "github": "https://github.com/TheAtticusProject/cuad",
+          "license": "CC BY 4.0",
+          "access_method": "Manual download of CUADv1.json from GitHub release, extracted via extract_cuad_from_json.py",
+          "access_date": "March 2025",
+          "num_contracts_available": 510,
+          "num_contracts_used": 102,
+          "notes": "Contracts sourced from SEC EDGAR. Labeled by law students under attorney supervision. Used raw contract text only — our own clause segmentation and risk labeling applied on top. Trimmed to 102 for domain balance.",
+          "cite_as": "Hendrycks et al. (2021). CUAD: An Expert-Annotated NLP Dataset for Legal Contract Review. arXiv:2103.06268.",
+          "bibtex": "@article{hendrycks2021cuad, title={CUAD: An Expert-Annotated NLP Dataset for Legal Contract Review}, author={Hendrycks, Dan and Burns, Collin and Chen, Anya and Ball, Spencer}, journal={arXiv preprint arXiv:2103.06268}, year={2021}}"
+        }
+      ]
+    },
+
+    "privacy": {
+      "description": "Privacy policies and data protection regulatory texts — mix of HuggingFace dataset and curated regulatory docs",
+      "total_docs": 44,
+      "sources": [
+        {
+          "id": "LEX_GLUE_LEDGAR",
+          "full_name": "LexGLUE — LEDGAR subset",
+          "authors": "Chalkidis, I., Jana, A., Hartung, D., Bommarito, M., Androutsopoulos, I., Katz, D., & Aletras, N.",
+          "year": 2022,
+          "paper_title": "LexGLUE: A Benchmark Dataset for Legal Language Understanding in English",
+          "arxiv": "https://arxiv.org/abs/2110.00976",
+          "huggingface": "https://huggingface.co/datasets/coastalcph/lex_glue",
+          "license": "CC BY 4.0",
+          "access_method": "HuggingFace datasets library — coastalcph/lex_glue, ledgar config, train split",
+          "access_date": "March 2025",
+          "notes": "LEDGAR subset contains legal provisions from SEC-filed contracts. Used for privacy and compliance clause coverage.",
+          "cite_as": "Chalkidis et al. (2022). LexGLUE: A Benchmark Dataset for Legal Language Understanding in English. ACL 2022.",
+          "bibtex": "@inproceedings{chalkidis2022lexglue, title={LexGLUE: A Benchmark Dataset for Legal Language Understanding in English}, author={Chalkidis, Ilias and Jana, Abhik and Hartung, Dirk and Bommarito, Michael and Androutsopoulos, Ion and Katz, Daniel Martin and Aletras, Nikolaos}, booktitle={Proceedings of ACL}, year={2022}}"
+        },
+        {
+          "id": "GDPR_CURATED",
+          "full_name": "General Data Protection Regulation (GDPR) — Curated Policy Clauses",
+          "institution": "European Parliament and Council of the European Union",
+          "year": 2016,
+          "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679",
+          "reference_url": "https://gdpr-info.eu",
+          "license": "Public domain (EU law)",
+          "access_method": "Project-curated — clauses constructed based on GDPR Articles 5, 12, 33, and 44",
+          "files": ["gdpr_policy.txt"],
+          "notes": "Covers data retention, right to erasure, breach notification, and cross-border transfer clauses.",
+          "cite_as": "European Parliament. (2016). Regulation (EU) 2016/679 (General Data Protection Regulation). Official Journal of the European Union, L 119, 1-88."
+        },
+        {
+          "id": "CCPA_CURATED",
+          "full_name": "California Consumer Privacy Act (CCPA) — Curated Policy Clauses",
+          "institution": "State of California",
+          "year": 2018,
+          "official_url": "https://oag.ca.gov/privacy/ccpa",
+          "license": "Public domain (U.S. state law)",
+          "access_method": "Project-curated — clauses constructed based on Cal. Civ. Code § 1798.100 et seq.",
+          "files": ["ccpa_policy.txt"],
+          "notes": "Covers consumer rights, opt-out, data security obligations, and minors' data.",
+          "cite_as": "California Attorney General. (2018). California Consumer Privacy Act. Cal. Civ. Code § 1798.100 et seq."
+        },
+        {
+          "id": "COOKIE_CURATED",
+          "full_name": "Cookie and Tracking Policy — Curated",
+          "license": "Project-created (CC BY 4.0)",
+          "access_method": "Project-curated based on ePrivacy Directive and ICO cookie guidance",
+          "files": ["cookie_policy.txt"],
+          "reference": "ICO. (2023). Cookies and similar technologies. https://ico.org.uk/for-organisations/guide-to-pecr/guidance-on-the-use-of-cookies-and-similar-technologies/"
+        },
+        {
+          "id": "EMPLOYEE_DATA_CURATED",
+          "full_name": "Employee Data Privacy Policy — Curated",
+          "license": "Project-created (CC BY 4.0)",
+          "access_method": "Project-curated based on GDPR employment data guidance",
+          "files": ["employee_data_policy.txt"],
+          "reference": "ICO. (2023). Data protection and employment. https://ico.org.uk/for-organisations/guide-to-data-protection/guidance-for-employers/"
+        }
+      ]
+    },
+
+    "academic": {
+      "description": "University academic integrity policies, student conduct codes, examination regulations, and course policies",
+      "total_docs": 30,
+      "sources": [
+        {
+          "id": "SCRAPED_UNIVERSITY_PAGES",
+          "full_name": "University Policy Web Pages — HTML Scraped",
+          "access_method": "HTTP scraping of publicly accessible university policy pages",
+          "access_date": "March 2025",
+          "license": "Public — university web content",
+          "institutions_attempted": [
+            "Stanford University", "MIT", "Harvard University", "University of Oxford",
+            "UCL", "University of Manchester", "University of Edinburgh", "ANU",
+            "University of Toronto", "University of Melbourne", "Columbia University",
+            "Yale University", "University of Cambridge", "University of Sydney",
+            "NYU", "Imperial College London", "University of Michigan",
+            "Georgia Tech", "Purdue University"
+          ],
+          "notes": "Not all pages successfully scraped due to network restrictions or access controls. Successfully scraped pages saved as domain txt files."
+        },
+        {
+          "id": "CURATED_ACADEMIC",
+          "full_name": "Curated Academic Policy Documents",
+          "license": "Project-created (CC BY 4.0)",
+          "access_method": "Project-curated — constructed based on standard university policy frameworks",
+          "files": [
+            "exam_and_assessment_policy.txt",
+            "student_conduct_code.txt",
+            "course_syllabus_policies.txt",
+            "library_and_it_policy.txt",
+            "research_ethics_policy.txt",
+            "dissertation_submission_policy.txt",
+            "student_assessment_appeals.txt",
+            "international_student_policy.txt",
+            "online_learning_policy.txt",
+            "scholarship_terms_policy.txt",
+            "field_trip_safety_policy.txt",
+            "academic_freedom_policy.txt",
+            "student_data_privacy_policy.txt",
+            "academic_misconduct_procedures.txt",
+            "thesis_examination_policy.txt",
+            "student_visa_attendance_policy.txt",
+            "classroom_conduct_policy.txt",
+            "graduate_admissions_policy.txt",
+            "examination_board_policy.txt",
+            "library_borrowing_policy.txt"
+          ],
+          "frameworks_referenced": [
+            "QAA UK Quality Code for Higher Education",
+            "ACAD Academic Integrity frameworks",
+            "UK Office for Students regulatory guidance",
+            "SEVIS (Student and Exchange Visitor Program) compliance requirements"
+          ],
+          "notes": "Constructed to cover realistic policy types with natural clause severity variation across Low, Medium, High, and Critical risk levels."
+        }
+      ]
+    },
+
+    "hr": {
+      "description": "Human resources and corporate workplace policy documents covering the full employment lifecycle",
+      "total_docs": 27,
+      "sources": [
+        {
+          "id": "SCRAPED_HR_PAGES",
+          "full_name": "Public HR Guidance Pages — HTML Scraped",
+          "access_method": "HTTP scraping of publicly accessible HR guidance pages",
+          "access_date": "March 2025",
+          "license": "Public — government and professional body web content",
+          "sources_attempted": [
+            "ACAS (Advisory, Conciliation and Arbitration Service) — acas.org.uk",
+            "CIPD (Chartered Institute of Personnel and Development) — cipd.org",
+            "OPM (U.S. Office of Personnel Management) — opm.gov",
+            "SHRM (Society for Human Resource Management) — shrm.org"
+          ],
+          "notes": "ACAS pages generally accessible. SHRM and CIPD may require login. Successfully scraped pages saved as domain txt files."
+        },
+        {
+          "id": "CURATED_HR",
+          "full_name": "Curated HR and Corporate Policy Documents",
+          "license": "Project-created (CC BY 4.0)",
+          "access_method": "Project-curated — constructed based on standard HR policy frameworks",
+          "files": [
+            "hr_code_of_conduct.txt",
+            "hr_disciplinary_policy.txt",
+            "hr_data_and_it_policy.txt",
+            "hr_leave_policy.txt",
+            "hr_remote_work_security.txt",
+            "hr_equal_opportunities_policy.txt",
+            "hr_whistleblowing_policy.txt",
+            "hr_social_media_policy.txt",
+            "hr_health_safety_policy.txt",
+            "hr_performance_review_policy.txt",
+            "hr_expenses_policy.txt",
+            "hr_grievance_policy.txt",
+            "hr_recruitment_policy.txt",
+            "hr_probation_policy.txt",
+            "hr_redundancy_policy.txt",
+            "hr_flexible_working_policy.txt",
+            "hr_maternity_paternity_policy.txt",
+            "hr_anti_bribery_policy.txt",
+            "hr_drug_alcohol_policy.txt",
+            "hr_training_development_policy.txt",
+            "hr_conflict_resolution_policy.txt",
+            "hr_intellectual_property_policy.txt",
+            "hr_communication_policy.txt",
+            "hr_termination_policy.txt"
+          ],
+          "frameworks_referenced": [
+            "SHRM (Society for Human Resource Management) policy templates",
+            "CIPD (Chartered Institute of Personnel and Development) guidelines",
+            "UK Employment Rights Act 1996",
+            "UK Equality Act 2010",
+            "UK Health and Safety at Work Act 1974",
+            "FLSA (Fair Labor Standards Act)",
+            "FMLA (Family and Medical Leave Act)",
+            "UK Bribery Act 2010",
+            "ACAS Code of Practice on Disciplinary and Grievance Procedures"
+          ],
+          "notes": "Covers the full employment lifecycle: recruitment, probation, performance, leave, misconduct, grievance, termination, and post-employment obligations. Designed to have realistic risk severity variation across all four risk levels."
+        }
+      ]
+    }
+  },
+
+  "key_nlp_papers_to_cite": [
+    {
+      "id": "SBERT",
+      "full_name": "Sentence-BERT",
+      "authors": "Reimers, N. & Gurevych, I.",
+      "year": 2019,
+      "paper_title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+      "venue": "EMNLP 2019",
+      "arxiv": "https://arxiv.org/abs/1908.10084",
+      "relevance": "Used for semantic clause embeddings — Step 8",
+      "bibtex": "@inproceedings{reimers2019sentencebert, title={Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks}, author={Reimers, Nils and Gurevych, Iryna}, booktitle={Proceedings of EMNLP}, year={2019}}"
+    },
+    {
+      "id": "LEGAL_BERT",
+      "full_name": "LEGAL-BERT",
+      "authors": "Chalkidis, I., Fergadiotis, M., Malakasiotis, P., Aletras, N., & Androutsopoulos, I.",
+      "year": 2020,
+      "paper_title": "LEGAL-BERT: The Muppets straight out of Law School",
+      "venue": "Findings of EMNLP 2020",
+      "arxiv": "https://arxiv.org/abs/2010.02559",
+      "relevance": "Domain-adapted BERT for legal text — cite in Related Work",
+      "bibtex": "@inproceedings{chalkidis2020legalbert, title={LEGAL-BERT: The Muppets straight out of Law School}, author={Chalkidis, Ilias and Fergadiotis, Manos and Malakasiotis, Prodromos and Aletras, Nikolaos and Androutsopoulos, Ion}, booktitle={Findings of EMNLP}, year={2020}}"
+    },
+    {
+      "id": "SPACY",
+      "full_name": "spaCy",
+      "authors": "Honnibal, M. & Montani, I.",
+      "year": 2017,
+      "url": "https://spacy.io",
+      "relevance": "Used for clause segmentation (sentence boundary detection) and linguistic feature extraction — Steps 3 and 7",
+      "cite_as": "Honnibal, M., & Montani, I. (2017). spaCy 2: Natural language understanding with Bloom embeddings, convolutional neural networks and incremental parsing."
+    },
+    {
+      "id": "SKLEARN",
+      "full_name": "scikit-learn",
+      "authors": "Pedregosa, F. et al.",
+      "year": 2011,
+      "paper_title": "Scikit-learn: Machine Learning in Python",
+      "journal": "Journal of Machine Learning Research, 12, 2825-2830",
+      "url": "https://scikit-learn.org",
+      "relevance": "TF-IDF vectorization, Logistic Regression, Random Forest — Steps 8 and Member 2",
+      "bibtex": "@article{scikit-learn, title={Scikit-learn: Machine Learning in {P}ython}, author={Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V. and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P. and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.}, journal={Journal of Machine Learning Research}, volume={12}, pages={2825--2830}, year={2011}}"
+    },
+    {
+      "id": "XGBOOST",
+      "full_name": "XGBoost",
+      "authors": "Chen, T. & Guestrin, C.",
+      "year": 2016,
+      "paper_title": "XGBoost: A Scalable Tree Boosting System",
+      "venue": "KDD 2016",
+      "arxiv": "https://arxiv.org/abs/1603.02754",
+      "relevance": "Risk severity classifier — Member 2",
+      "bibtex": "@inproceedings{chen2016xgboost, title={XGBoost: A Scalable Tree Boosting System}, author={Chen, Tianqi and Guestrin, Carlos}, booktitle={Proceedings of KDD}, year={2016}}"
+    },
+    {
+      "id": "PDFPLUMBER",
+      "full_name": "pdfplumber",
+      "authors": "Singer-Vine, J.",
+      "year": 2020,
+      "url": "https://github.com/jsvine/pdfplumber",
+      "relevance": "PDF text extraction — Step 2",
+      "cite_as": "Singer-Vine, J. (2020). pdfplumber. https://github.com/jsvine/pdfplumber"
+    }
+  ],
+
+  "target_venues": [
+    {
+      "name": "NLLP Workshop at EMNLP",
+      "full_name": "Natural Legal Language Processing Workshop",
+      "url": "https://nllpw.org",
+      "fit": "Highest — directly covers NLP for legal and regulatory risk assessment"
+    },
+    {
+      "name": "ICICC",
+      "full_name": "International Conference on Innovative Computing and Communications",
+      "publisher": "Springer LNNS",
+      "url": "https://icicc-conf.com",
+      "fit": "High — student-friendly, NLP papers accepted, India-based, fast turnaround"
+    },
+    {
+      "name": "ICDSML",
+      "full_name": "International Conference on Data Science and Machine Learning",
+      "publisher": "IEEE / Springer",
+      "fit": "High — covers ML classification and NLP applications"
+    },
+    {
+      "name": "ICAC",
+      "full_name": "International Conference on Automation and Computing",
+      "publisher": "IEEE",
+      "fit": "Medium — accepts NLP and applied ML papers"
+    }
+  ],
+
+  "notes_for_paper": {
+    "dataset_section_title": "Multi-Domain Policy Clause Corpus (MDPCC)",
+    "novelty_claim": "To the best of our knowledge, no existing dataset covers policy clause risk severity across legal, privacy, academic, and HR domains simultaneously.",
+    "labeling_note": "Risk labels (Low / Medium / High / Critical) were assigned using a rule-assisted automatic labeler followed by manual verification — see Section 3.2.",
+    "synthetic_doc_justification": "Curated synthetic documents follow established policy frameworks (SHRM, CIPD, QAA, ACAS) and were reviewed for realistic clause severity distribution. This approach is consistent with prior low-resource NLP dataset construction work.",
+    "domain_balance_note": "Legal domain trimmed from 510 to 102 documents to prevent domain imbalance during classifier training."
+  }
+}
