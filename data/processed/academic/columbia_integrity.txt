@@ -1,0 +1,223 @@
+window.dataLayer = window.dataLayer || [];
+
+function gtag(){dataLayer.push(arguments);}
+
+gtag('js', new Date());
+
+gtag('config', 'G-3EJ2ZC1VG1');
+
+Academic Integrity | Columbia College
+
+Columbia College
+
+Main Menu
+
+About the College
+
+Mission, Vision
+
+Community
+
+History
+
+Leadership
+
+News and Updates
+
+Visit Columbia College
+
+The Core Curriculum
+
+The Classes
+
+Registration and Policies
+
+Awards and Prizes
+
+About the Core
+
+Undergraduate Writing Program
+
+Current Bulletin
+
+Archived Bulletins
+
+Academic Coursework
+
+Academic Advising and Support
+
+Academic Opportunities
+
+Academic Honors, Awards and Prizes
+
+Academic Affairs
+
+Advising
+
+Berick Center for Student Advising
+
+Career Advising
+
+Fellowship Advising
+
+Financial Aid Advising
+
+Global Programs Advising
+
+Major Advising
+
+Preprofessional Advising
+
+Admissions
+
+Financial Aid
+
+Learn About Columbia
+
+Visit Columbia
+
+Apply to Columbia
+
+Campus Life
+
+Undergraduate Student Life
+
+Student Resources
+
+Supporting the College
+
+Audiences
+
+Faculty
+
+Families
+
+Alumni
+
+Search
+
+Home
+
+&#47;
+
+&#47;
+
+Academic integrity is the cornerstone of our intellectual community. All scholarship teaching, research, and student learning is the product of intellectual exchange. Whether this exchange takes place in books and journal articles, in laboratories, in the design of experiments and the analysis of data, in the classroom, or in students written work, it is these joint undertakings that create Columbia s intellectual community at Columbia College.
+
+The value of our collective inquiry relies upon trust and honesty for our individual discoveries are dependent upon the discoveries of our peers and predecessors, here at Columbia and elsewhere. And all intellectual work must be evaluated the work of students is evaluated by faculty; the work of faculty is evaluated through peer-review. We must, therefore, be able to trust that others are honest in their work and others must be able to trust that we are honest in ours.
+
+Columbia College Honor Code
+
+The Columbia College Student Council, on behalf of the whole student body, has resolved that maintaining academic integrity is the preserve of all members of our intellectual community including and especially students.
+
+As a consequence, all Columbia College students make the following pledge:
+
+We, the undergraduate students of Columbia University, hereby pledge to value the integrity of our ideas and the ideas of others by honestly presenting our work, respecting authorship, and striving not simply for answers but for understanding in the pursuit of our common scholastic goals. In this way, we seek to build an academic community governed by our collective efforts, diligence, and Code of Honor.
+
+In addition, all Columbia College students are committed to the following honor code:
+
+I affirm that I will not plagiarize, use unauthorized materials, or give or receive illegitimate help on assignments, papers, or examinations. I will also uphold equity and honesty in the evaluation of my work and the work of others. I do so to sustain a community built around this Code of Honor.
+
+For more information on Academic Initiatives and the Academic Affairs Student Representative, visit the
+
+Columbia College Student Council website .
+
+For more information on the ways that College and SEAS students are introduced to, and trained on, matters of academic integrity, visit the Academic Integrity website for undergraduates.
+
+Faculty Statement on Academic Integrity
+
+The intellectual venture in which we are all engaged requires of faculty and students alike the highest level of personal and academic integrity. As members of an academic community, each one of us bears the responsibility to participate in scholarly discourse and research in a manner characterized by intellectual honesty and scholarly integrity.
+
+Scholarship, by its very nature, is an iterative process, with ideas and insights building one upon the other. Collaborative scholarship requires the study of other scholars' work, the free discussion of such work, and the explicit acknowledgement of those ideas in any work that inform our own. This exchange of ideas relies upon a mutual trust that sources, opinions, facts, and insights will be properly noted and carefully credited.
+
+In practical terms, this means that, as students, you must be responsible for the full citations of others' ideas in all of your research papers and projects; you must be scrupulously honest when taking your examinations; you must always submit your own work and not that of another student, scholar, or internet agent.
+
+Any breach of this intellectual responsibility is a breach of faith with the rest of our academic community. It undermines our shared intellectual culture, and it cannot be tolerated. Students failing to meet these responsibilities should anticipate being asked to leave Columbia.
+
+For more information on academic integrity at Columbia, students may refer to the Columbia University Undergraduate Guide to Academic Integrity : http://www.college.columbia.edu/academics/academicintegrity
+
+More Information
+
+For more information about how academic integrity is defined for students, or how disciplinary processes for violations of academic integrity are handled, please see the
+
+Columbia College - Columbia Engineering Academic Integrity website .
+
+Current Bulletin
+
+Archived Bulletins
+
+Academic Coursework
+
+Academic Advising and Support
+
+Academic Opportunities
+
+Academic Honors, Awards and Prizes
+
+Academic Affairs
+
+Columbia College
+
+Columbia University in the City of New York
+
+Facebook
+
+Twitter
+
+Instagram
+
+Linkedin
+
+Contact Us
+
+208 Hamilton Hall Mail Code 2805 1130 Amsterdam Avenue New York, NY 10027
+
+ColumbiaCollege@columbia.edu 212-854-2441
+
+College Offices
+
+Alumni Affairs and Development
+
+Berick Center for Student Advising
+
+Center for Career Education
+
+Center for the Core Curriculum
+
+Center for Undergraduate Global Engagement
+
+Double Discovery Center
+
+Eric H. Holder Jr. Initiative for Civil and Political Rights
+
+Financial Aid
+
+Educational Financing
+
+Undergraduate Admissions
+
+Undergraduate Research and Fellowships
+
+Undergraduate Student Life
+
+ 2026 Columbia University
+
+|
+
+Privacy Policy
+
+|
+
+Notice of Non-Discrimination
+
+|
+
+Terms of Use
+
+|
+
+Accessibility
+
+|
+
+University Home Page

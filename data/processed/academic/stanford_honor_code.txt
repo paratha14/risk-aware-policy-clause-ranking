@@ -1,0 +1,269 @@
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-ECSZ3EMVHZ", {"groups":"default","page_placeholder":"PLACEHOLDER_page_location","allow_ad_personalization_signals":false,"cookie_domain":"communitystandards.stanford.edu","cookie_prefix":"su","cookie_expires":15552000});
+
+The Honor Code | Office of Community Standards
+
+gtag('config', 'G-BECJQXLNCY', {cookie_domain: window.location.host, cookie_prefix: "sws", "ga-expire": 15552000});
+
+Skip to main content
+
+Skip to secondary navigation
+
+Stanford University (link is external)
+
+Stanford
+
+File Concern
+
+Search this site
+
+Submit Search
+
+Menu
+
+Who We Are
+
+Office of Community Standards (OCS) Staff
+
+Get Involved
+
+Policies
+
+Guidance
+
+Fundamental Standard
+
+Fundamental Standard (Up to May 1, 2023)
+
+Previous Honor Code
+
+Policies
+
+Guidance Links
+
+Other Stanford Policies
+
+Stanford Student Conduct Charter of 2023
+
+Student Accountability Process (2023 Charter)
+
+Bylaws to Charter
+
+Student Conduct Penalty Code Bylaw
+
+BCA Guidance
+
+Recommendations
+
+BCA Guidance: Definitions and Clarifications
+
+BCA Guide to the Penalty Code (1997 Charter)
+
+BCA&#039;s Interim Honor Code Recommendations
+
+Academic Accommodations
+
+the Honor Code
+
+The Student Judicial Charter of 1997
+
+Stanford Group Accountability Process (SGAP)
+
+SGAP Policies and Procedures
+
+SGAP Current Policies and Procedures
+
+Resources
+
+Responding Students
+
+Faculty
+
+TAs
+
+Serving as a Witness
+
+Judicial Counselor Guidelines
+
+About the Board on Conduct Affairs
+
+Additional Resources
+
+Remote Learning and the Honor Code: Tips for Students
+
+BCA Guidance for the Remote Teaching and Learning Environment
+
+Protected Speech, Discrimination, and Harassment
+
+File a Concern
+
+Main content start
+
+The Honor Code is an undertaking of the Stanford academic community, individually and collectively. Its purpose is to uphold a culture of academic honesty. Students will support this culture of academic honesty by neither giving nor accepting unpermitted academic aid in any work that serves as a component of grading or evaluation, including assignments, examinations, and research. Instructors will support this culture of academic honesty by providing clear guidance, both in their course syllabi and in response to student questions, on what constitutes permitted and unpermitted aid. Instructors will also not take unusual or unreasonable precautions to prevent academic dishonesty. Students and instructors will also cultivate an environment conducive to academic integrity. While instructors alone set academic requirements, the Honor Code is a community undertaking that requires students and instructors to work together to ensure conditions that support academic integrity
+
+Previous Honor Code
+
+The Honor Code below applies to alleged incidents occurring on or after September 1, 2023. For cases filed before September 1, please see the previous Honor Code.
+
+Access the Previous Honor Code Here
+
+Cardinal Rules
+
+Your role in upholding the Honor Code and Fundamental Standard.
+
+Promote a culture of personal integrity and academic honesty through your daily actions
+
+Speak up if you're unsure whether or not conduct would violate these principles
+
+Hold yourself and others accountable to these community values
+
+More About The Honor Code
+
+Violations of The Honor Code
+
+Examples of conduct that have been regarded as being in violation of the Honor Code include:
+
+Copying from another s examination paper or allowing another to copy from one s own paper Unpermitted collaboration
+
+Plagiarism
+
+Revising and resubmitting a quiz or exam for regrading, without the instructor s knowledge and consent Giving or receiving unpermitted aid on a take-home examination Representing as one s own work the work of another Giving or receiving aid on an academic assignment under circumstances in which a reasonable person should have known that such aid was not permitted
+
+Honor Code and the Remote Environment
+
+Please see the following resources for more information about how the Honor Code applies to the remote teaching and learning environment:
+
+Remote Teaching and the Honor Code: Tips for Faculty and Teaching Assistants
+
+Remote Learning and the Honor Code: Tips for Students
+
+BCA Guidance for the Remote Teaching and Learning Environment
+
+Common Misconceptions If asked what constitutes a violation of the Honor Code, most students might say "copying," "cheating" or "plagiarism." As examples, they may think of someone purchasing a paper and submitting it for class, or looking over someone s shoulder during an exam. However, some Honor Code concerns are more subtle. They may seem perfectly OK to the person committing violation. They may even be OK in non-academic settings. Unfortunately, merely having benign intentions is not enough. Examples Copying and Plagiarism
+
+Example 1 Computer Science: Most people know that you are not allowed to look over someone s shoulder during an exam and use their answers as your own. Suppose, though, that you are writing code for a computer science project, and use code from a website for a minor function that is not crucial to the main goal of the assignment. This is still a violation of the Honor Code, because you are submitting the work as your own, rather than writing the code yourself. While it s true that in the real world, reusing code, particularly if it is efficient, is desirable, while you are in class, you are being graded on what you can write yourself.
+
+Example 2 The Humanities: You read a book and write your paper about the same concept that the book discussed. Do you need to cite the book? Yes, you do. Not citing concepts, premises and ideas is plagiarism just as much as failing to cite specific text. It is also a violation of the Honor Code.
+
+Unpermitted Collaboration
+
+Example 1 Take-home Exam: Generally, the rules of take-home exams state that you can t share your answers with others in the class. However, you are also not allowed to create outlines together or "prepare" your answers in some other way once the exam has been distributed.
+
+Example 2 Lab Class: In laboratory experiment courses a student "submitting work (including work on protocols, problem sets, and lab reports) that is identical or very similar to his/her partner's work, either in organization or structure, is a violation of the Honor Code. Specifically, this means that sharing of any written material is a violation." (Introductory Experimental Biology: Stanford University). You may have a lab partner in such classes, and work on the experiments together. Isn t it natural in those cases to share information for the lab reports? Not if you are responsible for submitting lab reports individually.
+
+Example 3 Computer Science: You have a bug in the program you are writing, and can t find it. Your roommate offers to help you with debugging. She may suggest strategies for debugging the code, but she may not look at your code for you and tell you where the bug is not even if you sit together and look for the bug. Again, you and you alone are responsible for the work you submit in class. While you may collaborate with others when you write code at an internship or elsewhere, doing so for coursework is a violation of the Honor Code.
+
+Dual Submission of Work
+
+Example The Humanities: You wrote a paper last year for a History class that would be perfect, with some minor changes, for the Feminist Studies class you are taking this quarter. You did all the work yourself, properly cited everything it should be OK, right? No, submitting work more than once is a violation of the Honor Code unless you have sought and been granted your professor s approval.
+
+Stanford Students Discuss the Honor Code (1997 Charter)
+
+Return to Top
+
+Academic Integrity Working Group and Multi-Year Proctoring Study There are currently many concerns about academic dishonesty at Stanford. In order to formulate policies that will effectively address these concerns, it is necessary to identify the root causes (e.g., academic pressures, student mental health, etc) and scope of the problem as it truly stands. To that end, the university is providing the institutional mandate and resources (including access to all data deemed necessary) for a multi-year Academic Integrity Working Group ( AIWG ) to fully investigate this matter beginning in Fall 2023.
+
+The AIWG will also carry out a multi-year study beginning within the 2023-24 academic year (between two to four years in duration, to be determined by the AIWG) of equitable in-person proctoring* practices to answer student questions during exams and promote academic integrity by supervising the assessment process.
+
+The only proctoring permitted during this time will be that done under the auspices of the study. Remote proctoring, whether by software or humans through a computer, is not under consideration. The adoption of any policy on proctoring proposed by the AIWG after the conclusion of the study must be as new university policy approved by the Board on Conduct Affairs, the Undergraduate Senate of the Associated Students of Stanford University, the Graduate Student Council of the Associated Students of Stanford University, the Senate of the Academic Council, and the Office of the President.
+
+The study will address concerns about proctor presence and concerns about its absence in view of Stanford s present academic culture. It will assess the viability of in-person proctoring of exams to reduce cheating and to determine the impact on students taking exams (such as stress). The resulting data will be the basis for future policy proposals by the AIWG to be voted upon by the same groups as at the present. The study will be led jointly by the AIWG and a disinterested, unbiased external consulting group with extensive experience working with student conduct, campus climate, and DEI concerns. The use of the external consulting group ensures proper and timely data collection, professional management of the data, and continuity regardless of turnover in the AIWG. The precise parameters governing the creation and charge of this study will be determined by both the AIWG and the external consulting group.
+
+The AIWG will advise Stanford administrators and governance bodies on any changes that need to be implemented in relation to Stanford s proctoring policy within one year after the conclusion of the study. It will a) apprise faculty and students university-wide of the study s results and its implications, and b) seek out stakeholder votes as needed for the timely implementation of the data-backed proposed changes.
+
+*The Honor Code text is intentionally silent on the topic of proctoring, subject to the constraints described here. Here, proctoring is defined as the reasonable supervision of exams by an exam administrator, and "in-person" includes traveling athletes, SCPD students, and other enrolled students taking an exam off campus.
+
+Composition and Operation The AIWG will consist of four students (graduate and undergraduate, including first-gen/low-income representation) and four faculty/lecturers (especially from departments with the most frequent instances of cheating concerns), along with one person each from the Office of Community Standards ( OCS ) and Office of General Counsel ( OGC ). Membership in the AIWG is to be determined by the ASSU Nominations Commission, the Faculty Senate Committee on Committees, and the VPSA (for OCS and OGC). It will meet with stakeholders (student groups, departmental representatives, Academic Advising, etc.) to inform its proposals. The charge for the AIWG is to be set by the same university entities that set the charge for the Committee of Twelve.
+
+Return to Top
+
+Back to Top
+
+Stanford
+
+Web Login
+
+Address
+
+Tresidder Memorial Union
+
+2nd Floor, Suite 9
+
+459 Lagunita Drive
+
+Stanford , CA
+
+94305-3010
+
+United States
+
+Email:
+
+OCS
+
+Telephone:
+
+650.725.2485
+
+Important Links
+
+Student Affairs
+
+Mental Health
+
+Well-Being Resources at Stanford
+
+Red Folder
+
+Student Affairs Photography
+
+Videography Policy
+
+Communications Support Request Form
+
+Report a Website Problem
+
+Digital accessibility
+
+Titles VI and IX Office
+
+The Fundamental Standard
+
+Dean of Students Units
+
+Dean of Students
+
+Graduate Life Office
+
+Office of Accessible Education
+
+Residential Education
+
+Stanford University (link is external)
+
+Stanford Home (link is external)
+
+Maps
+
+Directions (link is external)
+
+Search Stanford (link is external)
+
+Emergency Info (link is external)
+
+Terms of Use (link is external)
+
+Privacy (link is external)
+
+Copyright (link is external)
+
+Trademarks (link is external)
+
+Non-Discrimination (link is external)
+
+Accessibility (link is external)
+
+Stanford University.
+
+Stanford, California 94305.
+
+{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/71","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"google_analytics":{"account":"G-ECSZ3EMVHZ","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":true},"data":{"extlink":{"extTarget":false,"extTargetAppendNewWindowDisplay":false,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":false,"extNofollow":false,"extTitleNoOverride":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"0","extLabel":" (link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":".localist-widget, #lclst_widget_footer, .oembed-lazyload__button, .su-news-vertical-teaser","extCssInclude":"","extCssExplicit":"#page-content, .su-local-footer, .config_pages--stanford-basic-site-settings--site-settings-header","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","extHideIcons":false,"mailtoClass":"mailto","telClass":"0","mailtoLabel":" (link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":false,"extIconPlacement":"append","extPreventOrphan":false,"extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"su-link--external","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","allowedDomains":[],"extExcludeNoreferrer":""}},"stanford_basic":{"nav_dropdown_enabled":true},"field_group":{"html_element":{"mode":"site_settings_header","context":"view","settings":{"classes":"","show_empty_fields":false,"id":"","label_as_html":false,"element":"nav","show_label":false,"label_element":"h3","label_element_classes":"","attributes":"aria-label=\u0022Site utility navigation\u0022","effect":"none","speed":"fast"}}},"user":{"uid":0,"permissionsHash":"12f45699af6dbf80c2bcfaad7825c7b053f9bfc99cd03d2a1924bd805425996f"}}

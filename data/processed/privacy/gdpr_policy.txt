@@ -1,0 +1,21 @@
+GDPR DATA PROTECTION POLICY
+
+Article 1 Retention Periods
+Personal data shall not be kept longer than necessary for its stated purpose.
+Violation of retention limits constitutes a breach under GDPR Article 5(1)(e)
+and may result in fines up to 20 million or 4% of annual global turnover.
+
+Article 2 Right to Erasure
+Data subjects may request erasure of personal data without undue delay.
+Controllers must comply within 30 days. Non-compliance is subject to regulatory
+enforcement and administrative fines.
+
+Article 3 Data Breach Notification
+Personal data breaches must be reported to supervisory authorities within 72
+hours. Failure to notify constitutes an infringement attracting administrative
+fines and potential criminal liability.
+
+Article 4 Cross-Border Transfers
+Transfer of personal data to third countries lacking adequate protections is
+prohibited. Unauthorized transfers may result in suspension of processing
+activities and significant financial penalties.

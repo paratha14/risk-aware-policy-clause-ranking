@@ -1,0 +1,613 @@
+const uoe_gtm_necessary_container_ids = ["GTM-NFKJG5GC","GTM-W53MQQV4"];
+
+const uoe_gtm_advertising_container_ids = ["GTM-TFH7FXR","GTM-WHQZZ56","GTM-P8ZBCXN"];
+
+const uoe_gtm_performance_container_ids = ["GTM-K98J2SB","GTM-TQN45VX","GTM-5P5K4D2"];
+
+// Necessary containers are always active.
+
+uoe_gtm_necessary_container_ids.forEach(function(container_id) {
+
+create_gtm_script_tag(container_id, 'necessary');
+
+});
+
+init_gtm();
+
+document.addEventListener('changed.uoe.consent', function (event) {
+
+switch (event.allowedList) {
+
+case 'advertising,necessary,performance':
+
+uoe_gtm_advertising_container_ids.forEach(function(container_id) {
+
+create_gtm_script_tag(container_id, 'advertising');
+
+});
+
+uoe_gtm_performance_container_ids.forEach(function(container_id) {
+
+create_gtm_script_tag(container_id, 'performance');
+
+});
+
+break
+
+case 'necessary,performance':
+
+uoe_gtm_performance_container_ids.forEach(function(container_id) {
+
+create_gtm_script_tag(container_id, 'performance');
+
+});
+
+break
+
+case 'advertising,necessary':
+
+uoe_gtm_advertising_container_ids.forEach(function(container_id) {
+
+create_gtm_script_tag(container_id, 'advertising');
+
+});
+
+break
+
+}
+
+})
+
+function create_gtm_script_tag(container_id, container_name) {
+
+var f = document.getElementsByTagName('script')[0];
+
+var j = document.createElement('script');
+
+j.async = true;
+
+j.className = 'uoe-edgel-gtm-container-script';
+
+j.id = 'uoe_edgel_gtm_' + container_name + '_' + container_id;
+
+j.src = 'https://www.googletagmanager.com/gtm.js?id=' + container_id;
+
+f.parentNode.insertBefore(j, f);
+
+init_gtm();
+
+}
+
+function init_gtm() {
+
+window.dataLayer = window.dataLayer || [];
+
+window.dataLayer.push({
+
+'gtm.start': new Date().getTime(),
+
+event: 'gtm.js'
+
+});
+
+}
+
+Academic misconduct | Academic Quality and Standards | Student Administration
+
+Skip to main content
+
+Schools
+
+departments
+
+MyEd
+
+Submit search
+
+Academic Quality and Standards
+
+Registry Services
+
+Subsite menu
+
+Home
+
+About
+
+About
+
+What we do
+
+Contact Us
+
+Staff
+
+Staff
+
+Closing the feedback loop
+
+Student Conduct
+
+Curriculum
+
+External examining
+
+External Quality Review
+
+Monitoring and review
+
+Enhancement themes
+
+Student representation information for staff
+
+Accreditation and collaboration
+
+Quality code
+
+New for 2025/26
+
+Learning and assessment
+
+If things go wrong
+
+A to Z
+
+Senatus Academicus
+
+Newsletter
+
+Academic Policy and Regulations
+
+Education
+
+Quality Assurance
+
+Other committees
+
+Forms
+
+Forms
+
+Forms for students
+
+Forms for Schools and Colleges
+
+Subsite mobile menu
+
+Home
+
+About
+
+What we do
+
+Contact Us
+
+Assessment decisions
+
+Degree classification
+
+Advice and Support
+
+Requesting an investigation
+
+Being investigated
+
+Declaring Criminal Charges and Convictions
+
+What is an appeal
+
+Submitting an appeal
+
+Timescales
+
+Where to get advice
+
+Scottish Public Services Ombudsman
+
+Adverse circumstances
+
+Introduction
+
+Students responsibilities
+
+Supervisors responsibilities
+
+College committee
+
+Student-Supervisor relationship
+
+Contact and supervisory meetings
+
+What happens if the supervisory relationship breaks down
+
+Annual progression review
+
+Process
+
+Timescale
+
+Process
+
+What is reviewed?
+
+Guidance and regulations
+
+Problems with progress
+
+Thesis preparation and assessment
+
+Thesis preparation
+
+Preparation
+
+Thesis requirements
+
+Thesis submission
+
+Thesis assessment
+
+Examiners&#039; initial report
+
+The viva
+
+Examiner recommendations
+
+Thesis corrections
+
+Thesis resubmission
+
+Final thesis submission
+
+Absences and concessions
+
+Leave of absence
+
+Interruptions of study
+
+Extensions of study
+
+Sick leave, emergency and compassionate leave
+
+Withdrawal from studies
+
+Exclusion from studies
+
+Vacation, maternity, parental and other leave
+
+Other support and information
+
+Resolving problems
+
+Programme handbooks
+
+Student support services
+
+Students&#039; Association
+
+Career development
+
+English Language Education
+
+Library collections and services
+
+Computing resources
+
+Disability and Learning Support Service
+
+Wellbeing support services
+
+Research and skills training
+
+Training and support for supervisors
+
+Students working during study
+
+Fees and funding
+
+Degree and assessment regulations
+
+Complaints
+
+Student conduct
+
+Staff
+
+Closing the feedback loop
+
+Staff
+
+Teaching Matters
+
+Responding to the student voice
+
+Student Conduct
+
+Student Discipline Committee
+
+Support for study
+
+Boards of examiners
+
+Degree classification
+
+Appeal committees
+
+Curriculum
+
+Programme and Course Design
+
+Curriculum Framework
+
+Degree Programme Specification
+
+College-Specific Information
+
+Timescales
+
+Key Issues to Address in Proposals (Credit-Bearing)
+
+Key Features of Proposals
+
+Reference Points
+
+Student Involvement
+
+External Expertise (Programmes Only)
+
+Collaborations/Partnerships
+
+Distance Learning and Flexible PhD Programmes - School Checklist
+
+Required Documentation
+
+After Approval
+
+Programme and Course Management
+
+External examining
+
+Role
+
+Policies, regulations and nomination forms
+
+External Examiner Reporting System
+
+Data protection
+
+Postgraduate Research Degrees
+
+External Quality Review
+
+Quality Enhancement and Standards Review (QESR) 2023
+
+Institutional Review (ELIR) 2020
+
+The Reflective Analysis
+
+Institutional Review (ELIR) 2015
+
+Institutional Review (ELIR) 2011
+
+Institutional Review (ELIR) 2006
+
+Monitoring and review
+
+Annual Monitoring, Review and Reporting
+
+Internal Periodic Review
+
+What is an IPR
+
+Briefing and training
+
+Schedule
+
+Reports
+
+2025-26
+
+2024-25
+
+2023-24
+
+2022-23
+
+2021-22
+
+2020-21
+
+2019-20
+
+2018-19
+
+Good practice
+
+Student Support Services Annual Review
+
+Student Support Thematic Review
+
+Student engagement
+
+Review of Support for Disabled Students
+
+Enhancement themes
+
+Resilient Learning Communities
+
+Evidence for Enhancement: Improving the Student Experience
+
+Student Transitions
+
+Institutional Work
+
+National transitions map
+
+Transitions map
+
+Student representation information for staff
+
+Student Staff Liaison Committee Policy
+
+Communicating with students
+
+Organising meetings including Online Distance Learning Student Reps
+
+Student representation role
+
+Accreditation and collaboration
+
+Quality code
+
+New for 2025/26
+
+Boards of Examiners
+
+Programmes and courses
+
+Regulations
+
+Student policies
+
+Assessment archive
+
+Additional guidance
+
+Non-examining chair
+
+Two external examiners
+
+PhD by Research oral examinations by video link
+
+Learning and assessment
+
+Learning analytics
+
+Principles and purposes
+
+Policy and procedures
+
+Governance
+
+Frequently Asked Questions
+
+If things go wrong
+
+A to Z
+
+A to L
+
+M to Z
+
+Senatus Academicus
+
+Senate Elections Academic staff members
+
+Election process
+
+candidate information
+
+Role
+
+Nomination process
+
+Outcome of the Senate elections
+
+Senate Professional Services staff positions
+
+Senate Standing Committee elections
+
+Role of the Senate and its Committees
+
+Conduct of Senate Business
+
+E-Senate comments
+
+Membership
+
+Newsletter
+
+Academic Policy and Regulations
+
+Education
+
+Committee archive
+
+Learning and Teaching
+
+Achievements
+
+Researcher Experience
+
+Achievements
+
+Quality Assurance
+
+SSSAR Sub Committee
+
+Other committees
+
+Forms
+
+Forms for students
+
+Forms for Schools and Colleges
+
+Subsite menu
+
+Declaring Criminal Charges and Convictions
+
+Breadcrumb
+
+Home
+
+Registry Services
+
+Academic Quality and Standards
+
+How the University defines academic misconduct, including plagiarism, and how it deals with suspected cases.
+
+Examples of academic misconduct and what you can and cannot do.
+
+How academic misconduct cases are investigated.
+
+This article was published on
+
+2024-07-29
+
+Contact us
+
+The University of Edinburgh
+
+Terms
+
+conditions
+
+Privacy
+
+cookies
+
+Complaints procedure
+
+Modern slavery
+
+Website accessibility
+
+Freedom of information publication scheme
+
+Data protection / Records Management
+
+Digital Sustainability
+
+MyEd login
+
+The University of Edinburgh is a charitable body, registered in Scotland, with registration number SC005336, VAT Registration Number GB 592 9507 00, and is acknowledged by the UK authorities as a Recognised body which has been granted degree awarding powers.
+
+Unless explicitly stated otherwise, all material is copyright
+
+The University of Edinburgh 2026.
+
+User account menu
+
+CMS login
+
+{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/59668","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"clientside_validation_jquery":{"validate_all_ajax_forms":2,"force_validate_on_blur":false,"force_html5_validation":false,"messages":{"required":"This field is required.","remote":"Please fix this field.","email":"Please enter a valid email address.","url":"Please enter a valid URL.","date":"Please enter a valid date.","dateISO":"Please enter a valid date (ISO).","number":"Please enter a valid number.","digits":"Please enter only digits.","equalTo":"Please enter the same value again.","maxlength":"Please enter no more than {0} characters.","minlength":"Please enter at least {0} characters.","rangelength":"Please enter a value between {0} and {1} characters long.","range":"Please enter a value between {0} and {1}.","max":"Please enter a value less than or equal to {0}.","min":"Please enter a value greater than or equal to {0}.","step":"Please enter a multiple of {0}."}},"csp":{"nonce":"65v1zW2uOuhTC7VBcPgn_w"},"user":{"uid":0,"permissionsHash":"956c4f5b7dfd9f2da306a90accdd9e86ba075fcf32c3fb6b02e2006c4d98c42d"}}
