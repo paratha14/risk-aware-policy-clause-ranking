@@ -410,4 +410,3 @@ for domain, folder in [("Legal (manual)",  os.path.join(RAW_DIR, "legal")),
     print(f"  {'✓' if count > 0 else '✗'} {domain:<22} {count:>4} files")
 
 print(f"\n  {'TOTAL':<25} {total:>4} files")
-print(f"\n  ✓ Step 1 complete — run step2_pdf_to_text.py next")
