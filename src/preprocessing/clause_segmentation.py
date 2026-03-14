@@ -12,7 +12,7 @@ except Exception:
     print("⚠  spaCy not available — long paragraphs won't be split")
     print("   Run: pip install spacy && python -m spacy download en_core_web_sm")
 
-LONG_PARA_WORDS = 40 # paragraphs over this get spaCy sentence splitting
+LONG_PARA_WORDS = 40  # paragraphs over this get spaCy sentence splitting
 
 try:
     from bs4 import BeautifulSoup
@@ -28,12 +28,12 @@ EXTRACTED_DIR = os.path.join(PROJECT_ROOT, "data", "processed")
 SEGMENTED_DIR = os.path.join(PROJECT_ROOT, "data", "segmented")
 os.makedirs(SEGMENTED_DIR, exist_ok=True)
 
-MIN_WORDS = 12
+MIN_WORDS = 10
 MAX_WORDS = 120
-MAX_CLAUSES_PER_DOC = 50   # cap per document to prevent legal from dominating
+MAX_CLAUSES_PER_DOC = 120  
 
 print("=" * 60)
-print("STEP 3 — HYBRID CLAUSE SEGMENTATION (Rule-based + spaCy)")
+print("HYBRID CLAUSE SEGMENTATION (Rule-based + spaCy)")
 print("=" * 60)
 
 
@@ -211,9 +211,12 @@ def segment_legal(text):
 def segment_privacy(text):
     if is_html(text):
         text = strip_html(text)
+
+    # Try Section/Article split first (old-style privacy docs)
     parts = [p.strip() for p in SECTION_ARTICLE.split(text) if p.strip()]
 
-    
+    # If no Section/Article structure — doc uses numbered clauses
+    # (HIPAA, GDPR, COPPA, BIPA etc.) — route through academic_hr
     if len(parts) <= 1:
         raw = segment_academic_hr(text)
         return [
@@ -392,3 +395,4 @@ for condition, msg in checks:
         any_warn = True
 if not any_warn:
     print("  ✓ All checks passed")
+
