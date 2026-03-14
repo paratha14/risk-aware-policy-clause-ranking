@@ -1,0 +1,30 @@
+AI AND AUTOMATED DECISION-MAKING PRIVACY POLICY
+Based on: GDPR Article 22, EU AI Act (Regulation 2024/1689), and ICO AI Guidance
+
+1. Right Not to Be Subject to Automated Decisions
+Individuals have the right not to be subject to decisions based solely on automated
+processing — including profiling — that produce legal or similarly significant effects.
+Processing in violation of this right is unlawful under GDPR Article 22 and subject to
+supervisory authority enforcement and fines.
+
+2. High-Risk AI Systems
+Operators of high-risk AI systems as defined under the EU AI Act must comply with
+conformity assessment requirements before deployment. Placing a non-compliant
+high-risk AI system on the market is a serious violation subject to fines of up to
+€30 million or 6% of global annual turnover.
+
+3. Transparency Obligations
+Where automated decision-making is used, individuals must be provided with meaningful
+information about the logic involved, the significance, and the envisaged consequences.
+Failure to provide adequate transparency constitutes a violation of GDPR Article 13/14.
+
+4. Human Oversight
+High-risk AI systems must be designed to allow effective oversight by natural persons.
+Deployment of high-risk AI systems without adequate human oversight mechanisms violates
+the EU AI Act and may result in prohibition orders and financial penalties.
+
+5. Prohibited AI Practices
+Certain AI practices are prohibited outright under the EU AI Act, including subliminal
+manipulation, exploitation of vulnerabilities, and real-time remote biometric
+identification in public spaces with limited exceptions. Deployment of prohibited AI
+systems is a critical violation subject to the highest penalty tier.

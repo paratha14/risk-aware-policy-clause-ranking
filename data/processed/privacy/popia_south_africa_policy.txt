@@ -1,0 +1,30 @@
+POPIA — SOUTH AFRICA PROTECTION OF PERSONAL INFORMATION COMPLIANCE POLICY
+Based on: Protection of Personal Information Act 4 of 2013 (POPIA)
+
+1. Conditions for Lawful Processing
+Personal information may only be processed if it is adequate, relevant, and not
+excessive; collected for a specific purpose; and processed in a manner compatible
+with that purpose. Unlawful processing may result in enforcement notices, fines of
+up to R10 million, or imprisonment of up to 10 years for responsible parties.
+
+2. Security Safeguards
+Responsible parties must secure the integrity and confidentiality of personal
+information by taking appropriate, reasonable technical and organisational measures.
+Failure to implement adequate security safeguards resulting in a compromise of
+personal information is a serious violation of POPIA.
+
+3. Notification of Security Compromises
+Where there are reasonable grounds to believe that personal information has been
+accessed or acquired by an unauthorised person, the Information Regulator and the
+data subject must be notified as soon as reasonably possible. Failure to notify is a
+violation subject to enforcement action.
+
+4. Direct Marketing
+Personal information may not be used for direct marketing by electronic means
+without the data subject's consent. Sending direct marketing communications without
+consent is a violation of POPIA and subject to enforcement action by the Regulator.
+
+5. Transborder Information Flows
+Personal information may not be transferred to a foreign country unless that country
+provides an adequate level of protection or the data subject consents. Unlawful
+cross-border transfers are subject to enforcement action and penalties.

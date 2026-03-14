@@ -1,0 +1,31 @@
+PIPEDA — CANADA PERSONAL INFORMATION PROTECTION COMPLIANCE POLICY
+Based on: Personal Information Protection and Electronic Documents Act (S.C. 2000, c. 5)
+
+1. Consent Requirement
+Organisations must obtain meaningful consent before collecting, using, or disclosing
+personal information. Consent obtained through deceptive or misleading practices is
+not valid. Failure to obtain valid consent is a violation of PIPEDA and may result in
+an OPC investigation and Federal Court orders requiring compliance.
+
+2. Limiting Collection
+Only information necessary for the identified purposes must be collected. Collection
+of personal information beyond identified purposes is a violation of the limiting
+collection principle and subject to OPC investigation and findings of non-compliance.
+
+3. Breach of Security Safeguards
+Since November 2018, organisations must report breaches of security safeguards that
+pose a real risk of significant harm to the Privacy Commissioner of Canada and notify
+affected individuals. Failure to report a qualifying breach is an offence subject to
+fines of up to $100,000 CAD.
+
+4. Access and Correction Rights
+Individuals have the right to know what personal information an organisation holds
+about them and to challenge its accuracy. Organisations must respond to access
+requests within 30 days. Unjustified denial of access or correction rights is subject
+to OPC complaint investigation and Federal Court proceedings.
+
+5. Accountability
+Organisations are responsible for personal information under their control, including
+information disclosed to third parties for processing. Organisations must implement
+contractual protections with third parties. Failure to maintain accountability for
+third-party processing is a violation of PIPEDA's accountability principle.

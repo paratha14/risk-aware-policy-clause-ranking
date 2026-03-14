@@ -1,0 +1,31 @@
+DATA MINIMISATION AND PURPOSE LIMITATION POLICY
+Based on: GDPR Article 5(1)(b) and (c), UK GDPR, and ICO Accountability Guidance
+
+1. Purpose Specification
+The purposes for which personal data is collected must be specified, explicit, and
+legitimate at the time of collection. Processing personal data for purposes not
+disclosed to individuals at the time of collection is a violation of purpose
+limitation and subject to supervisory authority enforcement and fines.
+
+2. Compatible Use Assessment
+Where personal data is to be used for a new purpose, a compatibility assessment must
+be documented. Processing for an incompatible new purpose without a fresh legal basis
+or consent is unlawful under GDPR Article 5(1)(b).
+
+3. Data Minimisation
+Only personal data that is adequate, relevant, and limited to what is necessary in
+relation to the purposes of processing may be collected. Excessive data collection
+is a violation of the data minimisation principle subject to ICO investigation
+and enforcement action.
+
+4. Anonymisation and Pseudonymisation
+Where personal data is retained for statistical, research, or archival purposes,
+organisations should implement anonymisation or pseudonymisation to minimise privacy
+risks. Failure to implement available privacy-enhancing techniques may be an
+aggravating factor in the event of a data breach.
+
+5. Privacy Impact on Marketing and Analytics
+Use of personal data for profiling, behavioural advertising, or analytics must be
+limited to data that is necessary for the specific activity. Obtaining data for one
+purpose and repurposing it for marketing without consent or a compatible use
+assessment is a violation of both purpose limitation and data minimisation principles.

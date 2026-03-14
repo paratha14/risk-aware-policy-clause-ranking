@@ -1,0 +1,30 @@
+UK GDPR DATA PROTECTION COMPLIANCE POLICY
+Based on: UK General Data Protection Regulation and Data Protection Act 2018
+
+1. Lawful Basis for Processing
+All processing of personal data must have a lawful basis under Article 6 UK GDPR.
+Processing without a lawful basis is unlawful. The ICO may issue enforcement notices,
+assessment notices, and fines of up to £17.5 million or 4% of global annual turnover,
+whichever is higher, for serious violations.
+
+2. Data Subject Rights
+Data subjects have the right to access, rectify, erase, restrict, and port their
+personal data. Controllers must respond to requests without undue delay and within
+one calendar month. Failure to respond within the required timeframe is a violation
+subject to ICO investigation and enforcement action.
+
+3. Data Protection by Design
+Controllers must implement data protection by design and by default. This requires
+appropriate technical and organisational measures from the outset of any processing
+activity. Failure to implement data protection by design is a violation subject to
+reprimand and fines.
+
+4. Data Protection Impact Assessments
+A DPIA is mandatory before undertaking processing likely to result in high risk to
+individuals. Failure to conduct a required DPIA is a violation. Where a DPIA indicates
+high residual risk, the ICO must be consulted before processing commences.
+
+5. International Transfers
+Personal data must not be transferred to a country outside the UK unless that country
+ensures an adequate level of data protection or appropriate safeguards are in place.
+Unlawful international transfers are subject to enforcement action and fines.

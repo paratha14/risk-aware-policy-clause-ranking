@@ -1,0 +1,30 @@
+UK GDPR DATA BREACH RESPONSE POLICY
+Based on: UK GDPR Articles 33–34 and ICO Breach Notification Guidance
+
+1. Internal Reporting
+All staff who become aware of a potential personal data breach must report it to the
+Data Protection Officer (DPO) immediately and no later than within 24 hours of
+discovery. Failure to report internally may result in disciplinary action and could
+prevent the organisation from meeting its regulatory notification obligations.
+
+2. ICO Notification
+Personal data breaches that are likely to result in a risk to the rights and freedoms
+of individuals must be reported to the ICO within 72 hours of becoming aware of the
+breach. Failure to notify within 72 hours without good reasons is a violation subject
+to ICO reprimand and fines of up to £8.7 million or 2% of global turnover.
+
+3. Individual Notification
+Where a breach is likely to result in a high risk to the rights and freedoms of
+individuals, those individuals must be notified without undue delay. Failure to notify
+affected individuals when required constitutes a serious violation subject to
+enforcement action.
+
+4. Documentation
+All breaches, whether notifiable or not, must be documented in the organisation's
+breach register. Failure to maintain adequate breach records is a violation of the
+UK GDPR accountability principle.
+
+5. Post-Breach Review
+Following any significant breach, the organisation must conduct a root cause analysis
+and implement appropriate remedial measures. Failure to take remedial action following
+a breach may be treated as an aggravating factor in any subsequent ICO investigation.

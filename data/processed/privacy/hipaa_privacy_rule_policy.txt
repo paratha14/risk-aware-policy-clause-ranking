@@ -1,0 +1,33 @@
+HIPAA PRIVACY RULE — ORGANISATIONAL COMPLIANCE POLICY
+Based on: 45 CFR Part 160 and Part 164, Subparts A and E (HHS, 2002, amended 2013)
+
+1. Permitted Uses and Disclosures
+Protected health information (PHI) may only be used or disclosed for treatment,
+payment, or healthcare operations without patient authorisation. All other uses
+require a valid written authorisation from the individual. Disclosure of PHI for
+purposes beyond these categories without authorisation constitutes a violation of
+the HIPAA Privacy Rule and subjects the covered entity to civil and criminal penalties.
+
+2. Minimum Necessary Standard
+Covered entities must make reasonable efforts to limit PHI to the minimum necessary
+to accomplish the intended purpose. Disclosure of PHI beyond the minimum necessary
+is a regulatory violation subject to enforcement action by the HHS Office for Civil
+Rights (OCR).
+
+3. Individual Rights
+Patients have the right to access, copy, and request amendment of their PHI.
+Covered entities must respond to access requests within 30 days. Denial of access
+without lawful grounds constitutes a violation and may be reported to OCR for
+investigation and civil monetary penalties of up to $50,000 per violation category.
+
+4. Breach Notification
+A breach of unsecured PHI must be reported to affected individuals without
+unreasonable delay and no later than 60 days after discovery. Breaches affecting
+500 or more individuals must be reported to HHS and prominent media outlets.
+Failure to notify is an independent HIPAA violation subject to significant penalties.
+
+5. Business Associate Agreements
+Covered entities must enter into written business associate agreements (BAAs) with
+all vendors who access PHI. Use or disclosure of PHI by a business associate without
+a valid BAA constitutes a violation. Business associates are directly liable for
+compliance under the HITECH Act amendments.

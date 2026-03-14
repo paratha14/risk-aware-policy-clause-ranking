@@ -1,0 +1,30 @@
+HIPAA BREACH NOTIFICATION POLICY
+Based on: 45 CFR §§ 164.400–164.414 (HITECH Act Breach Notification Rule, 2009)
+
+1. Definition of Breach
+A breach is an impermissible use or disclosure of unsecured PHI that compromises
+its security or privacy. All impermissible uses or disclosures are presumed to be
+breaches unless the covered entity demonstrates a low probability that PHI has been
+compromised based on a four-factor risk assessment.
+
+2. Individual Notification
+Affected individuals must be notified without unreasonable delay and no later than
+60 calendar days following discovery of a breach. Notification must be written and
+must describe the breach, the types of information involved, steps individuals should
+take, and what the entity is doing to investigate and mitigate harm.
+
+3. Media Notification
+For breaches affecting more than 500 residents of a state or jurisdiction, covered
+entities must notify prominent media outlets serving the affected area. Media
+notification must occur without unreasonable delay and within 60 days of discovery.
+
+4. HHS Notification
+All breaches must be reported to the Secretary of HHS. Breaches affecting 500 or
+more individuals must be reported within 60 days of discovery. Breaches affecting
+fewer than 500 individuals may be reported annually. Failure to report constitutes
+an independent violation of the HIPAA Rules.
+
+5. Penalties for Non-Notification
+Failure to provide required breach notifications subjects the covered entity to civil
+monetary penalties tiered by culpability: from $100 per violation for unknowing
+violations to $50,000 per violation for wilful neglect that is not corrected.

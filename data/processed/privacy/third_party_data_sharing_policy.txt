@@ -1,0 +1,29 @@
+THIRD-PARTY DATA SHARING AND PROCESSOR POLICY
+Based on: GDPR Articles 26–29, UK GDPR, and ICO Accountability Framework
+
+1. Controller-Processor Contracts
+Where personal data is processed by a third party on behalf of the organisation,
+a written Data Processing Agreement (DPA) must be in place before processing commences.
+Engaging a processor without a compliant DPA is a violation of GDPR Article 28 and
+subject to supervisory authority enforcement action and fines.
+
+2. Processor Due Diligence
+Controllers must only appoint processors that provide sufficient guarantees of
+appropriate technical and organisational measures. Engaging a processor without
+adequate due diligence is a violation of GDPR accountability requirements.
+
+3. Sub-Processing
+Processors must not engage sub-processors without prior specific or general written
+authorisation from the controller. Unauthorised sub-processing is a violation of the
+DPA and GDPR Article 28(2), giving rise to liability for both processor and controller.
+
+4. Joint Controller Arrangements
+Where two or more controllers jointly determine the purposes and means of processing,
+a transparent arrangement must be documented in writing. Failure to establish and
+communicate a joint controller arrangement is a violation of GDPR Article 26.
+
+5. Data Sharing Agreements
+Personal data shared with third-party controllers for independent processing requires
+a lawful basis and, where required, a data sharing agreement. Unlawful sharing of
+personal data with third parties is a serious violation subject to the highest penalty
+tier under GDPR.

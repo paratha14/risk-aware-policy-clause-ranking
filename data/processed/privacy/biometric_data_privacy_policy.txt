@@ -1,0 +1,32 @@
+BIOMETRIC DATA COLLECTION AND USE POLICY
+Based on: Illinois Biometric Information Privacy Act (BIPA, 740 ILCS 14),
+GDPR Article 9, and CCPA Biometric Data provisions
+
+1. Informed Consent
+Biometric identifiers — including fingerprints, retina scans, facial geometry, and
+voiceprints — must not be collected without first providing a written policy and
+obtaining written consent. Collection of biometric data without consent violates BIPA
+and subjects the entity to statutory damages of $1,000 per negligent violation and
+$5,000 per intentional or reckless violation, plus attorney fees.
+
+2. Retention Schedule
+Biometric data must be permanently destroyed when the initial purpose for collection
+has been satisfied or within 3 years of the individual's last interaction, whichever
+occurs first. Retention of biometric data beyond permitted periods violates BIPA and
+constitutes a separate, actionable violation per data subject per retention period.
+
+3. Prohibition on Sale or Profit
+Biometric data must not be sold, leased, traded, or otherwise profited from under
+any circumstances. Any commercial transaction involving biometric identifiers or
+information is a per se violation of BIPA and subjects the entity to significant
+statutory damages.
+
+4. Data Security
+Biometric data must be stored using a reasonable standard of care no less protective
+than the standard used to protect other confidential and sensitive information.
+Failure to adequately secure biometric data is an independent violation.
+
+5. Third-Party Disclosure
+Biometric data must not be disclosed or disseminated to third parties without the
+data subject's consent or as required by law. Any unauthorised third-party disclosure
+constitutes a violation and subjects the disclosing party to statutory damages.

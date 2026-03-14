@@ -1,0 +1,31 @@
+CHILDREN'S ONLINE PRIVACY PROTECTION POLICY
+Based on: Children's Online Privacy Protection Rule, 16 CFR Part 312 (FTC, amended 2025)
+
+1. Scope of Application
+This policy applies to operators of websites and online services directed to children
+under 13 years of age, and to operators with actual knowledge that they collect
+personal information from children under 13. Operators who fail to comply with COPPA
+are subject to civil penalties of up to $51,744 per violation.
+
+2. Verifiable Parental Consent
+Operators must obtain verifiable parental consent before collecting, using, or
+disclosing personal information from children. Collecting personal information from
+children without verifiable parental consent is a violation of the COPPA Rule and
+subject to FTC enforcement action and civil penalties.
+
+3. Privacy Notice Requirements
+Operators must post a clear and prominent privacy notice on their website describing
+what information is collected from children, how it is used, and disclosure practices.
+Failure to provide a compliant privacy notice is an independent COPPA violation.
+
+4. Data Retention and Deletion
+Personal information collected from children must be retained only as long as
+reasonably necessary to fulfil the purpose for which it was collected. Upon a parent's
+request, operators must delete all personal information about a child. Failure to
+delete upon valid request constitutes a violation.
+
+5. Prohibition on Behavioural Advertising
+Operators may not condition a child's participation in an activity on the collection
+of more personal information than is reasonably necessary for that activity.
+Conditioning access to services on excessive data collection is an unfair practice
+under COPPA and the FTC Act.

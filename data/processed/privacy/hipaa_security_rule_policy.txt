@@ -1,0 +1,30 @@
+HIPAA SECURITY RULE — ELECTRONIC PHI PROTECTION POLICY
+Based on: 45 CFR Part 164, Subparts A and C (HHS Security Rule, 2003, amended 2013)
+
+1. Administrative Safeguards
+Covered entities must implement a security management process including a risk
+analysis and risk management programme. Failure to conduct and document a risk
+analysis is the most frequently cited HIPAA Security Rule violation and subjects
+the entity to civil monetary penalties.
+
+2. Physical Safeguards
+Facilities housing electronic PHI (ePHI) must implement physical access controls,
+workstation use policies, and device and media controls. Unauthorised physical
+access to systems containing ePHI constitutes a serious violation subject to
+corrective action and financial penalties.
+
+3. Technical Safeguards
+Covered entities must implement access controls, audit controls, integrity controls,
+and transmission security for ePHI. Transmission of ePHI over open networks without
+encryption is a violation. Entities must implement automatic logoff and unique user
+identification for all systems accessing ePHI.
+
+4. Workforce Training
+All workforce members with access to ePHI must receive regular security awareness
+training. Failure to provide documented training is a compliance deficiency subject
+to audit findings and enforcement.
+
+5. Incident Response
+Security incidents involving ePHI must be identified, responded to, and documented.
+Failure to have and implement incident response procedures is a violation. All
+security incident documentation must be retained for a minimum of six years.

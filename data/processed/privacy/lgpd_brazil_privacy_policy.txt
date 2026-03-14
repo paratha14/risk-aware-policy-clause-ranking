@@ -1,0 +1,32 @@
+LGPD — BRAZIL GENERAL DATA PROTECTION LAW COMPLIANCE POLICY
+Based on: Lei Geral de Proteção de Dados Pessoais (Law No. 13,709/2018)
+
+1. Legal Bases for Processing
+Personal data may only be processed on one of the ten legal bases established by
+Article 7 of the LGPD. Processing without a valid legal basis is unlawful. The
+Brazilian Data Protection Authority (ANPD) may apply administrative sanctions
+including fines of up to 2% of revenue in Brazil, limited to R$50 million per
+infraction.
+
+2. Data Subject Rights
+Data subjects have the right to confirm the existence of processing, access their
+data, correct inaccurate data, anonymise or delete unnecessary data, obtain
+portability, and object to processing. Controllers must respond to requests within
+15 days. Failure to respond or unlawful denial of rights is subject to ANPD
+investigation and sanctions.
+
+3. Sensitive Personal Data
+Processing of sensitive personal data — including health data, biometric data,
+racial or ethnic origin, religious conviction, and political opinion — requires
+explicit and specific consent or another legal basis permitted by Article 11 LGPD.
+Unlawful processing of sensitive data attracts enhanced scrutiny and sanctions.
+
+4. Data Protection Officer
+Organisations processing personal data must appoint a Data Protection Officer (DPO).
+The DPO's identity and contact details must be publicly disclosed. Failure to appoint
+or disclose a DPO is a violation subject to administrative warning.
+
+5. Cross-Border Data Transfers
+Personal data may only be transferred internationally to countries with adequate
+protection or where appropriate guarantees are in place. Transfers without adequate
+safeguards are prohibited and subject to sanctions including suspension of processing.

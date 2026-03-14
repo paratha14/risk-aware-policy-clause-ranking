@@ -1,0 +1,33 @@
+DATA RETENTION AND SECURE DISPOSAL POLICY
+Based on: GDPR Article 5(1)(e), UK GDPR, and ISO 27001 Data Management Standards
+
+1. Retention Schedule Compliance
+Personal data must be retained only for as long as necessary for the purposes for
+which it was collected. Organisations must maintain a documented retention schedule
+for all categories of personal data. Retention of personal data beyond scheduled
+periods without lawful basis is a violation of the storage limitation principle and
+subject to supervisory authority enforcement action.
+
+2. Secure Deletion
+When personal data reaches its scheduled retention end-date, it must be securely
+deleted or anonymised. Hard deletion must render data unrecoverable. Disposal methods
+must be documented and verifiable. Failure to securely delete personal data is a
+violation subject to ICO investigation.
+
+3. Backup Data
+Personal data held in backup systems is subject to the same retention obligations as
+live data. Organisations must implement processes to delete personal data from backups
+within a reasonable period of the scheduled retention end-date. Indefinite retention
+in backups is not compliant with GDPR storage limitation requirements.
+
+4. Subject Access and Deletion Requests
+On receipt of a valid erasure request under GDPR Article 17, personal data must be
+deleted without undue delay unless a retention exemption applies. Failure to process
+erasure requests is a violation of data subject rights subject to supervisory authority
+investigation and enforcement.
+
+5. Physical Media Disposal
+Physical media containing personal data must be disposed of securely using methods
+that prevent recovery, such as cross-cut shredding or degaussing. Placing media
+containing personal data in general waste is a serious data protection violation
+subject to significant fines and reputational damage.
