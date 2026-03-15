@@ -1,0 +1,68 @@
+============================================================
+DATASET VALIDATION REPORT
+============================================================
+
+[1] CORPUS STATS
+  Total clauses      : 4000
+  Unique source docs : 133
+  Domains            : {'legal': np.int64(3203), 'academic': np.int64(390), 'hr': np.int64(250), 'privacy': np.int64(157)}
+  Avg word count     : 42.5
+  Avg token count    : 23.5
+
+[2] LABEL DISTRIBUTION
+  Critical      1000  (25.0%)  █████████████████████████
+  Low           1000  (25.0%)  █████████████████████████
+  Medium        1000  (25.0%)  █████████████████████████
+  High          1000  (25.0%)  █████████████████████████
+
+  Imbalance ratio : 1.00x  ✓ good
+
+[3] LINGUISTIC FEATURE STATS
+  modal_score               mean=0.671  std=0.342
+  consequence_score         mean=0.237  std=0.366
+  conditional_score         mean=0.200  std=0.358
+  has_negation              mean=0.088  std=0.284
+  obligation_count          mean=1.019  std=0.844
+  penalty_flag              mean=0.230  std=0.421
+
+[4] EMBEDDING SANITY CHECKS
+  SBERT shape        : (4000, 384)
+  TF-IDF shape       : (4000, 3000)
+  SBERT mean norm    : 1.000
+  Any NaN in SBERT   : False
+  Labels shape       : (4000,)
+  Labels aligned     : True
+
+[5] INTER-CLASS SEPARABILITY (SBERT cosine similarity)
+  Intra-class (higher = more cohesive):
+    Critical     0.273
+    High         0.214
+    Medium       0.245
+    Low          0.155
+
+  Cross-class (lower = better separation):
+    Critical vs High         0.228
+    Critical vs Medium       0.234
+    Critical vs Low          0.189
+    High vs Medium       0.221
+    High vs Low          0.183
+    Medium vs Low          0.190
+
+[6] DOMAIN x LABEL COVERAGE
+risk_label  Critical  High  Medium  Low
+domain                                 
+academic          83    91      32  184
+hr               114    75      28   33
+legal            721   768     936  778
+privacy           82    66       4    5
+
+[7] HANDOFF READINESS CHECKLIST
+  ✓  4 risk labels present
+  ✓  Min 500 per class
+  ✓  SBERT no NaN
+  ✓  Embeddings aligned
+  ✓  TF-IDF features > 1000
+  ✓  Linguistic features exist
+  ✓  Imbalance ratio < 2x
+
+  ✓ ALL CHECKS PASSED
