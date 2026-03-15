@@ -742,4 +742,4 @@ model = XGBClassifier(n_estimators=300, max_depth=6, random_state=42)
 ---
 
 *Built with ❤ by Pratham Mohan — NLP & Clause Processing Lead*  
-*Risk-Aware Policy Clause Importance Ranking Project | March 2025*
+*Risk-Aware Policy Clause Importance Ranking Project | March 2026*
