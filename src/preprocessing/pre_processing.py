@@ -21,7 +21,7 @@ INPUT_PATH    = os.path.join(SEGMENTED_DIR, "clauses_clean.csv")
 OUTPUT_PATH   = os.path.join(SEGMENTED_DIR, "clauses_preprocessed.csv")
 
 print("=" * 60)
-print("STEP 5 — TEXT PREPROCESSING")
+print("TEXT PREPROCESSING")
 print("=" * 60)
 
 df = pd.read_csv(INPUT_PATH)
