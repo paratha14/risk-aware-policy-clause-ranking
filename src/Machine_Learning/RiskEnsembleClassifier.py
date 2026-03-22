@@ -3,13 +3,11 @@ RiskEnsembleClassifier — Risk-Aware Policy Clause Ranking
 ==========================================================
 Model     : RiskEnsembleClassifier (XGBoost + LightGBM + ExtraTrees)
 Accuracy  : 91.5%  |  Critical Recall: 0.90
-Author    : Member 2 — Risk Modeling & ML Lead
+Author    : Durgesh Yadav
 Project   : Risk-Aware Policy Clause Importance Ranking
 """
 
-import argparse
 import os
-import sys
 import pickle
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
@@ -31,22 +29,14 @@ from sklearn.ensemble import VotingClassifier, ExtraTreesClassifier
 import xgboost as xgb
 import lightgbm as lgb
 
-# ====================== CLI ARG / PATH ======================
-DEFAULT_PATH = r"C:\Users\Satya\Downloads\master_dataset.csv"
-
-parser = argparse.ArgumentParser(description="RiskEnsembleClassifier — Clause Risk Predictor")
-parser.add_argument("--data", default=DEFAULT_PATH, help="Path to input CSV")
-args = parser.parse_args()
-
-data_path = args.data.strip().strip("\"'").replace("r'", "").replace('r"', "")
-
-if not os.path.exists(data_path):
-    print(f"ERROR: File not found: {data_path}")
-    print('Usage: python RiskEnsembleClassifier.py --data "C:\\path\\to\\master_dataset.csv"')
-    sys.exit(1)
+# ====================== PATH ======================
+SCRIPT_DIR    = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT  = os.path.dirname(os.path.dirname(SCRIPT_DIR))
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
+DATA_PATH=  os.path.join(OUTPUT_DIR, 'master_dataset.csv')
 
 # ====================== LOAD DATA ======================
-df = pd.read_csv(data_path)
+df = pd.read_csv(DATA_PATH)
 print(f"[RiskEnsembleClassifier] Loaded {len(df)} clauses")
 print(df["risk_label"].value_counts())
 
