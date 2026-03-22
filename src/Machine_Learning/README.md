@@ -1,5 +1,5 @@
 # RiskEnsembleClassifier
-### Risk-Aware Policy Clause Importance Ranking — Member 2: Risk Modeling & ML Lead
+### Risk-Aware Policy Clause Importance Ranking — Durgesh Yadav: Risk Modeling & ML Lead
 
 ---
 
