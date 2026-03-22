@@ -4,3 +4,4 @@ __pycache__/
 *$py.class
 pycache/
 test.py
+*.pkl

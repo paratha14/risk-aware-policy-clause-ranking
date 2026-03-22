@@ -1,5 +1,4 @@
-"""
-Clause Risk Classifier — Testing Script
+"""Clause Risk Classifier — Testing Script
 ========================================
 Step 1: Run this ONCE to save the trained model to disk
 Step 2: Use the saved model to:
