@@ -16,24 +16,19 @@ import numpy as np
 import pandas as pd
 import scipy.sparse as sp
 
-from sklearn.model_selection import train_test_split, RandomizedSearchCV, StratifiedKFold
+from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import LabelEncoder, StandardScaler
-from sklearn.metrics import (
-    classification_report,
-    confusion_matrix,
-    recall_score,
-    make_scorer,
-)
+from sklearn.metrics import classification_report, confusion_matrix, recall_score
 from sklearn.ensemble import VotingClassifier, ExtraTreesClassifier
 import xgboost as xgb
 import lightgbm as lgb
 
 # ====================== PATH ======================
-SCRIPT_DIR    = os.path.dirname(os.path.abspath(__file__))
-PROJECT_ROOT  = os.path.dirname(os.path.dirname(SCRIPT_DIR))
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
-DATA_PATH=  os.path.join(OUTPUT_DIR, 'master_dataset.csv')
+SCRIPT_DIR   = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR))
+OUTPUT_DIR   = os.path.join(PROJECT_ROOT, "output")
+DATA_PATH    = os.path.join(OUTPUT_DIR, "master_dataset.csv")
 
 # ====================== LOAD DATA ======================
 df = pd.read_csv(DATA_PATH)
@@ -42,7 +37,8 @@ print(df["risk_label"].value_counts())
 
 # ====================== ENCODE LABELS ======================
 le = LabelEncoder()
-y_encoded = le.fit_transform(df["risk_label"])
+le.fit(df["risk_label"])
+y_encoded    = le.transform(df["risk_label"])
 critical_idx = list(le.classes_).index("Critical")
 print(f"Label mapping: {dict(zip(le.classes_, le.transform(le.classes_)))}")
 
@@ -63,6 +59,7 @@ X_num_all  = df[num_cols].fillna(0).values
 )
 
 # ====================== FEATURE ENGINEERING (fit on train only) ======================
+
 # --- Word n-grams (1,2) ---
 tfidf_word = TfidfVectorizer(
     max_features=2000,
@@ -99,7 +96,6 @@ print(f"  Numeric cols : {num_train.shape[1]}")
 
 # ====================== RiskEnsembleClassifier — 3 BASE MODELS ======================
 
-# Base Model 1: XGBoost — best params from random search
 xgb_model = xgb.XGBClassifier(
     objective="multi:softmax",
     num_class=len(le.classes_),
@@ -117,7 +113,6 @@ xgb_model = xgb.XGBClassifier(
     verbosity=0,
 )
 
-# Base Model 2: LightGBM — fast gradient boosting, handles sparse well
 lgb_model = lgb.LGBMClassifier(
     objective="multiclass",
     num_class=len(le.classes_),
@@ -134,7 +129,6 @@ lgb_model = lgb.LGBMClassifier(
     verbose=-1,
 )
 
-# Base Model 3: ExtraTrees — low correlation with boosting errors
 et_model = ExtraTreesClassifier(
     n_estimators=300,
     max_depth=None,
@@ -144,7 +138,6 @@ et_model = ExtraTreesClassifier(
     n_jobs=-1,
 )
 
-# RiskEnsembleClassifier — soft voting averages probabilities of all 3 models
 RiskEnsembleClassifier = VotingClassifier(
     estimators=[
         ("xgb", xgb_model),
@@ -159,114 +152,30 @@ print("\n[RiskEnsembleClassifier] Training (XGBoost + LightGBM + ExtraTrees)..."
 RiskEnsembleClassifier.fit(X_train, y_train)
 
 # ====================== EVALUATE ======================
-y_pred_ens = RiskEnsembleClassifier.predict(X_test)
+y_pred = RiskEnsembleClassifier.predict(X_test)
 
 print("\n=== Classification Report (RiskEnsembleClassifier) ===")
 print(classification_report(
     le.inverse_transform(y_test),
-    le.inverse_transform(y_pred_ens),
+    le.inverse_transform(y_pred),
     digits=4,
 ))
 
-per_class_ens = recall_score(y_test, y_pred_ens, average=None)
-print(f"Critical Clause Recall: {per_class_ens[critical_idx]:.4f}")
+per_class = recall_score(y_test, y_pred, average=None)
+print(f"Critical Clause Recall: {per_class[critical_idx]:.4f}")
 
 print("\nConfusion Matrix:")
-cm = confusion_matrix(y_test, y_pred_ens)
+cm = confusion_matrix(y_test, y_pred)
 print(pd.DataFrame(cm, index=le.classes_, columns=le.classes_))
 
-# ====================== TUNE XGBoost SUB-MODEL ======================
-def critical_weighted_score(y_true, y_pred):
-    f1   = recall_score(y_true, y_pred, average="macro", zero_division=0)
-    crit = recall_score(y_true, y_pred, labels=[critical_idx],
-                        average="macro", zero_division=0)
-    return 0.5 * f1 + 0.5 * crit
+# ====================== APPLY TO FULL DATASET FOR RANKING ======================
+word_full = tfidf_word.transform(df["clean_text"].fillna(""))
+char_full = tfidf_char.transform(df["clean_text"].fillna(""))
+num_full  = sp.csr_matrix(scaler.transform(df[num_cols].fillna(0)))
+X_full    = sp.hstack([word_full, char_full, num_full], format="csr")
 
-scorer = make_scorer(critical_weighted_score)
-cv     = StratifiedKFold(n_splits=3, shuffle=True, random_state=42)
-
-param_dist = {
-    "n_estimators":     [200, 300, 400],
-    "learning_rate":    [0.08, 0.1, 0.12],
-    "max_depth":        [7, 8, 9],
-    "subsample":        [0.85, 0.9, 0.95],
-    "colsample_bytree": [0.75, 0.8, 0.85],
-    "min_child_weight": [1, 2],
-    "reg_alpha":        [0, 0.05, 0.1],
-    "reg_lambda":       [0.3, 0.5, 0.8],
-}
-
-xgb_search = xgb.XGBClassifier(
-    objective="multi:softmax",
-    num_class=len(le.classes_),
-    tree_method="hist",
-    random_state=42,
-    eval_metric="mlogloss",
-    verbosity=0,
-)
-
-print("\n[RiskEnsembleClassifier] Tuning XGBoost sub-model (20 iter x 3 folds)...")
-rand_search = RandomizedSearchCV(
-    estimator=xgb_search,
-    param_distributions=param_dist,
-    n_iter=20,
-    scoring=scorer,
-    cv=cv,
-    verbose=1,
-    n_jobs=-1,
-    random_state=42,
-)
-rand_search.fit(X_train, y_train)
-
-print(f"\nBest XGB params : {rand_search.best_params_}")
-print(f"Best CV score   : {rand_search.best_score_:.4f}")
-
-# ====================== FINAL RiskEnsembleClassifier (TUNED) ======================
-tuned_xgb = rand_search.best_estimator_
-
-RiskEnsembleClassifier_Tuned = VotingClassifier(
-    estimators=[
-        ("xgb", tuned_xgb),
-        ("lgb", lgb_model),
-        ("et",  et_model),
-    ],
-    voting="soft",
-    n_jobs=1,
-)
-
-print("\n[RiskEnsembleClassifier] Training final tuned version...")
-RiskEnsembleClassifier_Tuned.fit(X_train, y_train)
-y_pred_final = RiskEnsembleClassifier_Tuned.predict(X_test)
-
-print("\n=== Classification Report (RiskEnsembleClassifier — Tuned) ===")
-print(classification_report(
-    le.inverse_transform(y_test),
-    le.inverse_transform(y_pred_final),
-    digits=4,
-))
-
-per_class_final = recall_score(y_test, y_pred_final, average=None)
-print(f"Critical Clause Recall (Tuned): {per_class_final[critical_idx]:.4f}")
-
-print("\nFinal Confusion Matrix:")
-cm_final = confusion_matrix(y_test, y_pred_final)
-print(pd.DataFrame(cm_final, index=le.classes_, columns=le.classes_))
-
-# ====================== APPLY TO FULL DATASET ======================
-tfidf_word_full = TfidfVectorizer(max_features=2000, stop_words="english",
-                                   ngram_range=(1, 2), sublinear_tf=True)
-tfidf_char_full = TfidfVectorizer(max_features=1000, analyzer="char_wb",
-                                   ngram_range=(3, 5), sublinear_tf=True)
-scaler_full     = StandardScaler()
-
-text_word_full = tfidf_word_full.fit_transform(df["clean_text"].fillna(""))
-text_char_full = tfidf_char_full.fit_transform(df["clean_text"].fillna(""))
-num_full       = sp.csr_matrix(scaler_full.fit_transform(df[num_cols].fillna(0).values))
-X_full         = sp.hstack([text_word_full, text_char_full, num_full], format="csr")
-
-RiskEnsembleClassifier_Tuned.fit(X_full, le.fit_transform(df["risk_label"]))
 df["predicted_risk_label"] = le.inverse_transform(
-    RiskEnsembleClassifier_Tuned.predict(X_full)
+    RiskEnsembleClassifier.predict(X_full)
 )
 
 # ====================== COMPOSITE SCORING & RANKING ======================
@@ -286,32 +195,32 @@ print("\nSaved ranked_clauses.csv")
 
 # ====================== FEATURE IMPORTANCE ======================
 feature_names = (
-    list(tfidf_word_full.get_feature_names_out()) +
-    list(tfidf_char_full.get_feature_names_out()) +
+    list(tfidf_word.get_feature_names_out()) +
+    list(tfidf_char.get_feature_names_out()) +
     num_cols
 )
-xgb_importances = tuned_xgb.feature_importances_
+xgb_importances = RiskEnsembleClassifier.named_estimators_["xgb"].feature_importances_
 top_idx = np.argsort(xgb_importances)[-15:][::-1]
 
 print("\nTop 15 Important Features (XGBoost sub-model):")
 for i in top_idx:
     print(f"  {feature_names[i]:<30s} {xgb_importances[i]:.4f}")
 
-# ====================== SAVE RiskEnsembleClassifier TO PICKLE ======================
+# ====================== SAVE TO PICKLE ======================
 with open("RiskEnsembleClassifier.pkl", "wb") as f:
     pickle.dump({
-        "model":         RiskEnsembleClassifier_Tuned,   # final tuned ensemble
-        "tfidf_word":    tfidf_word_full,
-        "tfidf_char":    tfidf_char_full,
-        "scaler":        scaler_full,
-        "label_encoder": le,
-        "num_cols":      num_cols,
-        "model_name":    "RiskEnsembleClassifier",
-        "accuracy":      0.915,
-        "critical_recall": per_class_final[critical_idx],
+        "model":           RiskEnsembleClassifier,
+        "tfidf_word":      tfidf_word,
+        "tfidf_char":      tfidf_char,
+        "scaler":          scaler,
+        "label_encoder":   le,
+        "num_cols":        num_cols,
+        "model_name":      "RiskEnsembleClassifier",
+        "accuracy":        0.915,
+        "critical_recall": per_class[critical_idx],
     }, f)
 
 print("\n[RiskEnsembleClassifier] Model saved to RiskEnsembleClassifier.pkl")
 print(f"  Accuracy       : 91.5%")
-print(f"  Critical Recall: {per_class_final[critical_idx]:.4f}")
+print(f"  Critical Recall: {per_class[critical_idx]:.4f}")
 print(f"  Base models    : XGBoost + LightGBM + ExtraTrees")
