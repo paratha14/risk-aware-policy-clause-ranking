@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Results — Risk Clause Ranker</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: #0f1117; color: #e2e8f0;
+           min-height: 100vh; padding: 2rem 1rem; }
+    .page-wrap { max-width: 960px; margin: 0 auto; }
+    .page-header { display: flex; align-items: center; justify-content: space-between;
+                   flex-wrap: wrap; gap: 1rem; margin-bottom: 1.75rem; }
+    .back-btn { display: inline-flex; align-items: center; gap: .4rem; padding: .5rem 1rem;
+                background: #1e2130; border: 1px solid #2d3348; border-radius: 8px;
+                color: #a5b4fc; text-decoration: none; font-size: .875rem; }
+    .back-btn:hover { background: #252840; }
+    .page-title h2 { font-size: 1.5rem; font-weight: 700; }
+    .page-title p  { color: #64748b; font-size: .85rem; margin-top: .2rem; }
+    .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: .75rem; margin-bottom: 1.75rem; }
+    .sum-card { border-radius: 12px; padding: 1rem 1.25rem; }
+    .sum-card.critical { background: #1c0808; border: 1px solid #7f1d1d; }
+    .sum-card.high     { background: #1c0d05; border: 1px solid #7c2d12; }
+    .sum-card.medium   { background: #1c1305; border: 1px solid #713f12; }
+    .sum-card.low      { background: #071a0e; border: 1px solid #14532d; }
+    .sum-label { font-size: .75rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; }
+    .sum-card.critical .sum-label { color: #f87171; }
+    .sum-card.high     .sum-label { color: #fb923c; }
+    .sum-card.medium   .sum-label { color: #fbbf24; }
+    .sum-card.low      .sum-label { color: #4ade80; }
+    .sum-count { font-size: 2rem; font-weight: 800; }
+    .sum-card.critical .sum-count { color: #fca5a5; }
+    .sum-card.high     .sum-count { color: #fdba74; }
+    .sum-card.medium   .sum-count { color: #fde68a; }
+    .sum-card.low      .sum-count { color: #86efac; }
+    .filter-bar { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.25rem; align-items: center; }
+    .filter-label { font-size: .8rem; color: #64748b; }
+    .filter-btn { padding: .35rem .85rem; border-radius: 9999px; border: 1px solid #2d3348;
+                  background: #1e2130; color: #94a3b8; font-size: .8rem; font-weight: 600; cursor: pointer; }
+    .filter-btn.active { background: #312e81; border-color: #6366f1; color: #c7d2fe; }
+    .filter-btn[data-filter="Critical"].active { background: #7f1d1d; border-color: #ef4444; color: #fca5a5; }
+    .filter-btn[data-filter="High"].active     { background: #7c2d12; border-color: #f97316; color: #fdba74; }
+    .filter-btn[data-filter="Medium"].active   { background: #713f12; border-color: #eab308; color: #fde68a; }
+    .filter-btn[data-filter="Low"].active      { background: #14532d; border-color: #22c55e; color: #86efac; }
+    .clause-list { display: flex; flex-direction: column; gap: .75rem; }
+    .clause-card { background: #1e2130; border: 1px solid #2d3348; border-left-width: 4px;
+                   border-radius: 10px; padding: 1rem 1.25rem; }
+    .clause-card[data-label="Critical"] { border-left-color: #ef4444; }
+    .clause-card[data-label="High"]     { border-left-color: #f97316; }
+    .clause-card[data-label="Medium"]   { border-left-color: #eab308; }
+    .clause-card[data-label="Low"]      { border-left-color: #22c55e; }
+    .clause-top { display: flex; align-items: center; gap: .75rem; margin-bottom: .6rem; }
+    .rank-num { font-size: .72rem; color: #475569; min-width: 2.5rem; }
+    .badge { padding: .25rem .65rem; border-radius: 9999px; font-size: .72rem; font-weight: 700; }
+    .badge.critical { background: #7f1d1d; color: #fca5a5; }
+    .badge.high     { background: #7c2d12; color: #fdba74; }
+    .badge.medium   { background: #713f12; color: #fde68a; }
+    .badge.low      { background: #14532d; color: #86efac; }
+    .conf-bar-wrap { display: flex; align-items: center; gap: .5rem; margin-left: auto; }
+    .conf-bar-bg { width: 80px; height: 6px; background: #2d3348; border-radius: 9999px; overflow: hidden; }
+    .conf-bar-fill { height: 100%; border-radius: 9999px; }
+    [data-label="Critical"] .conf-bar-fill { background: #ef4444; }
+    [data-label="High"]     .conf-bar-fill { background: #f97316; }
+    [data-label="Medium"]   .conf-bar-fill { background: #eab308; }
+    [data-label="Low"]      .conf-bar-fill { background: #22c55e; }
+    .conf-pct { font-size: .75rem; color: #64748b; min-width: 2.8rem; text-align: right; }
+    .clause-text { font-size: .875rem; color: #cbd5e1; line-height: 1.6; }
+    .total-note { text-align: right; font-size: .8rem; color: #475569; margin-bottom: .75rem; }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+    <div class="page-header">
+      <a href="/" class="back-btn">← New Analysis</a>
+      <div class="page-title">
+        <h2>⚖️ Clause Risk Report</h2>
+        <p>{{ filename }} · {{ total }} clauses analysed</p>
+      </div>
+    </div>
+    <div class="summary-grid">
+      <div class="sum-card critical"><div class="sum-label">Critical</div><div class="sum-count">{{ summary.Critical }}</div></div>
+      <div class="sum-card high">    <div class="sum-label">High</div>    <div class="sum-count">{{ summary.High }}</div></div>
+      <div class="sum-card medium">  <div class="sum-label">Medium</div>  <div class="sum-count">{{ summary.Medium }}</div></div>
+      <div class="sum-card low">     <div class="sum-label">Low</div>     <div class="sum-count">{{ summary.Low }}</div></div>
+    </div>
+    <div class="filter-bar">
+      <span class="filter-label">Filter:</span>
+      <button class="filter-btn active" data-filter="All">All ({{ total }})</button>
+      {% if summary.Critical > 0 %}<button class="filter-btn" data-filter="Critical">Critical ({{ summary.Critical }})</button>{% endif %}
+      {% if summary.High > 0 %}    <button class="filter-btn" data-filter="High">High ({{ summary.High }})</button>{% endif %}
+      {% if summary.Medium > 0 %}  <button class="filter-btn" data-filter="Medium">Medium ({{ summary.Medium }})</button>{% endif %}
+      {% if summary.Low > 0 %}     <button class="filter-btn" data-filter="Low">Low ({{ summary.Low }})</button>{% endif %}
+    </div>
+    <div class="total-note" id="visibleCount">Showing {{ total }} clauses</div>
+    <div class="clause-list" id="clauseList">
+      {% for r in results %}
+      <div class="clause-card" data-label="{{ r.label }}">
+        <div class="clause-top">
+          <span class="rank-num">#{{ r.rank }}</span>
+          <span class="badge {{ r.badge }}">{{ r.label }}</span>
+          <div class="conf-bar-wrap">
+            <div class="conf-bar-bg"><div class="conf-bar-fill" style="width:{{ r.confidence }}%"></div></div>
+            <span class="conf-pct">{{ r.confidence }}%</span>
+          </div>
+        </div>
+        <div class="clause-text">{{ r.clause }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <script>
+    const btns = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.clause-card');
+    const countEl = document.getElementById('visibleCount');
+    btns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        btns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const f = btn.dataset.filter;
+        let visible = 0;
+        cards.forEach(card => {
+          const show = f === 'All' || card.dataset.label === f;
+          card.style.display = show ? '' : 'none';
+          if (show) visible++;
+        });
+        countEl.textContent = `Showing ${visible} clause${visible !== 1 ? 's' : ''}`;
+      });
+    });
+  </script>
+</body>
+</html>
