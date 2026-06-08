@@ -1,0 +1,24 @@
+# Environment
+venv/
+.env
+
+# Cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Git
+.git/
+.gitignore
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# User-uploaded files or output data (optional: you might want to exclude these depending on deployment)
+uploads/
+output/
