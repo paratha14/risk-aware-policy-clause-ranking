@@ -58,7 +58,7 @@ def extract_features(text):
 
     return modal, cons, cond, neg, wc, oblig, pflag
 
-print("Extracting features...")
+#print("Extracting features...")
 rows = [extract_features(str(t)) for t in tqdm(df["raw_text"])]
 cols = ["modal_score","consequence_score","conditional_score",
         "has_negation","word_count_f","obligation_count","penalty_flag"]
