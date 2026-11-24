@@ -6,4 +6,5 @@ pycache/
 test.py
 *.pkl
 venv/
-
+test.py
+.env
