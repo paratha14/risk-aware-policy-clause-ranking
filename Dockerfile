@@ -7,6 +7,11 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
+# LightGBM requires the GNU OpenMP runtime at model-load time.
+RUN apt-get update \
+    && apt-get install --no-install-recommends -y libgomp1 \
+    && rm -rf /var/lib/apt/lists/*
+
 # Install dependencies first to preserve Docker layer caching.
 COPY requirements2.txt ./
 RUN pip install --no-cache-dir --upgrade pip \
