@@ -1,6 +1,6 @@
 import os, re, pickle, warnings
 warnings.filterwarnings("ignore")
-
+from datetime import datetime
 import numpy as np
 import pandas as pd
 import scipy.sparse as sp
@@ -135,6 +135,7 @@ def index():
 
 @app.route("/analyze", methods=["POST"])
 def analyze():
+    start_time = datetime.now()
     text_input = request.form.get("input_text")
     file = request.files.get("pdf_file")
 
@@ -175,7 +176,8 @@ def analyze():
     if not text.strip():
         flash("No readable content found.")
         return redirect(url_for("index"))
-
+    file_save= datetime.now()
+    print("time taken to save and extract the text:", file_save - start_time)
     try:
         clauses = segment_clauses(text)
         clauses = [c.strip() for c in clauses if isinstance(c, str) and c.strip()]
@@ -186,12 +188,16 @@ def analyze():
     if not clauses:
         flash("No clauses could be extracted.")
         return redirect(url_for("index"))
+    clause_extraction_time= datetime.now()
+    print("time taken to extract the clauses:", clause_extraction_time - file_save)
     print("clauses extracted:", len(clauses))
     results = predict_clauses(clauses)
 
     summary = {"Critical": 0, "High": 0, "Medium": 0, "Low": 0}
     for r in results:
         summary[r["label"]] = summary.get(r["label"], 0) + 1
+    summary_time= datetime.now()
+    print("time taken to predict the clauses:", summary_time - clause_extraction_time)
 
     return render_template(
         "results.html",

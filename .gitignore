@@ -8,3 +8,5 @@ test.py
 venv/
 test.py
 .env
+.env.*
+!.env.example
