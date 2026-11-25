@@ -1,24 +1,25 @@
-# Environment
-venv/
-.env
-
-# Cache and temporary files
+.git
+.gitignore
+.dockerignore
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*.so
 .Python
-.cache/
+.venv/
+venv/
+env/
+.env
+.env.*
+*.sqlite3
+*.db
 .pytest_cache/
 .mypy_cache/
-
-# Git
-.git/
-.gitignore
-
-# Jupyter notebooks checkpoints
-.ipynb_checkpoints/
-
-# User-uploaded files or output data (optional: you might want to exclude these depending on deployment)
-uploads/
-output/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.idea/
+.vscode/
+README*

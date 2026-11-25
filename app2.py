@@ -1,6 +1,7 @@
 import os, re, pickle, warnings
 warnings.filterwarnings("ignore")
 from datetime import datetime
+from time import perf_counter
 import numpy as np
 import pandas as pd
 import scipy.sparse as sp
@@ -89,6 +90,19 @@ def get_bundle():
     with open(MODEL_PKL, "rb") as f:
         BUNDLE = pickle.load(f)
     return BUNDLE
+
+
+def warm_up_model():
+    """Load the serialized inference bundle before serving user requests."""
+    start_time = perf_counter()
+    get_bundle()
+    print(f"[RiskApp] Model ready in {perf_counter() - start_time:.2f}s")
+
+
+# Gunicorn imports this module instead of executing the __main__ block.  Loading
+# here avoids a slow first /analyze request; with Gunicorn --preload the loaded
+# bundle is also shared with worker processes through copy-on-write memory.
+warm_up_model()
 
 # ── Inference ──────────────────────────────────────────────────────────────────
 SEVERITY_ORDER = {"Low": 1, "Medium": 2, "High": 3, "Critical": 4}
@@ -209,6 +223,4 @@ def analyze():
 
 
 if __name__ == "__main__":
-    print("[RiskApp] Pre-loading model...")
-    get_bundle()
     app.run(debug=False, host="0.0.0.0", port=7860)
