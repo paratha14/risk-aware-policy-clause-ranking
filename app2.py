@@ -1,4 +1,4 @@
-import os, re, pickle, warnings
+import io, json, os, re, pickle, warnings
 warnings.filterwarnings("ignore")
 from datetime import datetime
 from time import perf_counter
@@ -7,8 +7,15 @@ import pandas as pd
 import scipy.sparse as sp
 import pdfplumber
 
-from flask import Flask, request, render_template, redirect, url_for, flash
+from flask import Flask, request, render_template, redirect, url_for, flash, send_file
 from werkzeug.utils import secure_filename
+from reportlab.lib import colors
+from reportlab.lib.enums import TA_CENTER
+from reportlab.lib.pagesizes import A4
+from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
+from reportlab.lib.units import mm
+from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
+from xml.sax.saxutils import escape
 
 from llm_segmentor import segment_clauses
 
@@ -107,6 +114,14 @@ warm_up_model()
 # ── Inference ──────────────────────────────────────────────────────────────────
 SEVERITY_ORDER = {"Low": 1, "Medium": 2, "High": 3, "Critical": 4}
 BADGE_COLOR    = {"Low": "low", "Medium": "medium", "High": "high", "Critical": "critical"}
+PDF_RISK_COLORS = {
+    "Critical": colors.HexColor("#FECACA"), "High": colors.HexColor("#FED7AA"),
+    "Medium": colors.HexColor("#FEF3C7"), "Low": colors.HexColor("#DCFCE7"),
+}
+PDF_RISK_TEXT_COLORS = {
+    "Critical": colors.HexColor("#991B1B"), "High": colors.HexColor("#9A3412"),
+    "Medium": colors.HexColor("#854D0E"), "Low": colors.HexColor("#166534"),
+}
 
 def predict_clauses(raw_clauses):
     bundle = get_bundle()
@@ -141,10 +156,86 @@ def predict_clauses(raw_clauses):
         r["rank"] = i + 1
     return results
 
+
+def _pdf_safe(value):
+    """Keep the report compatible with ReportLab's built-in Helvetica font."""
+    return str(value).encode("latin-1", "replace").decode("latin-1")
+
+
+def build_risk_report(results, filename):
+    """Create the downloadable report in memory; no report is written to disk."""
+    buffer = io.BytesIO()
+    document = SimpleDocTemplate(
+        buffer, pagesize=A4, rightMargin=16 * mm, leftMargin=16 * mm,
+        topMargin=16 * mm, bottomMargin=16 * mm,
+    )
+    styles = getSampleStyleSheet()
+    title_style = ParagraphStyle(
+        "RiskReportTitle", parent=styles["Title"], fontName="Helvetica-Bold",
+        fontSize=18, leading=22, alignment=TA_CENTER, textColor=colors.HexColor("#0F172A"),
+    )
+    subtitle_style = ParagraphStyle(
+        "RiskReportSubtitle", parent=styles["Normal"], alignment=TA_CENTER,
+        textColor=colors.HexColor("#475569"), spaceAfter=8,
+    )
+    clause_style = ParagraphStyle(
+        "RiskClause", parent=styles["BodyText"], fontName="Helvetica", fontSize=9,
+        leading=13, textColor=colors.HexColor("#1E293B"),
+    )
+    label_style = ParagraphStyle(
+        "RiskLabel", parent=styles["Normal"], fontName="Helvetica-Bold", fontSize=8,
+        leading=11,
+    )
+
+    story = [
+        Paragraph("Policy Clause Risk Report", title_style),
+        Paragraph(f"Source: {escape(_pdf_safe(filename))} &middot; {len(results)} clauses analysed", subtitle_style),
+        Spacer(1, 4 * mm),
+    ]
+    for result in results:
+        label = result.get("label", "Low")
+        color = PDF_RISK_COLORS.get(label, colors.white)
+        label_color = PDF_RISK_TEXT_COLORS.get(label, colors.HexColor("#1E293B"))
+        header = Paragraph(
+            f"#{result.get('rank', '')}  {escape(_pdf_safe(label.upper()))}"
+            f"  |  Confidence: {float(result.get('confidence', 0)):.1f}%",
+            ParagraphStyle("RiskLabelColor", parent=label_style, textColor=label_color),
+        )
+        clause = Paragraph(escape(_pdf_safe(result.get("clause", ""))), clause_style)
+        card = Table([[header], [clause]], colWidths=[178 * mm])
+        card.setStyle(TableStyle([
+            ("BACKGROUND", (0, 0), (-1, -1), color),
+            ("BOX", (0, 0), (-1, -1), 0.7, label_color),
+            ("LEFTPADDING", (0, 0), (-1, -1), 8), ("RIGHTPADDING", (0, 0), (-1, -1), 8),
+            ("TOPPADDING", (0, 0), (-1, 0), 7), ("BOTTOMPADDING", (0, -1), (-1, -1), 7),
+        ]))
+        story.extend([card, Spacer(1, 4 * mm)])
+    document.build(story)
+    buffer.seek(0)
+    return buffer
+
 # ── Routes ─────────────────────────────────────────────────────────────────────
 @app.route("/", methods=["GET"])
 def index():
     return render_template("index.html")
+
+
+@app.route("/download-report", methods=["POST"])
+def download_report():
+    try:
+        results = json.loads(request.form["results_json"])
+        if not isinstance(results, list):
+            raise ValueError("Results must be a list")
+    except (KeyError, TypeError, ValueError, json.JSONDecodeError):
+        flash("The report data was invalid. Please analyse the document again.")
+        return redirect(url_for("index"))
+
+    source_name = request.form.get("filename", "policy-document")
+    report_name = secure_filename(os.path.splitext(source_name)[0]) or "policy-document"
+    return send_file(
+        build_risk_report(results, source_name), mimetype="application/pdf",
+        as_attachment=True, download_name=f"{report_name}-risk-report.pdf",
+    )
 
 
 @app.route("/analyze", methods=["POST"])
@@ -218,7 +309,8 @@ def analyze():
         filename=filename,
         results=results,
         summary=summary,
-        total=len(results)
+        total=len(results),
+        results_json=json.dumps(results),
     )
 
 

@@ -15,6 +15,10 @@
                 background: #1e2130; border: 1px solid #2d3348; border-radius: 8px;
                 color: #a5b4fc; text-decoration: none; font-size: .875rem; }
     .back-btn:hover { background: #252840; }
+    .download-btn { display: inline-flex; align-items: center; gap: .4rem; padding: .5rem 1rem;
+                    background: #312e81; border: 1px solid #6366f1; border-radius: 8px;
+                    color: #e0e7ff; font-size: .875rem; font-weight: 600; cursor: pointer; }
+    .download-btn:hover { background: #4338ca; }
     .page-title h2 { font-size: 1.5rem; font-weight: 700; }
     .page-title p  { color: #64748b; font-size: .85rem; margin-top: .2rem; }
     .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: .75rem; margin-bottom: 1.75rem; }
@@ -76,6 +80,11 @@
         <h2>⚖️ Clause Risk Report</h2>
         <p>{{ filename }} · {{ total }} clauses analysed</p>
       </div>
+      <form action="{{ url_for('download_report') }}" method="post">
+        <input type="hidden" name="filename" value="{{ filename }}">
+        <input type="hidden" name="results_json" value="{{ results_json }}">
+        <button type="submit" class="download-btn">Download highlighted PDF</button>
+      </form>
     </div>
     <div class="summary-grid">
       <div class="sum-card critical"><div class="sum-label">Critical</div><div class="sum-count">{{ summary.Critical }}</div></div>
